@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E5FD2B8-3F85-7F82-793E-9EA4E80C0592" name="TIPO_ORIENTACION">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:29:06 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4A909014-CB1B-5DB4-BE71-0DBFB1DD4850">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:29:33 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDB4FF85-4A3F-B547-A030-DA1DBF8C8094" name="TIPO_ORIENTACION_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:29:37 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A909014-CB1B-5DB4-BE71-0DBFB1DD4850"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

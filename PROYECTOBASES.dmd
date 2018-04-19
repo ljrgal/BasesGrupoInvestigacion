@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PROYECTOBASES" id="0FA0EDA3-6D53-B099-2914-4459EA75F081" version="3.5">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-26 00:47:28 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0FA0EDA3-6D53-B099-2914-4459EA75F081</designId>
+</OSDM_Design>

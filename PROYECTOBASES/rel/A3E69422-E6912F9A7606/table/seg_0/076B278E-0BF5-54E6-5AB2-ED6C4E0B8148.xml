@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="076B278E-0BF5-54E6-5AB2-ED6C4E0B8148" name="TRABAJO_INVESTIGADOR">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:28:53 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRABAJOS DE GRADO_CODIGO" id="6206492B-258C-7F1D-D393-2A509570FE45">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:29:53 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B863FEF-5029-0AF8-B8AB-31149B77A7C3" referredColumn="66900E4C-475E-7AD3-72F1-F3F711F4077B"/>
+</associations>
+</Column>
+<Column name="INVESTIGADOR_PERSONAS_CEDULA" id="5A506BA2-BAED-DB21-1786-DBEA4969123F">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:30:03 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="859E6EAB-94CC-C98D-F091-527B2EB66D9E" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
+</associations>
+</Column>
+<Column name="TIPO_ORIENTACION_ID" id="58FB7A23-DECE-DEA7-AF98-99F47B953D88">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:30:09 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3CE5F7B-82B6-9F16-E76E-A29879FC1B8A" referredColumn="4A909014-CB1B-5DB4-BE71-0DBFB1DD4850"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E911B684-7D48-FBC7-4246-8ADBD12DD369" name="TRABAJO_INVESTIGADOR_TRABAJOS DE GRADO_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:29:53 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6206492B-258C-7F1D-D393-2A509570FE45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C15E507-1ACA-72B0-7C9A-2B7B60E7F0CD" name="TRABAJO_INVESTIGADOR_INVESTIGADOR_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:30:03 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A506BA2-BAED-DB21-1786-DBEA4969123F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1297BDCB-6645-5B59-1FA3-14CD340A94BF" name="TRABAJO_INVESTIGADOR_TIPO_ORIENTACION_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:30:09 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58FB7A23-DECE-DEA7-AF98-99F47B953D88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

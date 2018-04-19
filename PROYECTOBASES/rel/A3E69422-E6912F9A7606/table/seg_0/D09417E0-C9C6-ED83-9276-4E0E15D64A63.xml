@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D09417E0-C9C6-ED83-9276-4E0E15D64A63" name="TIPO_FORMACION">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-26 01:11:29 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CE49BB68-DA05-B42B-A7EB-ECFF3E0416E1">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-26 01:17:40 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="1C6D8C1C-4A43-7788-6AFA-B28A842D5BE7">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-26 01:18:59 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDE1F489-01FA-E519-FE0A-9C094A2953A8" name="CURSOS_PK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-26 01:17:40 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE49BB68-DA05-B42B-A7EB-ECFF3E0416E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

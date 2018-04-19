@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB191FFB-C862-C13B-BB11-E5B79E6DC890" containerWithKeyObject="93B2DF11-6B46-2399-F35B-70FFC5BA59D0" localFKIndex="D1A4496F-898E-498F-E66E-0BC6585F2EFB" name="EVENTOS CIENTIFICOS_CIUDAD_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:55:40 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<referredTableLongName>CIUDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>773B2AFB-1654-A225-42EB-E34F1EC2D172</referredTableID>
+<keyObject>B6BD2C51-60C9-4BB8-467D-717777C78F3D</keyObject>
+<referredKeyID>B6BD2C51-60C9-4BB8-467D-717777C78F3D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

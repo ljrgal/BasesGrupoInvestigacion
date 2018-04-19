@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BA863D1-F45B-B4E6-3E9E-7E3179AC4C69" name="GRUPOS">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 01:38:53 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INSTITUCIONES_ID" id="0F3D37FC-6926-BD20-B09F-F18E71A991B2">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 01:39:34 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F55CBA2-D1E0-2797-1613-0530E1F8918F" referredColumn="A870BAA1-9576-E205-0977-83F27D419C10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D308A7D2-D6E8-CD2C-D4EC-EDADB2E916A3" name="GRUPOS_INSTITUCIONES_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 01:39:34 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F3D37FC-6926-BD20-B09F-F18E71A991B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

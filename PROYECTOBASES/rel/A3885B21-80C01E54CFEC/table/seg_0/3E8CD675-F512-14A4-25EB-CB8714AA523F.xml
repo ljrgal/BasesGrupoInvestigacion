@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E8CD675-F512-14A4-25EB-CB8714AA523F" name="INSTITUCIONES">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 01:38:45 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A870BAA1-9576-E205-0977-83F27D419C10">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 01:39:19 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A7BF820-E2D3-BCD4-146F-DD54464A99E5" name="INSTITUCIONES_PK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 01:39:19 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A870BAA1-9576-E205-0977-83F27D419C10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

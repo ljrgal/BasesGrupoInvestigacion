@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCDE4221-CBD9-F9B0-948E-B27CCF8DA4A9" name="CAPITULO">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 02:06:07 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="C75483DE-B34C-3959-EBCB-58DAF526F080">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:32:33 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC8CD577-417C-4AF6-8E5D-0BE073488608" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
+</associations>
+</Column>
+<Column name="GRUPO_CODIGO" id="8417349C-40F4-139C-52D5-77A9452693AB">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-30 00:11:23 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9C0B939-3F07-C3A5-8A22-DA9B6AFB0D58" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7308D2B6-9FE7-F19F-A2BF-C362EA22858A" name="CAPITULO_INVESTIGADORES_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:32:33 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C75483DE-B34C-3959-EBCB-58DAF526F080"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A272F61D-622A-5509-52E2-01F447418522" name="CAPITULO_GRUPO_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-30 00:11:23 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8417349C-40F4-139C-52D5-77A9452693AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

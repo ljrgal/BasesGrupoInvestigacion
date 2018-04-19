@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="773B2AFB-1654-A225-42EB-E34F1EC2D172" name="CIUDAD">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:54:37 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:55:03 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_ID" id="EEFCB5FA-E61E-968A-640F-BF3C511A5F3B">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:07:23 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A60B980F-FBA0-C8CB-0B7A-39DC617444EA" referredColumn="43416498-F4EC-E2C3-647F-FAC73E909346"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6BD2C51-60C9-4BB8-467D-717777C78F3D" name="CIUDAD_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:55:22 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9708AE7-B990-C6A3-0119-EC0D6A5F8F6E" name="CIUDAD_PAIS_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:07:23 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEFCB5FA-E61E-968A-640F-BF3C511A5F3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

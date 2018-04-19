@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1903C355-851A-F1B6-A5EB-9D44407BACCE" name="CURSO_CORTA_DURACION">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:42:10 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="403F8977-0091-22B1-5BDF-E9E5E838A558">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:43:12 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="A3DF2254-D4C0-B215-21AF-1D7A8CAD98AA">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:43:12 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43CE0B97-B795-2B3D-90F5-4C59AE710AF2" name="CURSO_CORTA_DURACION_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:43:12 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="403F8977-0091-22B1-5BDF-E9E5E838A558"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="516A523F-7531-853A-EE5C-2CE388507151" containerWithKeyObject="7C0B5425-5807-AB4B-EE77-B0D40A7A7241" localFKIndex="9BB051CA-E110-8EF6-D0C7-40CF2EBC7FBC" name="LINEA_INVESTIGACION_INVESTIGADORES_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:24:57 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<referredTableLongName>INVESTIGADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E3685BFB-2DCC-1E03-BDCE-BB3971DFAA1E</referredTableID>
+<keyObject>E8C1DEC6-BA37-E550-61C9-2FAF3A82BD85</keyObject>
+<referredKeyID>E8C1DEC6-BA37-E550-61C9-2FAF3A82BD85</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PERSONAS_CEDULA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

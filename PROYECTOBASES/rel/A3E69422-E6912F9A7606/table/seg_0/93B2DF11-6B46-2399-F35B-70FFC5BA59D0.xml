@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93B2DF11-6B46-2399-F35B-70FFC5BA59D0" name="EVENTOS CIENTIFICOS">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-11 16:40:54 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="9FF4F40F-80A4-7A35-33EE-6ECC876E08AF">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:49:00 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="631BA0CA-E522-0C2B-43BC-61AF9EE9C326">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:49:00 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="EF572C9A-DED0-8D0E-EDF8-CA7A8DDABEE3">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:49:00 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="9BC2A14C-EB92-4474-C4B7-6AB1C8DF326E">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:49:00 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESUMEN" id="304D3A18-8926-24AD-1878-415BD9C4836E">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:49:00 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_EVENTO_ID" id="530A1D13-BDD7-B1C4-E4AF-8D7205571C2A">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:55:34 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3228764-F289-FD71-93CA-BF6FB392C329" referredColumn="07822AFB-96F1-643C-D623-37E4894E43C9"/>
+</associations>
+</Column>
+<Column name="CIUDAD_ID" id="20A71FCB-5745-0FA0-4233-4F2A2E341BF1">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:55:40 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB191FFB-C862-C13B-BB11-E5B79E6DC890" referredColumn="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45"/>
+</associations>
+</Column>
+<Column name="GRUPO_CODIGO" id="D17E4FB1-E887-7AF6-BD99-6E851CB7271F">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:57:08 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1933644-3388-7CF2-BF3E-4DFE1D0CEEDE" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
+</associations>
+</Column>
+<Column name="INVESTIGADOR_PERSONAS_CEDULA" id="985D949A-B86B-8EE9-0A30-C0B9B822B7A4">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:58:08 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="150D8B29-4D01-786C-0123-A3FC08E22363" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A33B823A-1451-6987-B9DC-1F3A709383EE" name="EVENTOS CIENTIFICOS_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:49:00 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FF4F40F-80A4-7A35-33EE-6ECC876E08AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E98167BC-89A1-ECC2-C9BF-7C8112E264EE" name="EVENTOS CIENTIFICOS_TIPO_EVENTO_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:55:34 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="530A1D13-BDD7-B1C4-E4AF-8D7205571C2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1A4496F-898E-498F-E66E-0BC6585F2EFB" name="EVENTOS CIENTIFICOS_CIUDAD_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:55:40 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20A71FCB-5745-0FA0-4233-4F2A2E341BF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0E50AB9-802D-3CDD-8D7E-E4C90ED5082A" name="EVENTOS CIENTIFICOS_GRUPO_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:57:08 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D17E4FB1-E887-7AF6-BD99-6E851CB7271F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A34C1551-8A6F-445E-F787-1FA1E20B2EAF" name="EVENTOS CIENTIFICOS_INVESTIGADOR_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:58:08 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="985D949A-B86B-8EE9-0A30-C0B9B822B7A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

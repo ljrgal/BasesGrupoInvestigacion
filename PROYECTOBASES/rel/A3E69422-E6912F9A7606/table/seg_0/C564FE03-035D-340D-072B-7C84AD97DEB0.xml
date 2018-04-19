@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C564FE03-035D-340D-072B-7C84AD97DEB0" name="TIPO_EVENTO">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:49:48 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="07822AFB-96F1-643C-D623-37E4894E43C9">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:52:13 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="105A9700-FC31-00DA-52D2-B1DF669DA9F2" name="TIPO_EVENTO_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:55:19 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07822AFB-96F1-643C-D623-37E4894E43C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

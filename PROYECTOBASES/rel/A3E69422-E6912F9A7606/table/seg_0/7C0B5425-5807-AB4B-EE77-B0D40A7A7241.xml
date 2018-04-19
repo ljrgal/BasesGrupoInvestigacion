@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C0B5425-5807-AB4B-EE77-B0D40A7A7241" name="LINEA_INVESTIGACION">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 01:41:46 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<isEngineerToRelation>true</isEngineerToRelation>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="ACA36B81-9ACC-A51D-C951-34721E63A52C">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:24:57 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="516A523F-7531-853A-EE5C-2CE388507151" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
+</associations>
+</Column>
+<Column name="GRUPO_CODIGO" id="715BF7EC-CCBE-D442-574D-DA641512AB79">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-30 00:18:33 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7029D925-BC47-19D7-1DDB-192156DED9C0" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BB051CA-E110-8EF6-D0C7-40CF2EBC7FBC" name="LINEA_INVESTIGACION_INVESTIGADORES_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:24:57 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACA36B81-9ACC-A51D-C951-34721E63A52C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50716D29-7CD1-FBE6-B66A-15B59AC4496D" name="LINEA_INVESTIGACION_GRUPO_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-30 00:18:33 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="715BF7EC-CCBE-D442-574D-DA641512AB79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

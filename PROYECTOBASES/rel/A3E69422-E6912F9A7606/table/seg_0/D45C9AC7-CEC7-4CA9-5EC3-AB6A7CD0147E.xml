@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D45C9AC7-CEC7-4CA9-5EC3-AB6A7CD0147E" name="DOCUMENTO">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 02:05:36 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A0D33166-59B5-DEB6-D388-479260549F6E">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:37:47 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="FD402B20-53B0-C54F-5365-56C794F51624">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:30:16 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA394EF4-9839-C1B8-E0B1-2149B80F9C04" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
+</associations>
+</Column>
+<Column name="TIPO_DOCUMENTO_ID" id="B5DF2F84-A823-4AC5-9832-6F02A3427200">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:41:01 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="466D0B92-A05F-28E3-65FF-7D20E86CA306" referredColumn="640DE3FA-CB3C-54A7-4744-BE682E9E1BB1"/>
+</associations>
+</Column>
+<Column name="GRUPO_CODIGO" id="89C422B3-8808-1093-AC84-B3D005A2E9E1">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-30 00:16:57 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A2D0629-4A46-5A51-F9A3-E2FEDA86E33A" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
+</associations>
+</Column>
+<Column name="NUMERO_PAGINAS" id="7F089AD5-87CD-7411-6FCE-8ECAA8A062FE">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-04 22:42:15 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D32AF3E-E2A2-D989-F487-AEF8476C4B60" name="DOCUMENTO_PK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:37:47 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0D33166-59B5-DEB6-D388-479260549F6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99333EF7-B9D5-77E0-BA3F-BD1D6C7A3058" name="DOCUMENTO_INVESTIGADORES_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:30:16 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD402B20-53B0-C54F-5365-56C794F51624"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5AE7A2F-1B33-FA76-19ED-FB79DDC9012C" name="DOCUMENTO_TIPO_DOCUMENTO_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:41:01 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5DF2F84-A823-4AC5-9832-6F02A3427200"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66E263B3-54BE-9170-A06F-94384A1A6964" name="DOCUMENTO_GRUPO_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-30 00:16:57 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89C422B3-8808-1093-AC84-B3D005A2E9E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

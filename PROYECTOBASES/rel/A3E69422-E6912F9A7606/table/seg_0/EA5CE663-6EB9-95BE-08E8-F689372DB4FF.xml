@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA5CE663-6EB9-95BE-08E8-F689372DB4FF" name="TRABAJOS_GRADO">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-11 16:45:54 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="66900E4C-475E-7AD3-72F1-F3F711F4077B">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-17 19:53:29 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="98353BC1-68EA-1663-13C0-086EBDF9667C">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-17 20:07:27 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_3" id="C0EB0494-D36B-00B5-FC81-C805F257A979">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-17 20:16:07 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE26B918-F47E-57D3-934A-65E812FE7B1E" name="TRABAJOS DE GRADO_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-17 20:07:34 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66900E4C-475E-7AD3-72F1-F3F711F4077B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

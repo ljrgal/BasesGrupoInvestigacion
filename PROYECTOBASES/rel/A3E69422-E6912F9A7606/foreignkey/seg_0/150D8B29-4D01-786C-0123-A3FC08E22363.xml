@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="150D8B29-4D01-786C-0123-A3FC08E22363" containerWithKeyObject="93B2DF11-6B46-2399-F35B-70FFC5BA59D0" localFKIndex="A34C1551-8A6F-445E-F787-1FA1E20B2EAF" name="EVENTOS CIENTIFICOS_INVESTIGADOR_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:58:08 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<referredTableLongName>INVESTIGADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E3685BFB-2DCC-1E03-BDCE-BB3971DFAA1E</referredTableID>
+<keyObject>E8C1DEC6-BA37-E550-61C9-2FAF3A82BD85</keyObject>
+<referredKeyID>E8C1DEC6-BA37-E550-61C9-2FAF3A82BD85</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PERSONAS_CEDULA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

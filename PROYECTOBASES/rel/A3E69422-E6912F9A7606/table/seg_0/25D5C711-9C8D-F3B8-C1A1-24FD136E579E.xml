@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25D5C711-9C8D-F3B8-C1A1-24FD136E579E" name="ESTADO_CIVIL">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:55:30 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="514089B8-AB28-1546-71EA-076745C09508">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:55:48 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65CB701F-35D2-70DA-5931-7F05DEE6F1BB" name="ESTADO_CIVIL_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:55:48 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="514089B8-AB28-1546-71EA-076745C09508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

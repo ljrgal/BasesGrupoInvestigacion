@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5030D33-52AA-E114-406A-9B94DACF015E" name="PERSONA">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-26 00:53:28 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CEDULA" id="B74AE64E-4F05-B550-7FFA-DA3AABC9A8E9">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-26 00:54:05 UTC</createdTime>
+<comment>ES LA IDENTIFICACIÓN DE LA PERSONA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRES" id="4C29C94E-C575-78F5-3ACD-1978131A2731">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-04 20:29:51 UTC</createdTime>
+<comment>LOS DOS NOMBRES QUE POSEE LA PERSONA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMER_APELLIDO" id="61182364-1515-00A6-FCDA-0ECC31B81735">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-04 20:30:04 UTC</createdTime>
+<comment>EL PRIMER APELLIDO DE LA PERSONA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGUNDO_APELLIDO" id="5638950D-0EA0-12A2-23CA-518736BE2608">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-04 20:30:23 UTC</createdTime>
+<comment>EL SEGUNDO APELLIDO DE LA PERSONA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="30274BBB-D712-E13A-6685-223D400095FA">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-26 01:09:00 UTC</createdTime>
+<comment>EL GENERO DE LA PERSONA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="12E3B09D-443D-2D5D-45A6-AD14AEDE6D92">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-04 20:31:21 UTC</createdTime>
+<comment>LA FECHA DE NACIMIENTO DE LA PERSONA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_ID" id="3E293466-FA45-140D-77A8-4C6A7867AD0F">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:51:10 UTC</createdTime>
+<commentInRDBMS>LA NACIONALIDAD DE LA PERSONA</commentInRDBMS>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25108A51-8F7B-3186-FD1C-5BF037CEE08C" referredColumn="43416498-F4EC-E2C3-647F-FAC73E909346"/>
+</associations>
+</Column>
+<Column name="ESTADO_CIVIL_ID" id="4D4186D7-B20E-29AB-DCD7-E6DC48869461">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:55:59 UTC</createdTime>
+<commentInRDBMS>EL ESTADO CIVIL DE LA PERSONA</commentInRDBMS>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAFBF935-C035-2C1C-E5DC-6100E59CED92" referredColumn="514089B8-AB28-1546-71EA-076745C09508"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00FA6B84-AEAA-3160-3C6E-B8FB1EBEE775" name="PERSONAS_PK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-26 00:54:05 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B74AE64E-4F05-B550-7FFA-DA3AABC9A8E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33EF4585-ABF5-29EF-05D8-C1EC12275274" name="PERSONA_PAIS_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:51:10 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E293466-FA45-140D-77A8-4C6A7867AD0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DFC0343-3299-60D6-F0AC-27AD25044875" name="PERSONA_ESTADO_CIVIL_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:55:59 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D4186D7-B20E-29AB-DCD7-E6DC48869461"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B863FEF-5029-0AF8-B8AB-31149B77A7C3" containerWithKeyObject="076B278E-0BF5-54E6-5AB2-ED6C4E0B8148" localFKIndex="E911B684-7D48-FBC7-4246-8ADBD12DD369" name="TRABAJO_INVESTIGADOR_TRABAJOS DE GRADO_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:29:53 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<referredTableLongName>TRABAJOS_GRADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA5CE663-6EB9-95BE-08E8-F689372DB4FF</referredTableID>
+<keyObject>EE26B918-F47E-57D3-934A-65E812FE7B1E</keyObject>
+<referredKeyID>EE26B918-F47E-57D3-934A-65E812FE7B1E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

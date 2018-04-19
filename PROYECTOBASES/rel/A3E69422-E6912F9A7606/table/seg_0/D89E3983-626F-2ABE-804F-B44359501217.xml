@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D89E3983-626F-2ABE-804F-B44359501217" name="SECTOR_PROYECTO">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:50:46 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7A191D17-3A57-8AC8-AB33-A94E788DE6AE">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:54:15 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="BDFF444E-FD1D-87DE-62E6-9F2821ADD7F3">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:54:15 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E12361BE-884F-83B6-BAEA-8B0DF5AA72A5" name="SECTOR_PROYECTO_PK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:54:15 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A191D17-3A57-8AC8-AB33-A94E788DE6AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DB09FB2-4E3C-0EBC-6E44-70F3437366EA" name="SOLICITUD">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-18 23:59:18 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="B3194F52-4C2A-7A62-3A1A-B625CB1DA9A8">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:19:38 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ENVIO" id="DD080805-BD10-BCF5-A899-0BE5095F5049">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:20:03 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISITANTE_PERSONAS_CEDULA" id="50EAFA5C-69C0-B6A9-3B77-57B1FF437335">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:20:30 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A42F336E-685A-145B-FFFB-76DF4350C3AE" referredColumn="09F00E8A-E8EE-4B2A-5FA5-80CB894EC8AB"/>
+</associations>
+</Column>
+<Column name="GRUPO_CODIGO" id="590943D9-9405-55FA-A2A1-8A7EF18DC53D">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:21:42 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71812FAE-E933-FEE1-DE13-BBB0E33CBBD8" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
+</associations>
+</Column>
+<Column name="FECHA_APROBACION" id="20278410-628E-F849-519C-72B7E9D735ED">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:23:54 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_ID" id="DA12C417-EF89-FD62-6541-D1863CC9B3F6">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:24:05 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3014C01-E7AC-2963-D706-BE177B6E7161" referredColumn="E99622EF-0975-E6DE-C2D4-DA20672BAD22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEACD470-EE21-52A3-79DB-41B7A4941A88" name="SOLICITUD_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:20:18 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3194F52-4C2A-7A62-3A1A-B625CB1DA9A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48D73BAA-88AF-FD43-D04C-DA406506E344" name="SOLICITUD_VISITANTE_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:20:30 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50EAFA5C-69C0-B6A9-3B77-57B1FF437335"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="538DC952-C93A-04E6-4052-9DEADC28CA51" name="SOLICITUD_GRUPO_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:21:42 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="590943D9-9405-55FA-A2A1-8A7EF18DC53D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="045BDECA-242F-5C13-9958-E24243EA4AC6" name="SOLICITUD_ESTADO_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 00:24:05 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA12C417-EF89-FD62-6541-D1863CC9B3F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

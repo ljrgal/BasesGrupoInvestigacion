@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C130F49F-5C96-E2AB-67E5-543481A987AD" name="GRUPO">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 01:41:46 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="C5571160-E1B1-1B86-BFF2-3F95D266CBDD">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 01:42:59 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTITUCION_NIT" id="F80B5D3D-8933-7278-C5D4-3DB3AA2AB0FA">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-30 00:03:43 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BF5E081-A5C2-C649-621B-189E676DE333" referredColumn="ACDBAB87-B61A-1633-C156-660CC5B5C703"/>
+</associations>
+</Column>
+<Column name="DIRECTOR" id="DB48BEDA-9D2B-6C73-0C23-9A53F34846DB">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-30 00:56:47 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D129995-DE84-02F5-8EF6-EDD5034A9174" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="694BF376-6DE6-4DBC-7358-61F926F5A468" name="GRUPOS_PK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 01:42:59 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="051A2ACB-8DCC-5BC3-1C67-2359D412D10E" name="GRUPO_INSTITUCION_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-30 00:03:43 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F80B5D3D-8933-7278-C5D4-3DB3AA2AB0FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="012AD798-9355-DFB0-953A-229749BD8936" name="GRUPO_INVESTIGADOR_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-30 00:56:47 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB48BEDA-9D2B-6C73-0C23-9A53F34846DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
