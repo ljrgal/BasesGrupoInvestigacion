@@ -79,6 +79,7 @@
 <Column name="CIUDAD_ID" id="20A71FCB-5745-0FA0-4233-4F2A2E341BF1">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:55:40 UTC</createdTime>
+<commentInRDBMS>LA CIUDAD EN LA QUE SE REALIZA EL EVENTO</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

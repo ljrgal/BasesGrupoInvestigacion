@@ -23,7 +23,6 @@
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:43:12 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -44,6 +43,43 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="7AAACB92-74D8-F0C8-F0CA-F5759FE437CF" referredColumn="B74AE64E-4F05-B550-7FFA-DA3AABC9A8E9"/>
+</associations>
+</Column>
+<Column name="FECHA" id="930AA4BF-2C4C-F8C2-8EC0-B1C9DA230487">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 04:48:10 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACION" id="962B7374-0330-8918-40F1-1DA183E3FED5">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 04:48:49 UTC</createdTime>
+<commentInRDBMS>DURACION EN SEMANAS DEL CURSO</commentInRDBMS>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_ID" id="D418C8B7-1EF4-AA15-B92C-17F2B2682A5F">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 04:49:37 UTC</createdTime>
+<commentInRDBMS>EL PAIS EN DONDE SE HIZO EL CURSO</commentInRDBMS>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7D81A46-99C9-D731-0DA4-26D1FE5638E6" referredColumn="43416498-F4EC-E2C3-647F-FAC73E909346"/>
 </associations>
 </Column>
 </columns>
@@ -67,6 +103,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FE91D90D-2098-EFA1-244D-13F39B63591D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8DEF821-BD76-D24B-5338-399211C43FB2" name="CURSO_CORTA_DURACION_PAIS_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 04:49:37 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D418C8B7-1EF4-AA15-B92C-17F2B2682A5F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

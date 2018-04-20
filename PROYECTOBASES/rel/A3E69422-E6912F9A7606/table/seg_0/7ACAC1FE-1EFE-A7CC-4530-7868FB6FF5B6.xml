@@ -8,6 +8,17 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="64D2DB42-3D59-41CE-03BA-84224FCA36E4">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:06:22 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="749D4E43-198E-CD3B-2F82-DD74EED013D0">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:32:22 UTC</createdTime>
@@ -39,30 +50,29 @@
 <colAssociation fkAssociation="0CEC83FD-75F6-DC6A-D07E-C80177282992" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
 </associations>
 </Column>
-<Column name="AÑO" id="557BDF67-E137-FAC1-27EA-2F31BD0D8B92">
+<Column name="FECHA" id="A4863A03-2BD4-EEE9-9D47-CADA07416BAB">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 22:40:30 UTC</createdTime>
+<createdTime>2018-04-20 05:07:07 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="MES" id="24268AD3-920F-36C0-736B-2515A013A118">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 22:40:43 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FFF6EEB-E4B5-E402-A61C-C0572007AADF" name="INFORME_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:06:25 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64D2DB42-3D59-41CE-03BA-84224FCA36E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="D615CE58-7F4F-0F8D-1A3D-D3F3C917DA61" name="INFORMES_INVESTIGADORES_FK">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:32:22 UTC</createdTime>

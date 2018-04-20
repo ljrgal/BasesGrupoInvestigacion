@@ -40,6 +40,17 @@
 <colAssociation fkAssociation="7029D925-BC47-19D7-1DDB-192156DED9C0" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
 </associations>
 </Column>
+<Column name="NOMBRE" id="B3500319-894B-5586-AC43-DCC1E4BCD12B">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:13:03 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9BB051CA-E110-8EF6-D0C7-40CF2EBC7FBC" name="LINEA_INVESTIGACION_INVESTIGADORES_FK">

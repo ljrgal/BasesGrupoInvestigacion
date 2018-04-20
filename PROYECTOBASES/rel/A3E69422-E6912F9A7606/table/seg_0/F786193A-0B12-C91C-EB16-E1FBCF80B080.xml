@@ -8,6 +8,17 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="C51370DB-E901-CA36-D24E-7282A4D3309F">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:16:48 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="E03FC32B-6464-55A1-01FB-B8F9691C885D">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:32:27 UTC</createdTime>
@@ -39,17 +50,6 @@
 <colAssociation fkAssociation="0832F76B-DCAF-D4EE-0CE3-2D2F9032C047" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
 </associations>
 </Column>
-<Column name="DISPONIBILIDAD" id="3C9CAD54-F93C-8D34-8812-9E0AB0F46D29">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 22:38:37 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="SITIO_WEB" id="D474CB1E-D087-ECFB-EB80-FCDDE8046456">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:38:54 UTC</createdTime>
@@ -76,7 +76,6 @@
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:39:27 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -85,6 +84,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F0B06AB-4FE9-FE60-36E1-56BEBF4CB184" name="SOFTWARE_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:16:48 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C51370DB-E901-CA36-D24E-7282A4D3309F"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="4BED5032-E5E9-0E76-EBE3-75CB378DFBA2" name="SOFTWARE_INVESTIGADORES_FK">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:32:27 UTC</createdTime>

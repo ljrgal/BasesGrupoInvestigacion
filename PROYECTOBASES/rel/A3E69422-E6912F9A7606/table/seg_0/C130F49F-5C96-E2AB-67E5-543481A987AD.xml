@@ -19,6 +19,17 @@
 <ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="NOMBRE" id="80C584BA-3EFE-B7FC-CDFC-CA16D1CA7C41">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:04:57 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="INSTITUCION_NIT" id="F80B5D3D-8933-7278-C5D4-3DB3AA2AB0FA">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-30 00:03:43 UTC</createdTime>
@@ -47,6 +58,42 @@
 <associations>
 <colAssociation fkAssociation="8D129995-DE84-02F5-8EF6-EDD5034A9174" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
 </associations>
+</Column>
+<Column name="MISION" id="05AE50CB-2FFB-61E8-EF66-C378014F354A">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:07:51 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISION" id="83C2204E-5B2D-1EFF-9398-BCF783C0820C">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:07:59 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJETIVOS" id="6ABC788A-D637-F8A6-D853-FA14B7252852">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:08:08 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

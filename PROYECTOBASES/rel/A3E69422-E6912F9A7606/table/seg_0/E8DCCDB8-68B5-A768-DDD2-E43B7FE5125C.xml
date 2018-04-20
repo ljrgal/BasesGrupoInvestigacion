@@ -8,6 +8,17 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="152E5B75-8FCE-7122-B244-2E583B58EE85">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:14:04 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="NOMBRE" id="6545F8A9-BAED-BF47-741A-93DFB0363A14">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 02:18:43 UTC</createdTime>
@@ -15,7 +26,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="24970159-93FE-AC12-CC86-BA4AA0F1D3F5">
@@ -67,7 +79,6 @@
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:42:41 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -78,21 +89,9 @@
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:42:55 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="FUENTE_FINANCIACION" id="FD9F28C4-8AA7-3CEB-D5BD-7DFE73D7F63E">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 22:43:09 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -104,8 +103,23 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTITUCION_NIT" id="9E1E92B0-D216-38B7-E81F-04C4704344E8">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:15:49 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9891DB52-091B-B457-BE33-7415058CF694" referredColumn="ACDBAB87-B61A-1633-C156-660CC5B5C703"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -117,7 +131,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6545F8A9-BAED-BF47-741A-93DFB0363A14"/>
+<colUsage columnID="152E5B75-8FCE-7122-B244-2E583B58EE85"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="430FC841-C25D-EEAB-9070-DC0FD198E03B" name="PROYECTOS_INVESTIGADORES_FK">
@@ -148,6 +162,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="04E108BD-91FA-09DA-CD77-C761F69DDD4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="997F55FF-6B69-999F-B1C4-64B1A09350AD" name="PROYECTO_INSTITUCION_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:15:49 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E1E92B0-D216-38B7-E81F-04C4704344E8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

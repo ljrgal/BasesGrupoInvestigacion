@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="2037E810-ABA1-B9C5-03F5-24D05DB05841">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:03:04 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="AA1D9749-44BA-4B26-05FB-30CF1F651BBB">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:32:08 UTC</createdTime>
@@ -16,7 +26,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -41,7 +51,6 @@
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 20:44:31 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -52,7 +61,6 @@
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 20:44:54 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -70,11 +78,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ACTIVIDADES" id="255110C3-DE55-F022-1771-47DAE3150B3C">
+<Column name="DEDICACION" id="B6B2FDFC-21E1-9922-E465-827885784FF8">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 21:17:05 UTC</createdTime>
+<createdTime>2018-04-20 05:03:46 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -83,6 +90,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2076F35D-BC58-4370-E37E-BA67A3AC5318" name="EXPERIENCIA_PROFESIONAL_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 05:03:04 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2037E810-ABA1-B9C5-03F5-24D05DB05841"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="3CF0036E-E30E-4D5F-96F6-7E94DCEC5179" name="EXPERIENCIA_PROFESIONAL_INVESTIGADORES_FK">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:32:08 UTC</createdTime>

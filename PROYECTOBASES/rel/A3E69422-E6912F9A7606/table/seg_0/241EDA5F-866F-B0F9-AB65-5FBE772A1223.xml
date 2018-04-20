@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FDCB6B4-E96E-238D-7912-0717D2C7E50E" name="NIVEL_FORMACION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="241EDA5F-866F-B0F9-AB65-5FBE772A1223" name="EDITORIAL">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:38:16 UTC</createdTime>
+<createdTime>2018-04-20 05:10:46 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<ordsAlias>table_32</ordsAlias>
+<ordsAlias>table_33</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="F756D753-074A-33DA-D2DE-95B132C8F90A">
+<Column name="ID" id="9FC05949-1963-B672-1892-5E2DC77F8398">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:38:50 UTC</createdTime>
+<createdTime>2018-04-20 05:11:10 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,11 +18,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TIPO" id="8C6A2447-8E89-07AB-512E-E02B4D844D19">
+<Column name="NOMBRE" id="6E0C4679-13F0-DAB8-02E8-D21A1A0D4B50">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 05:13:23 UTC</createdTime>
+<createdTime>2018-04-20 05:11:26 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -32,15 +31,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F1FAA7EA-BB54-542F-1279-696A68C9D981" name="NIVEL_FORMACION_PK">
+<ind_PK_UK id="27DED8F0-F5D9-2C13-92A1-F512ABB3B4D4" name="EDITORIAL_PK">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:38:50 UTC</createdTime>
+<createdTime>2018-04-20 05:11:10 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F756D753-074A-33DA-D2DE-95B132C8F90A"/>
+<colUsage columnID="9FC05949-1963-B672-1892-5E2DC77F8398"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
