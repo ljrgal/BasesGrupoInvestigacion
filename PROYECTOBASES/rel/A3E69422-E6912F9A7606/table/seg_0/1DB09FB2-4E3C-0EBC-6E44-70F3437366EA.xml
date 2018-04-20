@@ -29,21 +29,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="VISITANTE_PERSONAS_CEDULA" id="50EAFA5C-69C0-B6A9-3B77-57B1FF437335">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:20:30 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A42F336E-685A-145B-FFFB-76DF4350C3AE" referredColumn="09F00E8A-E8EE-4B2A-5FA5-80CB894EC8AB"/>
-</associations>
-</Column>
 <Column name="GRUPO_CODIGO" id="590943D9-9405-55FA-A2A1-8A7EF18DC53D">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:21:42 UTC</createdTime>
@@ -80,9 +65,32 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVESTIGADOR_PERSONAS_CEDULA" id="D82FBD11-55B8-DF04-D619-B5EB623D22C6">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 03:24:10 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C3014C01-E7AC-2963-D706-BE177B6E7161" referredColumn="E99622EF-0975-E6DE-C2D4-DA20672BAD22"/>
+<colAssociation fkAssociation="034854B1-7ED7-A1D5-E0DA-E0458BB06FCD" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
 </associations>
+</Column>
+<Column name="ACEPTADO" id="66CF39A9-B904-1280-2A0F-066FDE87034B">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 04:26:29 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -97,16 +105,6 @@
 <colUsage columnID="B3194F52-4C2A-7A62-3A1A-B625CB1DA9A8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="48D73BAA-88AF-FD43-D04C-DA406506E344" name="SOLICITUD_VISITANTE_FK">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:20:30 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="50EAFA5C-69C0-B6A9-3B77-57B1FF437335"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="538DC952-C93A-04E6-4052-9DEADC28CA51" name="SOLICITUD_GRUPO_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:21:42 UTC</createdTime>
@@ -117,14 +115,14 @@
 <colUsage columnID="590943D9-9405-55FA-A2A1-8A7EF18DC53D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="045BDECA-242F-5C13-9958-E24243EA4AC6" name="SOLICITUD_ESTADO_FK">
+<ind_PK_UK id="15C87F7E-F50D-D45D-50F2-E1A3F53433CE" name="SOLICITUD_INVESTIGADOR_FK">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:24:05 UTC</createdTime>
+<createdTime>2018-04-20 03:24:10 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DA12C417-EF89-FD62-6541-D1863CC9B3F6"/>
+<colUsage columnID="D82FBD11-55B8-DF04-D619-B5EB623D22C6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

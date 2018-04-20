@@ -109,6 +109,35 @@
 <colAssociation fkAssociation="DAFBF935-C035-2C1C-E5DC-6100E59CED92" referredColumn="514089B8-AB28-1546-71EA-076745C09508"/>
 </associations>
 </Column>
+<Column name="CIUDAD_ID" id="64A7DD3D-1323-3CDE-E337-06AB6BBB3C16">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 03:21:24 UTC</createdTime>
+<commentInRDBMS>LUGAR DE EXPEDICIÓN DEL DOCUMENTO DE IDENTIDAD</commentInRDBMS>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0821FBE2-0315-C480-4779-2A213276D78C" referredColumn="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45"/>
+</associations>
+</Column>
+<Column name="TIPO_DOCUMENTO_IDENTIDAD_ID" id="3EB93D18-C601-1648-14D0-87353B8960EE">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 03:23:05 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7B3FFBF-421F-84BC-4794-82615CA191B9" referredColumn="B4526ED6-A58A-BFB8-A69A-73863D5D202E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="00FA6B84-AEAA-3160-3C6E-B8FB1EBEE775" name="PERSONAS_PK">
@@ -140,6 +169,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4D4186D7-B20E-29AB-DCD7-E6DC48869461"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C44D1EC-7053-A095-BBB7-E4072AFCFB68" name="PERSONA_CIUDAD_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 03:21:24 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64A7DD3D-1323-3CDE-E337-06AB6BBB3C16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3F675F1-ED99-039A-9AE3-CA15CB8E2FAF" name="PERSONA_TIPO_DOCUMENTO_IDENTIDAD_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 03:23:05 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EB93D18-C601-1648-14D0-87353B8960EE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

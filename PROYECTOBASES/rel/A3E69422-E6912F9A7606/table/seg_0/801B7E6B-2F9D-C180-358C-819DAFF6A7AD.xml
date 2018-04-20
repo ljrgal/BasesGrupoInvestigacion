@@ -8,20 +8,37 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="781B88B4-ACE0-5BDE-9443-33848BED8431">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:29:59 UTC</createdTime>
+<Column name="CODIGO" id="9490448E-E743-CAD3-6465-F9DEE64D928E">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 03:26:33 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A950BD16-70EC-72DD-FB30-ED9644EC55E3" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
-</associations>
+</Column>
+<Column name="TITULO" id="8854FD8A-9A08-526D-9F01-3D365B1D4296">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-04 20:46:59 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="BEE33040-C2A8-185F-A292-7FA62FC75EB1">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-04 20:47:27 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="GRUPO_CODIGO" id="5B8807D3-43D4-1697-EE19-B7E2A453B643">
 <createdBy>xJoni</createdBy>
@@ -32,70 +49,90 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="0030E40D-8246-DE40-A484-0DD536C362CE" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
 </associations>
 </Column>
-<Column name="TIPO" id="B52F4B94-FDDC-0D38-4547-F7940AF963FE">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 20:46:37 UTC</createdTime>
+<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="781B88B4-ACE0-5BDE-9443-33848BED8431">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:29:59 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A950BD16-70EC-72DD-FB30-ED9644EC55E3" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
+</associations>
 </Column>
-<Column name="TITULO" id="8854FD8A-9A08-526D-9F01-3D365B1D4296">
+<Column name="PAGINA_INICIAL" id="98D1BDA2-6D5E-CE95-FA40-50156F1E69F5">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 20:46:59 UTC</createdTime>
+<createdTime>2018-04-20 03:28:15 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="AÑO" id="BEE33040-C2A8-185F-A292-7FA62FC75EB1">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 20:47:27 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="REVISTA" id="B02A6CFA-D113-6BA9-42B3-E6D0AD8FC539">
+<Column name="PAGINA_FINAL" id="79125F87-107B-6611-C060-3DF34BF184C3">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 20:47:41 UTC</createdTime>
+<createdTime>2018-04-20 03:28:15 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="VOLUMEN" id="85159BD7-5552-8813-8A49-50F13BBC7AA4">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 20:48:49 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD_ID" id="04D2C88A-E23A-6F61-88B8-36C5307A07E0">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 03:36:34 UTC</createdTime>
+<commentInRDBMS>LA CIUDAD DE PUBLICACIÓN DEL ARTÍCULO</commentInRDBMS>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2D57E3A-D50E-C612-08E9-7D6DCAA0870F" referredColumn="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45"/>
+</associations>
+</Column>
+<Column name="MEDIO_DIVULGACION_ID" id="228D7ECE-D9B6-B6CA-38B7-0ABDA848E69D">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 04:08:21 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="525BEFA0-4FA2-3AC2-F941-8687354F0195" referredColumn="8E33893C-8BA7-DEDA-7D90-46FCA2E81F99"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29D2A4F8-92CA-B5E2-6339-B5DDCF5023B9" name="ARTICULO_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 03:26:33 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9490448E-E743-CAD3-6465-F9DEE64D928E"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="A7B63E4E-665F-D1F6-EC9D-8C54B6FF77F0" name="ARTICULO_INVESTIGADORES_FK">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:29:59 UTC</createdTime>
@@ -114,6 +151,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5B8807D3-43D4-1697-EE19-B7E2A453B643"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50DEE79A-0986-B567-6624-B1ACD3E4A1FA" name="ARTICULO_CIUDAD_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 03:36:34 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04D2C88A-E23A-6F61-88B8-36C5307A07E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E1AEAC1-007A-BD44-9A0A-7389578B4F28" name="ARTICULO_MEDIO_DIVULGACION_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 04:08:21 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="228D7ECE-D9B6-B6CA-38B7-0ABDA848E69D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

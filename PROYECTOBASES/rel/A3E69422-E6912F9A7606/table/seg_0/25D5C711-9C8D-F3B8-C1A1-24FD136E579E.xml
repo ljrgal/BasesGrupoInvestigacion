@@ -18,6 +18,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TIPO" id="345A835C-8B40-1633-9C1C-4D7C76F41840">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-19 05:26:30 UTC</createdTime>
+<comment>EL TIPO DE ESTADO CIVIL QUE TIENE LA PERSONA: SOLTERO, CASADO, UNION LIBRE</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="65CB701F-35D2-70DA-5931-7F05DEE6F1BB" name="ESTADO_CIVIL_PK">

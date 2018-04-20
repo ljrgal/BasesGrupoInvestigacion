@@ -31,6 +31,21 @@
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="PERSONA_CEDULA" id="FE91D90D-2098-EFA1-244D-13F39B63591D">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 03:24:52 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AAACB92-74D8-F0C8-F0CA-F5759FE437CF" referredColumn="B74AE64E-4F05-B550-7FFA-DA3AABC9A8E9"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="43CE0B97-B795-2B3D-90F5-4C59AE710AF2" name="CURSO_CORTA_DURACION_PK">
@@ -42,6 +57,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="403F8977-0091-22B1-5BDF-E9E5E838A558"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC5178B6-A4FD-3118-38AE-A1165DF06D78" name="CURSO_CORTA_DURACION_PERSONA_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 03:24:52 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE91D90D-2098-EFA1-244D-13F39B63591D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
