@@ -40,39 +40,6 @@
 <colAssociation fkAssociation="61046D57-F612-9F76-7591-80A01FF807E3" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
 </associations>
 </Column>
-<Column name="HORAS_DEDICACION" id="E133E4E7-E34E-03BC-78AF-C76F5164FC6E">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-17 19:48:52 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="FECHA_INICIO" id="DE2C2085-52CF-8953-C53B-74D6B61C3660">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-17 19:49:18 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="FECHA_FIN" id="ADEDC83D-B321-6BA9-4FBB-3FB9B70E82E8">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-17 19:49:31 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E8C1DEC6-BA37-E550-61C9-2FAF3A82BD85" name="INVESTIGADORES_PK">
