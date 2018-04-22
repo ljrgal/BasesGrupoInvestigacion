@@ -11,6 +11,7 @@
 <Column name="CODIGO" id="64D2DB42-3D59-41CE-03BA-84224FCA36E4">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:06:22 UTC</createdTime>
+<comment>ES EL CÓDIGO QUE PERMITE IDENTIFICAR EL INFORME</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,12 +23,13 @@
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="749D4E43-198E-CD3B-2F82-DD74EED013D0">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:32:22 UTC</createdTime>
+<comment>ES LA CÉDULA DEL INVESTIGADOR</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -37,6 +39,7 @@
 <Column name="FECHA" id="A4863A03-2BD4-EEE9-9D47-CADA07416BAB">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:07:07 UTC</createdTime>
+<comment>FECHA EN QUE SE REALIZO EL INFORME</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

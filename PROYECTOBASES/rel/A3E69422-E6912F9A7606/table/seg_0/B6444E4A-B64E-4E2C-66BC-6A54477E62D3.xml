@@ -11,7 +11,7 @@
 <Column name="CODIGO" id="9027CBA3-AF78-DF8E-A2F0-F0B04B9F14A3">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-26 01:18:32 UTC</createdTime>
-<commentInRDBMS>EL CODIGO DE LA FORMACION</commentInRDBMS>
+<comment>EL CODIGO DE LA FORMACION</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -23,13 +23,13 @@
 <Column name="PERSONAS_CEDULA" id="A7072318-C49B-0B70-147F-A3239506DDA5">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-26 01:21:26 UTC</createdTime>
-<commentInRDBMS>LA PERSONA A QUIEN PERTENCE LA FORMACION</commentInRDBMS>
+<comment>LA PERSONA A QUIEN PERTENCE LA FORMACION</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -39,7 +39,7 @@
 <Column name="INSTITUCION_NIT" id="4E11AD90-F222-24EF-6B06-B1DA12E5CD59">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 20:36:31 UTC</createdTime>
-<commentInRDBMS>LA INSTITUCION EN QUE SE HIZO LA FORMACION</commentInRDBMS>
+<comment>LA INSTITUCION EN QUE SE HIZO LA FORMACION</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,7 +54,7 @@
 <Column name="INTESIDAD_HORARIA" id="EF5F18D1-B7D9-2A3C-8CAD-B023FBCDCEAE">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 20:37:33 UTC</createdTime>
-<commentInRDBMS>LA INTENSIDAD HORARIA (SEMANAL) DE LA FORMACION</commentInRDBMS>
+<comment>LA INTENSIDAD HORARIA (SEMANAL) DE LA FORMACION</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -65,7 +65,7 @@
 <Column name="FECHA_INICIO" id="DFCF5D13-E5AD-3DFF-0ABD-D632A9535EC3">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 20:37:47 UTC</createdTime>
-<commentInRDBMS>LA FECHA DE INICIO DE LA FORMACION</commentInRDBMS>
+<comment>LA FECHA DE INICIO DE LA FORMACION</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -76,7 +76,7 @@
 <Column name="FECHA_GRADUACION" id="E650B390-647E-E809-0FDA-A784C5B51865">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 20:38:08 UTC</createdTime>
-<commentInRDBMS>LA FECHA DE GRADUACION DE LA FORMACION</commentInRDBMS>
+<comment>LA FECHA DE GRADUACION DE LA FORMACION</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -87,7 +87,7 @@
 <Column name="TITULO" id="346EDC7B-0A56-2098-2FD8-CCF5477BAE40">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 20:39:23 UTC</createdTime>
-<commentInRDBMS>EL TITULO QUE LA PERSONA CONSIGUIO CON LA FORMACION</commentInRDBMS>
+<comment>EL TITULO QUE LA PERSONA CONSIGUIO CON LA FORMACION</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -98,7 +98,7 @@
 <Column name="CIUDAD_ID" id="38CDF77E-E85B-07DA-144E-C70424F1AA0C">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:11:50 UTC</createdTime>
-<commentInRDBMS>EL MUNICIPIO O CIUDAD DONDE SE HIZO LA FORMACION</commentInRDBMS>
+<comment>EL MUNICIPIO O CIUDAD DONDE SE HIZO LA FORMACION</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -113,7 +113,7 @@
 <Column name="TIPO_FORMACION_ID" id="58E8C177-A117-CCB2-CFBE-DA0B612F3241">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:35:23 UTC</createdTime>
-<commentInRDBMS>EL TIPO DE FORMACION, SI ES ACADEMICA O COMPLEMENTARIA</commentInRDBMS>
+<comment>EL TIPO DE FORMACION, SI ES ACADEMICA O COMPLEMENTARIA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -128,7 +128,7 @@
 <Column name="NIVEL_FORMACION_ID" id="F9CF18BF-9FE1-51DD-4DC4-354F3E770A66">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:38:58 UTC</createdTime>
-<commentInRDBMS>EL NIVEL DE FORMACION</commentInRDBMS>
+<comment>EL NIVEL DE FORMACION</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -143,7 +143,7 @@
 <Column name="PROGRAMA_ACADEMICO" id="43DAB5BD-5C87-380F-17B0-5CD463A37213">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:39:48 UTC</createdTime>
-<commentInRDBMS>EL PROGRAMA ACADEMICO DE LA FORMACION</commentInRDBMS>
+<comment>EL PROGRAMA ACADEMICO DE LA FORMACION</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

@@ -11,6 +11,7 @@
 <Column name="NIT" id="ACDBAB87-B61A-1633-C156-660CC5B5C703">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 01:41:46 UTC</createdTime>
+<comment>ES EL IDENTIFICADOR ÚNICO DE CADA INSTITUCIÓN</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -21,12 +22,13 @@
 <Column name="NOMBRE" id="9510E64F-892B-2070-1BC7-F8979E23ACEE">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:08:35 UTC</createdTime>
+<comment>ES EL NOMBRE DE LA INSTITUCIÓN</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>456</dataTypeSize>
-<ownDataTypeParameters>456,,</ownDataTypeParameters>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

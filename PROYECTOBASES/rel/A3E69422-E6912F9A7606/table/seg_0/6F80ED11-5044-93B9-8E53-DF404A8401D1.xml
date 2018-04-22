@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F80ED11-5044-93B9-8E53-DF404A8401D1" name="OBJETIVOS">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 19:13:22 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7D9E8D25-1D06-E1DA-104F-C16242EE9627">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 19:13:44 UTC</createdTime>
+<comment>ES EL IDENTIFICADOR DEL OBJETIVO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="D60D5E6D-7592-0DE2-3228-995746EF9DBB">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 19:14:38 UTC</createdTime>
+<comment>ES LA DESCRIPCIÓN DE UN OBJETIVO DE UN GRUPO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRUPO_CODIGO" id="A536C90B-AD3F-3184-4B05-AFF10C1C1421">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 19:14:49 UTC</createdTime>
+<comment>CÓDIGO DEL GRUPO AL CUAL PERTENECE EL OBJETIVO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF342380-55F8-8880-5998-EF47D4F51B9E" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DC9B883-31E9-E6C0-4DEE-E3F3D335FF32" name="OBJETIVOS_PK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 19:13:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D9E8D25-1D06-E1DA-104F-C16242EE9627"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED2DE025-3429-5227-22BE-6ACEE7E3EEBD" name="OBJETIVOS_GRUPO_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 19:14:49 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A536C90B-AD3F-3184-4B05-AFF10C1C1421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
