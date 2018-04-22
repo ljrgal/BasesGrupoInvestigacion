@@ -11,31 +11,25 @@
 <Column name="CODIGO" id="66900E4C-475E-7AD3-72F1-F3F711F4077B">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-17 19:53:29 UTC</createdTime>
+<comment>ES EL CÓDIGO QUE PERMITE IDENTIFICAR EL TRABAJO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NOMBRE" id="98353BC1-68EA-1663-13C0-086EBDF9667C">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-17 20:07:27 UTC</createdTime>
+<comment>ES EL NOMBRE DEL TRABAJO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Column_3" id="C0EB0494-D36B-00B5-FC81-C805F257A979">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-17 20:16:07 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

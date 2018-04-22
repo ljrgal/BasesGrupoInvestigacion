@@ -11,6 +11,7 @@
 <Column name="CODIGO" id="B3194F52-4C2A-7A62-3A1A-B625CB1DA9A8">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:19:38 UTC</createdTime>
+<comment>ES EL CÓDIGO QUE PERMITE IDENTIFICAR LA SOCLITUD</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,6 +23,7 @@
 <Column name="FECHA_ENVIO" id="DD080805-BD10-BCF5-A899-0BE5095F5049">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:20:03 UTC</createdTime>
+<comment>ES LA FECHA DE ENVIO DE LA SOLICITUD</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,12 +34,13 @@
 <Column name="GRUPO_CODIGO" id="590943D9-9405-55FA-A2A1-8A7EF18DC53D">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:21:42 UTC</createdTime>
+<comment>CÓDIGO DEL GRUPO AL CUAL SE REALIZA LA SOLICITUD</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -47,6 +50,7 @@
 <Column name="FECHA_APROBACION" id="20278410-628E-F849-519C-72B7E9D735ED">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:23:54 UTC</createdTime>
+<comment>ES LA FECHA DE APROBACIÓN DE LA SOLICITUD</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -55,35 +59,26 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ESTADO_ID" id="DA12C417-EF89-FD62-6541-D1863CC9B3F6">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:24:05 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="INVESTIGADOR_PERSONAS_CEDULA" id="D82FBD11-55B8-DF04-D619-B5EB623D22C6">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:24:10 UTC</createdTime>
+<comment>ES LA CÉDULA DEL INVESTIGADOR</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="034854B1-7ED7-A1D5-E0DA-E0458BB06FCD" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
 </associations>
 </Column>
-<Column name="ACEPTADO" id="66CF39A9-B904-1280-2A0F-066FDE87034B">
+<Column name="ESTADO" id="66CF39A9-B904-1280-2A0F-066FDE87034B">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:26:29 UTC</createdTime>
+<comment>ES EL ESTADO EN QUE SE ENCUENTRA LA SOLICITUD(A: ACTIVO, P: PENDIENTE, R: RECHAZADO, I: INACTIVO)</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

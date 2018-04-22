@@ -11,6 +11,7 @@
 <Column name="ID" id="CE49BB68-DA05-B42B-A7EB-ECFF3E0416E1">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-26 01:17:40 UTC</createdTime>
+<comment>ES LA LLAVE PRIMARIA DE LA TABLA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +19,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TIPO" id="1C6D8C1C-4A43-7788-6AFA-B28A842D5BE7">
+<Column name="NOMBRE" id="1C6D8C1C-4A43-7788-6AFA-B28A842D5BE7">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-26 01:18:59 UTC</createdTime>
+<comment>ES EL NOMBRE DEL TIPO DE FORMACIÓN</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

@@ -11,10 +11,12 @@
 <Column name="TRABAJOS DE GRADO_CODIGO" id="6206492B-258C-7F1D-D393-2A509570FE45">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:29:53 UTC</createdTime>
+<comment>ES EL CÓDIGO QUE PERMITE IDENTIFICAR EL TRABAJO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -25,12 +27,13 @@
 <Column name="INVESTIGADOR_PERSONAS_CEDULA" id="5A506BA2-BAED-DB21-1786-DBEA4969123F">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:30:03 UTC</createdTime>
+<comment>ES LA CÉDULA DEL INVESTIGADOR</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -40,6 +43,7 @@
 <Column name="TIPO_ORIENTACION_ID" id="58FB7A23-DECE-DEA7-AF98-99F47B953D88">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:30:09 UTC</createdTime>
+<comment>ES EL TIPO DE ORIENTACIÓN QUE EL INVESTIGADOR LE DA AL TRABAJO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,6 +57,19 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B24C1EB-8D96-0F3F-3DE7-F5FC4F9A21E2" name="TRABAJO_INVESTIGADOR_PK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 23:21:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6206492B-258C-7F1D-D393-2A509570FE45"/>
+<colUsage columnID="5A506BA2-BAED-DB21-1786-DBEA4969123F"/>
+<colUsage columnID="58FB7A23-DECE-DEA7-AF98-99F47B953D88"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="E911B684-7D48-FBC7-4246-8ADBD12DD369" name="TRABAJO_INVESTIGADOR_TRABAJOS DE GRADO_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:29:53 UTC</createdTime>

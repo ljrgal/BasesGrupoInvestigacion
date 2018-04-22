@@ -11,6 +11,7 @@
 <Column name="CODIGO" id="C51370DB-E901-CA36-D24E-7282A4D3309F">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:16:48 UTC</createdTime>
+<comment>ES EL CÓDIGO QUE PERMITE IDENTIFICAR EL PRODUCTO SOFTWARE</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,12 +23,13 @@
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="E03FC32B-6464-55A1-01FB-B8F9691C885D">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:32:27 UTC</createdTime>
+<comment>ES LA CÉDULA DEL INVESTIGADOR CREADOR DEL SOFTWARE</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -37,6 +39,7 @@
 <Column name="SITIO_WEB" id="D474CB1E-D087-ECFB-EB80-FCDDE8046456">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:38:54 UTC</createdTime>
+<comment>ES EL SITIO WEB DEL SOFTWARE</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,8 +51,8 @@
 <Column name="NOMBRE_COMERCIAL" id="F41BAA4C-9B6A-F784-962A-98B5BCB277C3">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:39:09 UTC</createdTime>
+<comment>ES EL NOMBRE COMERCIAL DEL SOFTWARE</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -59,6 +62,7 @@
 <Column name="NOMBRE" id="48C15C30-AA22-ED64-9E7B-C4E0CB6E308C">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:39:27 UTC</createdTime>
+<comment>ES EL NOMBRE DEL PRODUCTO SOFTWARE</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

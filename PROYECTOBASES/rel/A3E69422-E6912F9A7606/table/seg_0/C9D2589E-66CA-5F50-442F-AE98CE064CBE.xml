@@ -11,12 +11,13 @@
 <Column name="PERSONAS_CEDULA" id="09F00E8A-E8EE-4B2A-5FA5-80CB894EC8AB">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 22:41:51 UTC</createdTime>
+<comment>ES LA CÉDULA DEL VISITANTE</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
