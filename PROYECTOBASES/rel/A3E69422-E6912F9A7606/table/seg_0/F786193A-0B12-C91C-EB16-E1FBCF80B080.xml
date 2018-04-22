@@ -27,27 +27,11 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="4476C113-2908-2EB1-AB95-642BE3AC1CB3" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
-</associations>
-</Column>
-<Column name="GRUPO_CODIGO" id="AC9EE53C-4E4B-06D3-E665-66DBEBABE532">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:17:03 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0832F76B-DCAF-D4EE-0CE3-2D2F9032C047" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
 </associations>
 </Column>
 <Column name="SITIO_WEB" id="D474CB1E-D087-ECFB-EB80-FCDDE8046456">
@@ -103,16 +87,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E03FC32B-6464-55A1-01FB-B8F9691C885D"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="97A087C8-16ED-7449-448A-C640038B6229" name="SOFTWARE_GRUPO_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:17:03 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="AC9EE53C-4E4B-06D3-E665-66DBEBABE532"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

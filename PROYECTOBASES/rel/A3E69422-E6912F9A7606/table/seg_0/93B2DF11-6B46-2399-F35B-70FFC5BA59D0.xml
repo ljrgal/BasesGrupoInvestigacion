@@ -11,6 +11,7 @@
 <Column name="CODIGO" id="9FF4F40F-80A4-7A35-33EE-6ECC876E08AF">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:49:00 UTC</createdTime>
+<comment>ES EL CÓDIGO QUE PERMITE IDENTIFICAR EL EVENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,6 +23,7 @@
 <Column name="NOMBRE" id="631BA0CA-E522-0C2B-43BC-61AF9EE9C326">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:49:00 UTC</createdTime>
+<comment>NOMBRE DEL EVENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,6 +35,7 @@
 <Column name="FECHA_INICIO" id="EF572C9A-DED0-8D0E-EDF8-CA7A8DDABEE3">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:49:00 UTC</createdTime>
+<comment>FECHA EN QUE INICIA EL EVENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,6 +46,7 @@
 <Column name="FECHA_FIN" id="9BC2A14C-EB92-4474-C4B7-6AB1C8DF326E">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:49:00 UTC</createdTime>
+<comment>FECHA EN QUE FINALIZA  EL EVENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,6 +57,7 @@
 <Column name="RESUMEN" id="304D3A18-8926-24AD-1878-415BD9C4836E">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:49:00 UTC</createdTime>
+<comment>DESCRIPCIÓN BREVE DE EN QUE CONSISTE EL EVENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -65,6 +70,7 @@
 <Column name="TIPO_EVENTO_ID" id="530A1D13-BDD7-B1C4-E4AF-8D7205571C2A">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:55:34 UTC</createdTime>
+<comment>ES EL TIPO DE EVENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -79,6 +85,7 @@
 <Column name="CIUDAD_ID" id="20A71FCB-5745-0FA0-4233-4F2A2E341BF1">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:55:40 UTC</createdTime>
+<comment>CIUDAD DONDE SE REALIZARA EL EVENTO</comment>
 <commentInRDBMS>LA CIUDAD EN LA QUE SE REALIZA EL EVENTO</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -91,24 +98,10 @@
 <colAssociation fkAssociation="CB191FFB-C862-C13B-BB11-E5B79E6DC890" referredColumn="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45"/>
 </associations>
 </Column>
-<Column name="GRUPO_CODIGO" id="D17E4FB1-E887-7AF6-BD99-6E851CB7271F">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-18 23:57:08 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C1933644-3388-7CF2-BF3E-4DFE1D0CEEDE" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
-</associations>
-</Column>
 <Column name="INVESTIGADOR_PERSONAS_CEDULA" id="985D949A-B86B-8EE9-0A30-C0B9B822B7A4">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:58:08 UTC</createdTime>
+<comment>ES LA CEDULA DE LA PERSONA QUE PARTICIPARA EN EL EVENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -152,16 +145,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="20A71FCB-5745-0FA0-4233-4F2A2E341BF1"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="B0E50AB9-802D-3CDD-8D7E-E4C90ED5082A" name="EVENTOS CIENTIFICOS_GRUPO_FK">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-18 23:57:08 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="D17E4FB1-E887-7AF6-BD99-6E851CB7271F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="A34C1551-8A6F-445E-F787-1FA1E20B2EAF" name="EVENTOS CIENTIFICOS_INVESTIGADOR_FK">

@@ -38,27 +38,11 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="F98825B3-7155-7D82-B541-618AA1E48898" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
-</associations>
-</Column>
-<Column name="GRUPO_CODIGO" id="9181971E-2C81-66F9-05D4-C9DB06341CEB">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:23:27 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="50542BB2-3299-2E97-0F91-043791CBD088" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
 </associations>
 </Column>
 <Column name="FECHA" id="78277469-C4B8-62C5-3A81-2D4032FC3507">
@@ -145,16 +129,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EF4ABA4E-D657-4624-45FB-683048E72B5E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="581EB16E-C53F-4AB9-E5E4-CE93D28BB054" name="LIBROS_GRUPO_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:23:27 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9181971E-2C81-66F9-05D4-C9DB06341CEB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="62999088-CDA1-EAA4-3A44-509EF97EE4FE" name="LIBRO_MEDIO_DIVULGACION_FK">

@@ -11,6 +11,7 @@
 <Column name="CODIGO" id="A0D33166-59B5-DEB6-D388-479260549F6E">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:37:47 UTC</createdTime>
+<comment>ES EL CÓDIGO QUE PERMITE IDENTIFICAR EL DOCUMENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,6 +23,7 @@
 <Column name="NOMBRE" id="5C873756-E967-216D-4567-F685526D71A4">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:56:56 UTC</createdTime>
+<comment>ES EL NOMBRE DEL DOCUMENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,6 +35,7 @@
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="FD402B20-53B0-C54F-5365-56C794F51624">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:30:16 UTC</createdTime>
+<comment>ES EL INVESTIGADOR QUE ESCRIBIO EL DOCUMENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,6 +51,7 @@
 <Column name="TIPO_DOCUMENTO_ID" id="B5DF2F84-A823-4AC5-9832-6F02A3427200">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:41:01 UTC</createdTime>
+<comment>ES EL TIPO DE DOCUMENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,25 +63,10 @@
 <colAssociation fkAssociation="466D0B92-A05F-28E3-65FF-7D20E86CA306" referredColumn="640DE3FA-CB3C-54A7-4744-BE682E9E1BB1"/>
 </associations>
 </Column>
-<Column name="GRUPO_CODIGO" id="89C422B3-8808-1093-AC84-B3D005A2E9E1">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:16:57 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0A2D0629-4A46-5A51-F9A3-E2FEDA86E33A" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
-</associations>
-</Column>
 <Column name="NUMERO_PAGINAS" id="7F089AD5-87CD-7411-6FCE-8ECAA8A062FE">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:42:15 UTC</createdTime>
+<comment>NÚMERO DE PÁGINAS QUE CONTIENE EL DOCUMENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -89,6 +78,7 @@
 <Column name="FECHA" id="F23CF3F4-7899-0CE5-7AE8-2FBFC35EC68A">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:57:21 UTC</createdTime>
+<comment>FECHA EN QUE SE ESCRIBIO EL DOCUMENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -127,16 +117,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B5DF2F84-A823-4AC5-9832-6F02A3427200"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="66E263B3-54BE-9170-A06F-94384A1A6964" name="DOCUMENTO_GRUPO_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:16:57 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="89C422B3-8808-1093-AC84-B3D005A2E9E1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

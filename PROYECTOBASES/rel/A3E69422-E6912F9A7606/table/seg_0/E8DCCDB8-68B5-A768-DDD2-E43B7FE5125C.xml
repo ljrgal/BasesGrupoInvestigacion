@@ -38,7 +38,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -57,22 +57,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="32D1D0EB-7A07-557F-4019-EE53DC36DF6F" referredColumn="7A191D17-3A57-8AC8-AB33-A94E788DE6AE"/>
-</associations>
-</Column>
-<Column name="GRUPO_CODIGO" id="04E108BD-91FA-09DA-CD77-C761F69DDD4E">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:17:35 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1EB3D4C9-EB7D-3416-35C0-FBCBD909D92A" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
 </associations>
 </Column>
 <Column name="FECHA_INICIO" id="74196E13-0342-6867-BEFA-B11779A9EC2A">
@@ -152,16 +136,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F14C71CA-0D52-4D71-F4A1-D9A2093AE31B"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="91849B84-1021-C828-5EE0-DA35832D1DFD" name="PROYECTO_GRUPO_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:17:35 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="04E108BD-91FA-09DA-CD77-C761F69DDD4E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="997F55FF-6B69-999F-B1C4-64B1A09350AD" name="PROYECTO_INSTITUCION_FK">

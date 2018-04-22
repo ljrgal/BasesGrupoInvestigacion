@@ -11,6 +11,7 @@
 <Column name="CODIGO" id="14A11BF7-9C39-842B-39B6-68875BEF2C77">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:51:30 UTC</createdTime>
+<comment>ES EL CODIGO QUE PERMITE IDENTIFICAR EL CAPÍTULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,37 +23,23 @@
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="C75483DE-B34C-3959-EBCB-58DAF526F080">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:32:33 UTC</createdTime>
+<comment>ES EL CREADOR DEL CAPÍTULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="CC8CD577-417C-4AF6-8E5D-0BE073488608" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
 </associations>
 </Column>
-<Column name="GRUPO_CODIGO" id="8417349C-40F4-139C-52D5-77A9452693AB">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:11:23 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C9C0B939-3F07-C3A5-8A22-DA9B6AFB0D58" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
-</associations>
-</Column>
 <Column name="PAGINA_INICIAL" id="CB6CB9EC-8B87-D4D4-382B-8E66EEEFB7C9">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:51:55 UTC</createdTime>
+<comment>ES LA PÁGINA DE LA REVISTA DONDE INICIA EL CAPÍTULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,6 +50,7 @@
 <Column name="PAGINA_FINAL" id="5FD653F8-EEFA-EF42-29A9-75D07E5ED015">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:55:50 UTC</createdTime>
+<comment>ES LA PÁGINA DE LA REVISTA DONDE FINALIZA  EL CAPÍTULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,6 +61,7 @@
 <Column name="NUMERO_PAGINAS" id="B49F0428-D13A-3A05-33F3-A83BEB2815E7">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:56:01 UTC</createdTime>
+<comment>NÚMERO DE PÁGINAS QUE CONTIENE EL CAPÍTULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -83,6 +72,7 @@
 <Column name="FECHA" id="DFEBFFBA-AC6D-0938-450A-2C881C523A06">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:56:17 UTC</createdTime>
+<comment>ES LA FECHA DE PUBLICACIÓN DEL CAPÍTULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,23 +84,24 @@
 <Column name="LIBRO_CODIGO" id="C04C9182-B4E7-257F-9864-BB1C1DEDF522">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:57:11 UTC</createdTime>
+<comment>CÓDIGO DEL LIBRO EN EL QUE SE ESCRIBIO  EL CAPÍTULO</comment>
 <commentInRDBMS>EL LIBRO AL QUE PERTENECE EL CAPITULO</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="FF77517E-9543-F0C1-58CF-F4D688082AF3" referredColumn="012CE3DA-D9F1-C5DB-BAF3-288F9C137AAB"/>
 </associations>
 </Column>
-<Column name="PAIS_ID" id="DD02E1B7-1887-7E37-8DC7-D75ABCCFF0E0">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 03:57:56 UTC</createdTime>
-<commentInRDBMS>EL PAIS DE PUBLICACION DEL CAPITULO</commentInRDBMS>
+<Column name="CIUDAD_ID" id="1830DA43-1D6C-91EC-2266-1C6A915D05A3">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 02:42:36 UTC</createdTime>
+<comment>LA CIUDAD DE PUBLICACION DEL CAPÍTULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -119,12 +110,13 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C6838BB3-6424-8836-E42F-75AB962E4D02" referredColumn="43416498-F4EC-E2C3-647F-FAC73E909346"/>
+<colAssociation fkAssociation="4ECA5EC4-100C-D766-2BDE-5AFD36DE9097" referredColumn="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45"/>
 </associations>
 </Column>
 <Column name="MEDIO_DIVULGACION_ID" id="0EDB9910-1A35-19EF-A1BF-D2E6F51E02C6">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:08:30 UTC</createdTime>
+<comment>ES EL MEDIO POR EL CUAL SE DIVULGO EL CAPÍTULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -159,16 +151,6 @@
 <colUsage columnID="C75483DE-B34C-3959-EBCB-58DAF526F080"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A272F61D-622A-5509-52E2-01F447418522" name="CAPITULO_GRUPO_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:11:23 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8417349C-40F4-139C-52D5-77A9452693AB"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="F643DB13-E46D-C193-1B47-97D24223093B" name="CAPITULO_LIBRO_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:57:11 UTC</createdTime>
@@ -179,16 +161,6 @@
 <colUsage columnID="C04C9182-B4E7-257F-9864-BB1C1DEDF522"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DD6CAD0A-D881-31BA-0963-D66DD5057895" name="CAPITULO_PAIS_FK">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 03:57:56 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="DD02E1B7-1887-7E37-8DC7-D75ABCCFF0E0"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="B518CA4A-985A-576E-1B29-2218F9ABA77E" name="CAPITULO_MEDIO_DIVULGACION_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:08:30 UTC</createdTime>
@@ -197,6 +169,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0EDB9910-1A35-19EF-A1BF-D2E6F51E02C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3A5304F-4B02-AD26-325E-016C0E0568C1" name="CAPITULO_CIUDAD_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 02:42:36 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1830DA43-1D6C-91EC-2266-1C6A915D05A3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

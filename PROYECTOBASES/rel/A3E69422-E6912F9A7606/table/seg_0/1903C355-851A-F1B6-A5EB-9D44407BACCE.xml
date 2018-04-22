@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1903C355-851A-F1B6-A5EB-9D44407BACCE" name="CURSO_CORTA_DURACION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1903C355-851A-F1B6-A5EB-9D44407BACCE" name="CURSO">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:42:10 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
@@ -11,6 +11,7 @@
 <Column name="CODIGO" id="403F8977-0091-22B1-5BDF-E9E5E838A558">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:43:12 UTC</createdTime>
+<comment>ES EL CÓDIGO QUE PERMITE IDENTIFICAR EL CURSO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,6 +23,7 @@
 <Column name="NOMBRE" id="A3DF2254-D4C0-B215-21AF-1D7A8CAD98AA">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:43:12 UTC</createdTime>
+<comment>ES EL NOMBRE DEL CURSO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,6 +35,7 @@
 <Column name="PERSONA_CEDULA" id="FE91D90D-2098-EFA1-244D-13F39B63591D">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:24:52 UTC</createdTime>
+<comment>ES LA CÉDULA DE LA PERSONA QUE PRESENTO EL CURSO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,6 +51,7 @@
 <Column name="FECHA" id="930AA4BF-2C4C-F8C2-8EC0-B1C9DA230487">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:48:10 UTC</createdTime>
+<comment>ES LA FECHA DE CERTIFICACIÓN DEL CURSO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +62,7 @@
 <Column name="DURACION" id="962B7374-0330-8918-40F1-1DA183E3FED5">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:48:49 UTC</createdTime>
-<commentInRDBMS>DURACION EN SEMANAS DEL CURSO</commentInRDBMS>
+<comment>DURACION EN SEMANAS DEL CURSO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,7 +74,7 @@
 <Column name="PAIS_ID" id="D418C8B7-1EF4-AA15-B92C-17F2B2682A5F">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:49:37 UTC</createdTime>
-<commentInRDBMS>EL PAIS EN DONDE SE HIZO EL CURSO</commentInRDBMS>
+<comment>EL PAIS EN DONDE SE HIZO EL CURSO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -84,7 +88,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="43CE0B97-B795-2B3D-90F5-4C59AE710AF2" name="CURSO_CORTA_DURACION_PK">
+<ind_PK_UK id="43CE0B97-B795-2B3D-90F5-4C59AE710AF2" name="CURSO_PK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:43:12 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

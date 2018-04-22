@@ -11,6 +11,7 @@
 <Column name="CODIGO" id="9490448E-E743-CAD3-6465-F9DEE64D928E">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:26:33 UTC</createdTime>
+<comment>ES EL CODIGO QUE PERMITE IDENTIFICAR EL ARTICULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,6 +23,7 @@
 <Column name="TITULO" id="8854FD8A-9A08-526D-9F01-3D365B1D4296">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 20:46:59 UTC</createdTime>
+<comment>TITULO DEL ARTICULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,6 +35,7 @@
 <Column name="FECHA" id="BEE33040-C2A8-185F-A292-7FA62FC75EB1">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 20:47:27 UTC</createdTime>
+<comment>ES LA FECHA DE PUBLICACIÓN DEL ARTICULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,25 +43,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="GRUPO_CODIGO" id="5B8807D3-43D4-1697-EE19-B7E2A453B643">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:18:14 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>128,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0030E40D-8246-DE40-A484-0DD536C362CE" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
-</associations>
-</Column>
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="781B88B4-ACE0-5BDE-9443-33848BED8431">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:29:59 UTC</createdTime>
+<comment>ES EL CREADOR DEL ARTÍCULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -74,6 +62,7 @@
 <Column name="PAGINA_INICIAL" id="98D1BDA2-6D5E-CE95-FA40-50156F1E69F5">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:28:15 UTC</createdTime>
+<comment>ES LA PÁGINA DE LA REVISTA DONDE INICIA EL ARTÍCULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -84,6 +73,7 @@
 <Column name="PAGINA_FINAL" id="79125F87-107B-6611-C060-3DF34BF184C3">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:28:15 UTC</createdTime>
+<comment>ES LA PÁGINA DE LA REVISTA DONDE FINALIZA  EL ARTÍCULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -94,6 +84,7 @@
 <Column name="CIUDAD_ID" id="04D2C88A-E23A-6F61-88B8-36C5307A07E0">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:36:34 UTC</createdTime>
+<comment>CIUDAD DONDE SE PUBLICO EL ARTÍCULO</comment>
 <commentInRDBMS>LA CIUDAD DE PUBLICACIÓN DEL ARTÍCULO</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -109,6 +100,7 @@
 <Column name="MEDIO_DIVULGACION_ID" id="228D7ECE-D9B6-B6CA-38B7-0ABDA848E69D">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:08:21 UTC</createdTime>
+<comment>ES EL MEDIO POR EL CUAL SE DIVULGO EL ARTÍCULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -141,16 +133,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="781B88B4-ACE0-5BDE-9443-33848BED8431"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="8A5D6954-4238-533F-9A27-ECED5A19973B" name="ARTICULO_GRUPO_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:18:14 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5B8807D3-43D4-1697-EE19-B7E2A453B643"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="50DEE79A-0986-B567-6624-B1ACD3E4A1FA" name="ARTICULO_CIUDAD_FK">

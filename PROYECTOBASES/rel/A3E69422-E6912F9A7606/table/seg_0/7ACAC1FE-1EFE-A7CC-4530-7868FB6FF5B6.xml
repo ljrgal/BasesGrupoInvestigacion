@@ -27,27 +27,11 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="995D4736-1EAC-77B0-7E32-53DD17085C45" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
-</associations>
-</Column>
-<Column name="GRUPO_CODIGO" id="F5334A2D-8149-EAF6-9452-CCC393131888">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:18:08 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0CEC83FD-75F6-DC6A-D07E-C80177282992" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
 </associations>
 </Column>
 <Column name="FECHA" id="A4863A03-2BD4-EEE9-9D47-CADA07416BAB">
@@ -81,16 +65,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="749D4E43-198E-CD3B-2F82-DD74EED013D0"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="6BAFF55A-36DE-2AB9-993F-39E6B6348779" name="INFORMES_GRUPO_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-30 00:18:08 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F5334A2D-8149-EAF6-9452-CCC393131888"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

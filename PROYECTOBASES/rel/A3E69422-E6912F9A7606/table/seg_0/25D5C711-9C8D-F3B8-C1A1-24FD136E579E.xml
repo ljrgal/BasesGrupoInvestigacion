@@ -11,6 +11,7 @@
 <Column name="ID" id="514089B8-AB28-1546-71EA-076745C09508">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:55:48 UTC</createdTime>
+<comment>IDENTIFICADOR DEL ESTADO CIVIL</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
