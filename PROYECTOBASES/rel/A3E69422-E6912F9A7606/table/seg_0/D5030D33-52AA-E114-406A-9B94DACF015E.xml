@@ -79,24 +79,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PAIS_ID" id="3E293466-FA45-140D-77A8-4C6A7867AD0F">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:51:10 UTC</createdTime>
-<commentInRDBMS>LA NACIONALIDAD DE LA PERSONA</commentInRDBMS>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="25108A51-8F7B-3186-FD1C-5BF037CEE08C" referredColumn="43416498-F4EC-E2C3-647F-FAC73E909346"/>
-</associations>
-</Column>
 <Column name="ESTADO_CIVIL_ID" id="4D4186D7-B20E-29AB-DCD7-E6DC48869461">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:55:59 UTC</createdTime>
+<comment>ES EL ESTADO CIVIL DE LA PERSONA</comment>
 <commentInRDBMS>EL ESTADO CIVIL DE LA PERSONA</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -112,6 +98,7 @@
 <Column name="CIUDAD_ID" id="64A7DD3D-1323-3CDE-E337-06AB6BBB3C16">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:21:24 UTC</createdTime>
+<comment>ES LA CIUDAD DE NACIMIENTO DE LA PERSONA</comment>
 <commentInRDBMS>LUGAR DE EXPEDICIÓN DEL DOCUMENTO DE IDENTIDAD</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -127,6 +114,7 @@
 <Column name="TIPO_DOCUMENTO_IDENTIDAD_ID" id="3EB93D18-C601-1648-14D0-87353B8960EE">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:23:05 UTC</createdTime>
+<comment>ES EL TIPO DE DOCUMENTO QUE USA PARA IDENTIFICARSE LA PERSONA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -149,16 +137,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B74AE64E-4F05-B550-7FFA-DA3AABC9A8E9"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="33EF4585-ABF5-29EF-05D8-C1EC12275274" name="PERSONA_PAIS_FK">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:51:10 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="3E293466-FA45-140D-77A8-4C6A7867AD0F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="1DFC0343-3299-60D6-F0AC-27AD25044875" name="PERSONA_ESTADO_CIVIL_FK">

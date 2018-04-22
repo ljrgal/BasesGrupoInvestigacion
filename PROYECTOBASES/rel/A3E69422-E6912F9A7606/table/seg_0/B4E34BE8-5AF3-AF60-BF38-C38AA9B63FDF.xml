@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4E34BE8-5AF3-AF60-BF38-C38AA9B63FDF" name="INVESTIGADOR_LINEA">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 20:00:43 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVESTIGADOR_PERSONAS_CEDULA" id="533E3D38-0CA4-88D2-997D-D6C7FF956EB6">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 20:01:06 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9F0E893-2E33-74DC-F825-20324182F334" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
+</associations>
+</Column>
+<Column name="LINEA_INVESTIGACION_ID" id="22F3BEAC-1334-E012-9654-15E6D811D3D1">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 20:01:12 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="822A3AB9-4BE7-9D76-04B6-6B574ABBD364" referredColumn="64FA9383-CEDE-292D-2F2F-DA763F95A70F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1251F89-A78D-E15D-C3B9-34E2A5B629B7" name="INVESTIGADOR_LINEA_PK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 20:04:01 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="533E3D38-0CA4-88D2-997D-D6C7FF956EB6"/>
+<colUsage columnID="22F3BEAC-1334-E012-9654-15E6D811D3D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79D44FD1-0E0E-7867-11EE-DFB4C762E045" name="INVESTIGADOR_LINEA_INVESTIGADOR_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 20:01:06 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="533E3D38-0CA4-88D2-997D-D6C7FF956EB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D6DFF4B-1A0B-0C92-129F-12DF506F4ADC" name="INVESTIGADOR_LINEA_LINEA_INVESTIGACION_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 20:01:12 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22F3BEAC-1334-E012-9654-15E6D811D3D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -36,7 +36,7 @@
 <colUsage columnID="09F00E8A-E8EE-4B2A-5FA5-80CB894EC8AB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="60114079-3985-552B-77CF-59C3A2E379D6" name="VISITANTESv1_PERSONAS_FK">
+<ind_PK_UK id="60114079-3985-552B-77CF-59C3A2E379D6" name="VISITANTES_PERSONAS_FK">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 22:41:51 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

@@ -11,6 +11,7 @@
 <Column name="CODIGO" id="012CE3DA-D9F1-C5DB-BAF3-288F9C137AAB">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-30 00:01:42 UTC</createdTime>
+<comment>ES EL CÓDIGO QUE PERMITE IDENTIFICAR EL LIBRO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,6 +23,7 @@
 <Column name="TITULO" id="E02C9F70-F456-9DE1-0F9C-9FD0F4AFAE19">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:39:49 UTC</createdTime>
+<comment>ES EL TITULO DEL LIBRO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,12 +35,13 @@
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="EF4ABA4E-D657-4624-45FB-683048E72B5E">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:30:09 UTC</createdTime>
+<comment>ES LA CÉDULA DEL INVESTIGADOR QUE ESCRIBIO EL LIBRO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -48,6 +51,7 @@
 <Column name="FECHA" id="78277469-C4B8-62C5-3A81-2D4032FC3507">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:10:03 UTC</createdTime>
+<comment>ES LA FECHA DE PUBLICACIÓN DEL LIBRO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -69,6 +73,7 @@
 <Column name="MEDIO_DIVULGACION_ID" id="B20777F9-499B-0B21-74E8-FB1D88AABE8D">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:12:18 UTC</createdTime>
+<comment>ES EL MEDIO POR EL CUAL SE DIVULGO EL LIBRO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -83,6 +88,7 @@
 <Column name="EDITORIAL_ID" id="B33886AC-AE3D-27EF-8F22-07F12F6A6FB9">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:12:24 UTC</createdTime>
+<comment>ES LA EDITORIAL</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -97,6 +103,7 @@
 <Column name="PAIS_ID" id="E0ADE0F6-37C5-FDE5-9E03-8958D8ABC20D">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:12:38 UTC</createdTime>
+<comment>ES EL PAÍS DE PUBLICACIÓN DEL LIBRO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

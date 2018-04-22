@@ -11,6 +11,7 @@
 <Column name="ID" id="7A191D17-3A57-8AC8-AB33-A94E788DE6AE">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:54:15 UTC</createdTime>
+<comment>ES LA LLAVE PRIMARIA DE LA TABLA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,6 +28,18 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>128</dataTypeSize>
 <ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="CA084908-5082-15A9-C95F-BAC3F18637DD">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 20:32:35 UTC</createdTime>
+<comment>DESCRIPCIÓN DEL SECTOR</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

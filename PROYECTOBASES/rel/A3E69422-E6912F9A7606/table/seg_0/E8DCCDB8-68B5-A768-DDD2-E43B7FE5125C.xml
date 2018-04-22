@@ -11,6 +11,7 @@
 <Column name="CODIGO" id="152E5B75-8FCE-7122-B244-2E583B58EE85">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:14:04 UTC</createdTime>
+<comment>ES EL CÓDIGO QUE PERMITE IDENTIFICAR EL PROYECTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,6 +23,7 @@
 <Column name="NOMBRE" id="6545F8A9-BAED-BF47-741A-93DFB0363A14">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 02:18:43 UTC</createdTime>
+<comment>ES EL NOMBRE DEL PROYECTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,12 +35,13 @@
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="24970159-93FE-AC12-CC86-BA4AA0F1D3F5">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 02:20:16 UTC</createdTime>
+<comment>ES LA CEDULA DEL INVESTIGADOR QUE DIRIGE EL PROYECTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -48,6 +51,7 @@
 <Column name="SECTOR_PROYECTO_ID" id="F14C71CA-0D52-4D71-F4A1-D9A2093AE31B">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:54:23 UTC</createdTime>
+<comment>ES EL SECTOR AL CUAL SE ORIENTA EL PROYECTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,6 +66,7 @@
 <Column name="FECHA_INICIO" id="74196E13-0342-6867-BEFA-B11779A9EC2A">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:42:41 UTC</createdTime>
+<comment>FECHA DE INICIO DEL PROYECTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -72,6 +77,7 @@
 <Column name="FECHA_FIN" id="64605D76-5CB9-A65A-58D8-D26974E64D8F">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:42:55 UTC</createdTime>
+<comment>FECHA DE FINALIZACIÓN DEL PROYECTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -82,28 +88,14 @@
 <Column name="RESUMEN" id="EDCF0692-5F09-36EC-E630-06E90635BE24">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:43:21 UTC</createdTime>
+<comment>ES LA DESCRIPCIÓN DEL PROYECTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>4000</dataTypeSize>
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="INSTITUCION_NIT" id="9E1E92B0-D216-38B7-E81F-04C4704344E8">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 05:15:49 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9891DB52-091B-B457-BE33-7415058CF694" referredColumn="ACDBAB87-B61A-1633-C156-660CC5B5C703"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -136,16 +128,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F14C71CA-0D52-4D71-F4A1-D9A2093AE31B"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="997F55FF-6B69-999F-B1C4-64B1A09350AD" name="PROYECTO_INSTITUCION_FK">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 05:15:49 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9E1E92B0-D216-38B7-E81F-04C4704344E8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -11,6 +11,7 @@
 <Column name="ID" id="F756D753-074A-33DA-D2DE-95B132C8F90A">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:38:50 UTC</createdTime>
+<comment>ES LA LLAVE PRIMARIA DE LA TABLA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,11 +19,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TIPO" id="8C6A2447-8E89-07AB-512E-E02B4D844D19">
+<Column name="NOMBRE" id="8C6A2447-8E89-07AB-512E-E02B4D844D19">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:13:23 UTC</createdTime>
+<comment>ES EL NOMBRE QUE RECIBE EL NIVEL DE FORMACIÓN</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
