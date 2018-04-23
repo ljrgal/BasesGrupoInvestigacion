@@ -142,7 +142,7 @@
 <colUsage columnID="9FF4F40F-80A4-7A35-33EE-6ECC876E08AF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E98167BC-89A1-ECC2-C9BF-7C8112E264EE" name="EVENTOS CIENTIFICOS_TIPO_EVENTO_FK">
+<ind_PK_UK id="E98167BC-89A1-ECC2-C9BF-7C8112E264EE" name="EVENTOS_TIPO_EVENTO_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:55:34 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
@@ -162,7 +162,7 @@
 <colUsage columnID="20A71FCB-5745-0FA0-4233-4F2A2E341BF1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A34C1551-8A6F-445E-F787-1FA1E20B2EAF" name="EVENTOS CIENTIFICOS_INVESTIGADOR_FK">
+<ind_PK_UK id="A34C1551-8A6F-445E-F787-1FA1E20B2EAF" name="EVENTO_INVESTIGADOR_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:58:08 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

@@ -100,7 +100,7 @@
 <colUsage columnID="403F8977-0091-22B1-5BDF-E9E5E838A558"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EC5178B6-A4FD-3118-38AE-A1165DF06D78" name="CURSO_CORTA_DURACION_PERSONA_FK">
+<ind_PK_UK id="EC5178B6-A4FD-3118-38AE-A1165DF06D78" name="CURSO_PERSONA_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:24:52 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

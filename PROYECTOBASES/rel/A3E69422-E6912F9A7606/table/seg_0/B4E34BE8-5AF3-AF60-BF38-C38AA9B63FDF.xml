@@ -52,7 +52,7 @@
 <colUsage columnID="22F3BEAC-1334-E012-9654-15E6D811D3D1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="79D44FD1-0E0E-7867-11EE-DFB4C762E045" name="INVESTIGADOR_LINEA_INVESTIGADOR_FK">
+<ind_PK_UK id="79D44FD1-0E0E-7867-11EE-DFB4C762E045" name="INVE_LINEA_INVESTIGADOR_FK">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-04-22 20:01:06 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
@@ -62,7 +62,7 @@
 <colUsage columnID="533E3D38-0CA4-88D2-997D-D6C7FF956EB6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2D6DFF4B-1A0B-0C92-129F-12DF506F4ADC" name="INVESTIGADOR_LINEA_LINEA_INVESTIGACION_FK">
+<ind_PK_UK id="2D6DFF4B-1A0B-0C92-129F-12DF506F4ADC" name="INVE_LINEA_INVESTIGACION_FK">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-04-22 20:01:12 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3228764-F289-FD71-93CA-BF6FB392C329" containerWithKeyObject="93B2DF11-6B46-2399-F35B-70FFC5BA59D0" localFKIndex="E98167BC-89A1-ECC2-C9BF-7C8112E264EE" name="EVENTOS CIENTIFICOS_TIPO_EVENTO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3228764-F289-FD71-93CA-BF6FB392C329" containerWithKeyObject="93B2DF11-6B46-2399-F35B-70FFC5BA59D0" localFKIndex="E98167BC-89A1-ECC2-C9BF-7C8112E264EE" name="EVENTOS_TIPO_EVENTO_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:55:34 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

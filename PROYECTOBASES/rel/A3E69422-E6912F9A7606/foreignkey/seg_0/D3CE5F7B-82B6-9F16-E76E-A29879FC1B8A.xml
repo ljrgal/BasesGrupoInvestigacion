@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3CE5F7B-82B6-9F16-E76E-A29879FC1B8A" containerWithKeyObject="076B278E-0BF5-54E6-5AB2-ED6C4E0B8148" localFKIndex="1297BDCB-6645-5B59-1FA3-14CD340A94BF" name="TRABAJO_INVESTIGADOR_ORIENTACION_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3CE5F7B-82B6-9F16-E76E-A29879FC1B8A" containerWithKeyObject="076B278E-0BF5-54E6-5AB2-ED6C4E0B8148" localFKIndex="1297BDCB-6645-5B59-1FA3-14CD340A94BF" name="TRAB_INVES_ORIENTACION_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:30:09 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

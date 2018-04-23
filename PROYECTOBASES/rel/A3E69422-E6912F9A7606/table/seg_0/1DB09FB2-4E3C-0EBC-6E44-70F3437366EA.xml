@@ -60,22 +60,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INVESTIGADOR_PERSONAS_CEDULA" id="D82FBD11-55B8-DF04-D619-B5EB623D22C6">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 03:24:10 UTC</createdTime>
-<comment>ES LA CÉDULA DEL INVESTIGADOR</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="034854B1-7ED7-A1D5-E0DA-E0458BB06FCD" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
-</associations>
-</Column>
 <Column name="ESTADO" id="66CF39A9-B904-1280-2A0F-066FDE87034B">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:26:29 UTC</createdTime>
@@ -89,6 +73,22 @@
 <defaultValue>P</defaultValue>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVESTIGADOR_PERSONAS_CEDULA" id="824B8742-A3B4-FB4E-CB96-D84BA5255D7D">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-23 01:40:46 UTC</createdTime>
+<comment>ES LA CÉDULA DEL INVESTIGADOR QUE REALIZA LA PETICIÓN</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8259C3F7-7086-0FC4-17D2-2EAA45D49FBD" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -113,22 +113,15 @@
 <colUsage columnID="590943D9-9405-55FA-A2A1-8A7EF18DC53D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="15C87F7E-F50D-D45D-50F2-E1A3F53433CE" name="SOLICITUD_INVESTIGADOR_FK">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 03:24:10 UTC</createdTime>
+<ind_PK_UK id="FD7470FE-DE9E-3ED0-4FF4-2F70CA2BBAD5" name="SOLICITUD_INVESTIGADOR_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-23 01:40:46 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D82FBD11-55B8-DF04-D619-B5EB623D22C6"/>
+<colUsage columnID="824B8742-A3B4-FB4E-CB96-D84BA5255D7D"/>
 </indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="14E970DD-B209-5415-6D00-84AD854118DB" name="SOLICITUD_INVESTIGADOR_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-04-22 16:45:52 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
 </indexes>
 </Table>

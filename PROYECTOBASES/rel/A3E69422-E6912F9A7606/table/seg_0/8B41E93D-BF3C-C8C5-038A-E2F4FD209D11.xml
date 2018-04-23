@@ -68,7 +68,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -84,7 +85,7 @@
 <colUsage columnID="2037E810-ABA1-B9C5-03F5-24D05DB05841"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3CF0036E-E30E-4D5F-96F6-7E94DCEC5179" name="EXPERIENCIA_PROFESIONAL_INVESTIGADORES_FK">
+<ind_PK_UK id="3CF0036E-E30E-4D5F-96F6-7E94DCEC5179" name="EXPE_PROF_INVESTIGADOR_FK">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:32:08 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

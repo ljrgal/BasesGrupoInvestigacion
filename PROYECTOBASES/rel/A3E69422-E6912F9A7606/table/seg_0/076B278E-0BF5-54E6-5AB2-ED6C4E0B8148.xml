@@ -71,7 +71,7 @@
 <colUsage columnID="58FB7A23-DECE-DEA7-AF98-99F47B953D88"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E911B684-7D48-FBC7-4246-8ADBD12DD369" name="TRABAJO_INVESTIGADOR_TRABAJO_FK">
+<ind_PK_UK id="E911B684-7D48-FBC7-4246-8ADBD12DD369" name="TRAB_INVES_TRABAJO_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:29:53 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
@@ -81,7 +81,7 @@
 <colUsage columnID="6206492B-258C-7F1D-D393-2A509570FE45"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0C15E507-1ACA-72B0-7C9A-2B7B60E7F0CD" name="TRABAJO_INVESTIGADOR_FK">
+<ind_PK_UK id="0C15E507-1ACA-72B0-7C9A-2B7B60E7F0CD" name="TRAB_INVES_INVESTIGADOR_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:30:03 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
@@ -91,7 +91,7 @@
 <colUsage columnID="5A506BA2-BAED-DB21-1786-DBEA4969123F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1297BDCB-6645-5B59-1FA3-14CD340A94BF" name="TRABAJO_INVESTIGADOR_ORIENTACION_FK">
+<ind_PK_UK id="1297BDCB-6645-5B59-1FA3-14CD340A94BF" name="TRAB_INVES_ORIENTACION_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:30:09 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
