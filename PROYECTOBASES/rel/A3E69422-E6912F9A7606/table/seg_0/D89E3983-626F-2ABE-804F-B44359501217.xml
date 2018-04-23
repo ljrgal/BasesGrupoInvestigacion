@@ -12,7 +12,7 @@
 <Column name="ID" id="7A191D17-3A57-8AC8-AB33-A94E788DE6AE">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:54:15 UTC</createdTime>
-<comment>ES LA LLAVE PRIMARIA DE LA TABLA</comment>
+<comment>ES LA LLAVE PRIMARIA DE LA TABLA, QUE IDENTIFICA EL SECTOR DEL PROYECTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -23,6 +23,7 @@
 <Column name="NOMBRE" id="BDFF444E-FD1D-87DE-62E6-9F2821ADD7F3">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:54:15 UTC</createdTime>
+<comment>EL NOMBRE DEL SECTOR AL QUE PERTENECE EL PROYECTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +35,7 @@
 <Column name="DESCRIPCION" id="CA084908-5082-15A9-C95F-BAC3F18637DD">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-04-22 20:32:35 UTC</createdTime>
-<comment>DESCRIPCIÓN DEL SECTOR</comment>
+<comment>LA DESCRIPCIÓN DEL SECTOR</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

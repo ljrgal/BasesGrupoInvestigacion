@@ -24,7 +24,7 @@
 <Column name="TITULO" id="8854FD8A-9A08-526D-9F01-3D365B1D4296">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 20:46:59 UTC</createdTime>
-<comment>TITULO DEL ARTICULO</comment>
+<comment>EL TITULO DEL ARTICULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,22 +43,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="781B88B4-ACE0-5BDE-9443-33848BED8431">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:29:59 UTC</createdTime>
-<comment>ES EL CREADOR DEL ARTÍCULO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A950BD16-70EC-72DD-FB30-ED9644EC55E3" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
-</associations>
 </Column>
 <Column name="PAGINA_INICIAL" id="98D1BDA2-6D5E-CE95-FA40-50156F1E69F5">
 <createdBy>LJRG</createdBy>
@@ -85,7 +69,7 @@
 <Column name="CIUDAD_ID" id="04D2C88A-E23A-6F61-88B8-36C5307A07E0">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:36:34 UTC</createdTime>
-<comment>CIUDAD DONDE SE PUBLICO EL ARTÍCULO</comment>
+<comment>LA CIUDAD DONDE SE PUBLICO EL ARTÍCULO</comment>
 <commentInRDBMS>LA CIUDAD DE PUBLICACIÓN DEL ARTÍCULO</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -96,6 +80,22 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="D2D57E3A-D50E-C612-08E9-7D6DCAA0870F" referredColumn="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45"/>
+</associations>
+</Column>
+<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="781B88B4-ACE0-5BDE-9443-33848BED8431">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-03-29 23:29:59 UTC</createdTime>
+<comment>ES EL CREADOR DEL ARTÍCULO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A950BD16-70EC-72DD-FB30-ED9644EC55E3" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
 </associations>
 </Column>
 <Column name="MEDIO_DIVULGACION_ID" id="228D7ECE-D9B6-B6CA-38B7-0ABDA848E69D">
@@ -111,6 +111,21 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="525BEFA0-4FA2-3AC2-F941-8687354F0195" referredColumn="8E33893C-8BA7-DEDA-7D90-46FCA2E81F99"/>
+</associations>
+</Column>
+<Column name="TIPO_ARTICULO_ID" id="22BF4A13-9282-F423-CAE2-89EAA9C9CA0D">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:42:52 UTC</createdTime>
+<comment>ES EL TIPO DE ARTICULO A PUBLICAR</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54345C8B-2D23-2FF0-1589-2B718F1AEDB2" referredColumn="6238E7A9-DF5A-AF25-1A15-7EC4C7D402C9"/>
 </associations>
 </Column>
 <Column name="ESTADO" id="6B8D0A21-172E-AB9C-02B7-BF52B6CC97B3">
@@ -168,6 +183,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="228D7ECE-D9B6-B6CA-38B7-0ABDA848E69D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE50D50C-75D6-B84A-6375-679B344811AB" name="ARTICULO_TIPO_ARTICULO_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:42:52 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22BF4A13-9282-F423-CAE2-89EAA9C9CA0D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

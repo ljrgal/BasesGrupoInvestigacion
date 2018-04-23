@@ -12,7 +12,7 @@
 <Column name="ID" id="B4526ED6-A58A-BFB8-A69A-73863D5D202E">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:22:49 UTC</createdTime>
-<comment>ES LA LLAVE PRIMARIA DE LA TABLA</comment>
+<comment>ES LA LLAVE PRIMARIA DE LA TABLA QUE IDENTIFICA  EL DOCUMENTO DE IDENTIDAD DE LA PERSONA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -23,7 +23,7 @@
 <Column name="NOMBRE" id="EC112DA6-7F07-B904-0787-EFFD09F787A6">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:22:49 UTC</createdTime>
-<comment>ES EL NOMBRE DEL DOCUMENTO DE IDENTIDAD</comment>
+<comment>ES EL NOMBRE DEL DOCUMENTO DE IDENTIDAD, SIENDO: CEDULA, TARJETA DE IDENTIDAD, CEDULA DE EXTRANJERIA, REGISTRO CIVIL</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

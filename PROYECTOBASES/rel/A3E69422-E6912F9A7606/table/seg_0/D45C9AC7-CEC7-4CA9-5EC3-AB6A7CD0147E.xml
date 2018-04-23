@@ -33,6 +33,17 @@
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="FECHA" id="F23CF3F4-7899-0CE5-7AE8-2FBFC35EC68A">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 04:57:21 UTC</createdTime>
+<comment>LA FECHA EN QUE SE ESCRIBIO EL DOCUMENTO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="FD402B20-53B0-C54F-5365-56C794F51624">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:30:16 UTC</createdTime>
@@ -73,17 +84,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="FECHA" id="F23CF3F4-7899-0CE5-7AE8-2FBFC35EC68A">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 04:57:21 UTC</createdTime>
-<comment>FECHA EN QUE SE ESCRIBIO EL DOCUMENTO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

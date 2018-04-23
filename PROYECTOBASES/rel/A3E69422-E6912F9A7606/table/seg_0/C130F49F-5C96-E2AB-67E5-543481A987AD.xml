@@ -73,6 +73,30 @@
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="PAGINA_WEB" id="53770A49-AEA0-1B27-7C78-520374DE61F4">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 04:27:38 UTC</createdTime>
+<comment>LA PAGINA WEB DEL GRUPO DE INVESTIGACION</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="B7408399-33AB-9EB4-8376-6A0D29E08798">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 04:28:48 UTC</createdTime>
+<comment>EL CORREO ELECTRONICO DEL GRUPO DE INVESTIGACION</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="694BF376-6DE6-4DBC-7358-61F926F5A468" name="GRUPOS_PK">

@@ -89,7 +89,7 @@
 <Column name="EDITORIAL_ID" id="B33886AC-AE3D-27EF-8F22-07F12F6A6FB9">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:12:24 UTC</createdTime>
-<comment>ES LA EDITORIAL</comment>
+<comment>ES LA EDITORIAL EN LA QUE SE PUBLICO EL LIBRO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

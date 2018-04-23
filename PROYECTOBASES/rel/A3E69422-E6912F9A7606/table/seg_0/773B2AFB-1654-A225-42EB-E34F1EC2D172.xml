@@ -12,7 +12,7 @@
 <Column name="ID" id="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:55:03 UTC</createdTime>
-<comment>LLAVE PRIMARIA DE LA TABLA</comment>
+<comment>LA LLAVE PRIMARIA DE LA TABLA QUE IDENTIFICA LA CIUDAD</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +35,7 @@
 <Column name="PAIS_ID" id="EEFCB5FA-E61E-968A-640F-BF3C511A5F3B">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:07:23 UTC</createdTime>
-<comment>PAIS EN EL QUE ESTA UBICADO LA CIUDAD</comment>
+<comment>EL PAIS EN EL QUE ESTA UBICADO LA CIUDAD</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

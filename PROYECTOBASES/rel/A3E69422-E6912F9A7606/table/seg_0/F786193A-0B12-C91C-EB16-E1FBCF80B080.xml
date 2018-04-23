@@ -21,6 +21,18 @@
 <ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="NOMBRE" id="48C15C30-AA22-ED64-9E7B-C4E0CB6E308C">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-04 22:39:27 UTC</createdTime>
+<comment>ES EL NOMBRE DEL PRODUCTO SOFTWARE</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="E03FC32B-6464-55A1-01FB-B8F9691C885D">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:32:27 UTC</createdTime>
@@ -37,19 +49,6 @@
 <colAssociation fkAssociation="4476C113-2908-2EB1-AB95-642BE3AC1CB3" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
 </associations>
 </Column>
-<Column name="SITIO_WEB" id="D474CB1E-D087-ECFB-EB80-FCDDE8046456">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 22:38:54 UTC</createdTime>
-<comment>ES EL SITIO WEB DEL SOFTWARE</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>256</dataTypeSize>
-<ownDataTypeParameters>256,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="NOMBRE_COMERCIAL" id="F41BAA4C-9B6A-F784-962A-98B5BCB277C3">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:39:09 UTC</createdTime>
@@ -62,11 +61,12 @@
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOMBRE" id="48C15C30-AA22-ED64-9E7B-C4E0CB6E308C">
+<Column name="SITIO_WEB" id="D474CB1E-D087-ECFB-EB80-FCDDE8046456">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 22:39:27 UTC</createdTime>
-<comment>ES EL NOMBRE DEL PRODUCTO SOFTWARE</comment>
+<createdTime>2018-04-04 22:38:54 UTC</createdTime>
+<comment>ES EL SITIO WEB DEL SOFTWARE</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

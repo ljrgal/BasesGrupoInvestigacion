@@ -12,7 +12,7 @@
 <Column name="ID" id="514089B8-AB28-1546-71EA-076745C09508">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:55:48 UTC</createdTime>
-<comment>IDENTIFICADOR DEL ESTADO CIVIL</comment>
+<comment>LA LLAVE PRIMARIA DE LA TABLA QUE IDENTIFICA EL ESTADO CIVIL</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -23,7 +23,7 @@
 <Column name="TIPO" id="345A835C-8B40-1633-9C1C-4D7C76F41840">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 05:26:30 UTC</createdTime>
-<comment>EL TIPO DE ESTADO CIVIL QUE TIENE LA PERSONA: SOLTERO, CASADO, UNION LIBRE</comment>
+<comment>EL TIPO DE ESTADO CIVIL QUE TIENE LA PERSONA: SOLTERO, CASADO, UNION LIBRE, DIVORCIADO, VIUDO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

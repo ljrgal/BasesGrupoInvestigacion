@@ -127,6 +127,18 @@
 <colAssociation fkAssociation="E7B3FFBF-421F-84BC-4794-82615CA191B9" referredColumn="B4526ED6-A58A-BFB8-A69A-73863D5D202E"/>
 </associations>
 </Column>
+<Column name="CLAVE" id="AD8AA5DA-E039-06C1-0B7A-5244948CA001">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:46:11 UTC</createdTime>
+<comment>LA CONTRASEÑA DE LA PERSONA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="00FA6B84-AEAA-3160-3C6E-B8FB1EBEE775" name="PERSONAS_PK">

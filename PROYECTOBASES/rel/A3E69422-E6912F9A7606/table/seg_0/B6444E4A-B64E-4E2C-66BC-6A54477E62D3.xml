@@ -112,20 +112,17 @@
 <colAssociation fkAssociation="51740FBB-FC26-3C58-7B69-EEC4EF4DB09B" referredColumn="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45"/>
 </associations>
 </Column>
-<Column name="TIPO_FORMACION_ID" id="58E8C177-A117-CCB2-CFBE-DA0B612F3241">
+<Column name="TIPO_FORMACION" id="1B6E0C86-23A4-D3C3-AFAE-125A0485B0F9">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:35:23 UTC</createdTime>
-<comment>EL TIPO DE FORMACION, SI ES ACADEMICA O COMPLEMENTARIA</comment>
+<createdTime>2018-04-23 04:50:58 UTC</createdTime>
+<comment>EL TIPO DE FORMACION DE LA PERSONA: A PARA ACADEMICA Y C PARA COMPLEMENTARIO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B327D22B-75A8-1228-262E-3009B69D229D" referredColumn="CE49BB68-DA05-B42B-A7EB-ECFF3E0416E1"/>
-</associations>
 </Column>
 <Column name="NIVEL_FORMACION_ID" id="F9CF18BF-9FE1-51DD-4DC4-354F3E770A66">
 <createdBy>LJRG</createdBy>
@@ -195,16 +192,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="38CDF77E-E85B-07DA-144E-C70424F1AA0C"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="A3CDF3B2-DC8F-35D0-FD24-D8519F81F8EF" name="FORMACION_TIPO_FORMACION_FK">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:35:23 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="58E8C177-A117-CCB2-CFBE-DA0B612F3241"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="48D82D81-D0B8-0D8D-B562-06BEB9FF6DCB" name="FORMACION_NIVEL_FORMACION_FK">

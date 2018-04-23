@@ -33,6 +33,40 @@
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="FECHA_INICIO" id="74196E13-0342-6867-BEFA-B11779A9EC2A">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-04 22:42:41 UTC</createdTime>
+<comment>LA FECHA DE INICIO DEL PROYECTO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="64605D76-5CB9-A65A-58D8-D26974E64D8F">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-04 22:42:55 UTC</createdTime>
+<comment>LA FECHA DE FINALIZACIÓN DEL PROYECTO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESUMEN" id="EDCF0692-5F09-36EC-E630-06E90635BE24">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-04 22:43:21 UTC</createdTime>
+<comment>ES LA DESCRIPCIÓN DEL PROYECTO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="24970159-93FE-AC12-CC86-BA4AA0F1D3F5">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 02:20:16 UTC</createdTime>
@@ -64,39 +98,20 @@
 <colAssociation fkAssociation="32D1D0EB-7A07-557F-4019-EE53DC36DF6F" referredColumn="7A191D17-3A57-8AC8-AB33-A94E788DE6AE"/>
 </associations>
 </Column>
-<Column name="FECHA_INICIO" id="74196E13-0342-6867-BEFA-B11779A9EC2A">
+<Column name="TIPO_PROYECTO_ID" id="B9EF1A57-E75D-6B8D-B8A2-035602E8493C">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 22:42:41 UTC</createdTime>
-<comment>FECHA DE INICIO DEL PROYECTO</comment>
+<createdTime>2018-04-23 03:30:50 UTC</createdTime>
+<comment>EL TIPO DE PROYECTO QUE SE VA A REALIZAR</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="FECHA_FIN" id="64605D76-5CB9-A65A-58D8-D26974E64D8F">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 22:42:55 UTC</createdTime>
-<comment>FECHA DE FINALIZACIÓN DEL PROYECTO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="RESUMEN" id="EDCF0692-5F09-36EC-E630-06E90635BE24">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 22:43:21 UTC</createdTime>
-<comment>ES LA DESCRIPCIÓN DEL PROYECTO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4000</dataTypeSize>
-<ownDataTypeParameters>4000,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3930AC3-F095-B389-70FA-C03055B1804B" referredColumn="AB3718C5-1D3E-B956-DF4B-A31FEA9A7014"/>
+</associations>
 </Column>
 <Column name="ESTADO" id="8F46E508-EA7C-9BA1-BFFF-A53AF5A4689E">
 <createdBy>xJoni</createdBy>
@@ -143,6 +158,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F14C71CA-0D52-4D71-F4A1-D9A2093AE31B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E20C0F2-9A9D-5ED9-D2D3-6B0B9BB55F87" name="PROYECTO_TIPO_PROYECTO_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:30:50 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9EF1A57-E75D-6B8D-B8A2-035602E8493C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

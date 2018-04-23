@@ -1,18 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FDCB6B4-E96E-238D-7912-0717D2C7E50E" name="NIVEL_FORMACION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DAE2B54-84F1-F1E0-BCBA-925FA7E15716" name="TIPO_ARTICULO">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:38:16 UTC</createdTime>
-<comment>SON LOS NIVELES DE FORMACIÓN ACADÉMICA</comment>
+<createdTime>2018-04-23 03:41:16 UTC</createdTime>
+<comment>EL TIPO DE ARTICULO A PRODUCIR</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<ordsAlias>table_32</ordsAlias>
+<ordsAlias>table_50</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="F756D753-074A-33DA-D2DE-95B132C8F90A">
+<Column name="ID" id="6238E7A9-DF5A-AF25-1A15-7EC4C7D402C9">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:38:50 UTC</createdTime>
-<comment>ES LA LLAVE PRIMARIA DE LA TABLA, QUE IDENTIFICA EL NIVEL DE FORMACION DE LA PERSONA</comment>
+<createdTime>2018-04-23 03:41:54 UTC</createdTime>
+<comment>LA LLAVE PRIMARIA DE LA TABLA QUE IDENTIFICA EL TIPO DE ARTICULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,10 +20,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOMBRE" id="8C6A2447-8E89-07AB-512E-E02B4D844D19">
+<Column name="NOMBRE" id="0FF8E13D-756C-9409-D23A-496EEC81F9CB">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 05:13:23 UTC</createdTime>
-<comment>ES EL NOMBRE QUE RECIBE EL NIVEL DE FORMACIÓN, YA SEA FORMACION COMPLEMENTARIA O ACADEMICA</comment>
+<createdTime>2018-04-23 03:42:47 UTC</createdTime>
+<comment>EL TIPO DE ARTICULO, SIENDO: COMPLETO, CORTO, REVISION, CASO CLINICO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,15 +34,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F1FAA7EA-BB54-542F-1279-696A68C9D981" name="NIVEL_FORMACION_PK">
+<ind_PK_UK id="D834D410-ABAE-1A86-1ECF-EA7BD66BCC62" name="TIPO_ARTICULO_PK">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:38:50 UTC</createdTime>
+<createdTime>2018-04-23 03:41:54 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F756D753-074A-33DA-D2DE-95B132C8F90A"/>
+<colUsage columnID="6238E7A9-DF5A-AF25-1A15-7EC4C7D402C9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

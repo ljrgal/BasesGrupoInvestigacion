@@ -12,7 +12,7 @@
 <Column name="ID" id="9FC05949-1963-B672-1892-5E2DC77F8398">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:11:10 UTC</createdTime>
-<comment>IDENTIFICADOR DE LA EDITORIAL</comment>
+<comment>LA LLAVE PRIMARIA DE LA TABLA, QUE IDENTIFICA  LA EDITORIAL</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -23,7 +23,7 @@
 <Column name="NOMBRE" id="6E0C4679-13F0-DAB8-02E8-D21A1A0D4B50">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:11:26 UTC</createdTime>
-<comment>NOMBRE DE LA EDITORIAL</comment>
+<comment>EL NOMBRE DE  LA EDITORIAL</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

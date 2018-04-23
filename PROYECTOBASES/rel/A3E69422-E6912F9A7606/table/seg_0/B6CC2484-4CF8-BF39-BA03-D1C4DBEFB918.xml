@@ -12,7 +12,7 @@
 <Column name="ID" id="640DE3FA-CB3C-54A7-4744-BE682E9E1BB1">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:40:11 UTC</createdTime>
-<comment>ES LA LLAVE PRIMARIA DE LA TABLA</comment>
+<comment>ES LA LLAVE PRIMARIA DE LA TABLA, QUE IDENTIFICA EL TIPO DE DOCUMENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

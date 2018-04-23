@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1C41CE78-CAE2-03B9-1F8B-9FB81F28AF5E" containerWithKeyObject="6AE9122D-817D-9F5C-13B4-987484AED334" localFKIndex="37B4450B-22AE-2B9C-2953-3314892EA94F" name="IDIOMA_INVESTIGADOR_IDIOMA_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:16:51 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<referredTableLongName>IDIOMA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1F741B22-4435-D8C9-EDE0-AA921EEDA4C2</referredTableID>
+<keyObject>39922346-E180-ABE6-5260-2483DC699D41</keyObject>
+<referredKeyID>39922346-E180-ABE6-5260-2483DC699D41</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

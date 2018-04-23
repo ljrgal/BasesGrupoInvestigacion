@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4E34BE8-5AF3-AF60-BF38-C38AA9B63FDF" name="INVESTIGADOR_LINEA">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-04-22 20:00:43 UTC</createdTime>
-<comment>SON LAS LINEAS DE INVESTIGACIÓN EN QUE TRABJAN LOS INVESTIGADORES</comment>
+<comment>SON LAS LINEAS DE INVESTIGACIÓN EN QUE TRABAJAN LOS INVESTIGADORES</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_35</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>

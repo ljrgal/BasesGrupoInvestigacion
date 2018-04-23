@@ -47,6 +47,40 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="FECHA_INICIO" id="C4B8644E-D3F3-C94F-B223-38BE321866D8">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 02:50:16 UTC</createdTime>
+<comment>LA FECHA DE INICIO DEL TRABAJO DIRIGIDO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="CF854EB0-672C-352A-4242-67A964C64F41">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 02:50:28 UTC</createdTime>
+<comment>LA FECHA DE FINALIZACIÓN DEL TRABAJO DIRIGIDO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_PAGINAS" id="2E392438-AF22-413E-4CF3-C12FD9BB50E5">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 02:50:49 UTC</createdTime>
+<comment>EL NÚMERO DE PÁGINAS QUE CONTIENE EL TRABAJO DIRIGIDO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="EE26B918-F47E-57D3-934A-65E812FE7B1E" name="TRABAJO_DIRIGIDO_PK">

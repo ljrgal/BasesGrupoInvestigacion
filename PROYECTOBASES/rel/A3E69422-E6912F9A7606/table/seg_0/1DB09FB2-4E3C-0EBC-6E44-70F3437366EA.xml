@@ -60,20 +60,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ESTADO" id="66CF39A9-B904-1280-2A0F-066FDE87034B">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 04:26:29 UTC</createdTime>
-<comment>ES EL ESTADO EN QUE SE ENCUENTRA LA SOLICITUD(A: ACEPTADA, P: PENDIENTE, R: RECHAZADA)</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<usesDefaultValue>true</usesDefaultValue>
-<defaultValue>P</defaultValue>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="INVESTIGADOR_PERSONAS_CEDULA" id="824B8742-A3B4-FB4E-CB96-D84BA5255D7D">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-04-23 01:40:46 UTC</createdTime>
@@ -89,6 +75,20 @@
 <associations>
 <colAssociation fkAssociation="8259C3F7-7086-0FC4-17D2-2EAA45D49FBD" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
 </associations>
+</Column>
+<Column name="ESTADO" id="66CF39A9-B904-1280-2A0F-066FDE87034B">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 04:26:29 UTC</createdTime>
+<comment>ES EL ESTADO EN QUE SE ENCUENTRA LA SOLICITUD(A: ACEPTADA, P: PENDIENTE, R: RECHAZADA)</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>P</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

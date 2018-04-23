@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AE9122D-817D-9F5C-13B4-987484AED334" name="IDIOMA_PERSONA">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:15:47 UTC</createdTime>
+<comment>LOS IDIOMAS QUE INTERPRETA LA PERSONA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDIOMA_CODIGO" id="5B3C084C-AE99-23CF-323B-BD8AF4A790AC">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:16:51 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C41CE78-CAE2-03B9-1F8B-9FB81F28AF5E" referredColumn="C78A9764-72EA-4DB1-2067-BFD0EACB0BA9"/>
+</associations>
+</Column>
+<Column name="PERSONA_CEDULA" id="AC20D42A-02FF-3344-68AD-6AC44D2BC6E1">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:24:05 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93251A7C-B6BA-278D-5E59-C97C96B04886" referredColumn="B74AE64E-4F05-B550-7FFA-DA3AABC9A8E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E753B193-567E-AABE-E055-76CCFD7BA406" name="IDIOMA_INVESTIGADOR_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:17:28 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B3C084C-AE99-23CF-323B-BD8AF4A790AC"/>
+<colUsage columnID="AC20D42A-02FF-3344-68AD-6AC44D2BC6E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37B4450B-22AE-2B9C-2953-3314892EA94F" name="IDIOMA_INVESTIGADOR_IDIOMA_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:16:51 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B3C084C-AE99-23CF-323B-BD8AF4A790AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20776108-652B-80E1-2F0C-D68DCCBDFA5D" name="IDIOMA_PERSONA_PERSONA_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:24:05 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC20D42A-02FF-3344-68AD-6AC44D2BC6E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

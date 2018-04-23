@@ -12,7 +12,7 @@
 <Column name="ID" id="8E33893C-8BA7-DEDA-7D90-46FCA2E81F99">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:07:56 UTC</createdTime>
-<comment>ES LA LLAVE PRIMARIA DE LA TABLA</comment>
+<comment>ES LA LLAVE PRIMARIA DE LA TABLA, QUE IDENTIFICA EL MEDIO DE DIVULGACION DE LA PRODUCCION</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -23,7 +23,7 @@
 <Column name="NOMBRE" id="F925FF61-21F1-E48C-A591-85F3BE7ABFA6">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:08:07 UTC</createdTime>
-<comment>ES EL NOMBRE DEL MEDIO DE DIVULGACIÓN</comment>
+<comment>ES EL NOMBRE DEL MEDIO DE DIVULGACIÓN, PUEDE SER: PAPEL, DIGITAL, CONFERENCIA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

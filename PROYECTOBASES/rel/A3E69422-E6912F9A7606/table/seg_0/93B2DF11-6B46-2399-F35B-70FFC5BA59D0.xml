@@ -24,7 +24,7 @@
 <Column name="NOMBRE" id="631BA0CA-E522-0C2B-43BC-61AF9EE9C326">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:49:00 UTC</createdTime>
-<comment>NOMBRE DEL EVENTO</comment>
+<comment>EL NOMBRE DEL EVENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,7 +36,7 @@
 <Column name="FECHA_INICIO" id="EF572C9A-DED0-8D0E-EDF8-CA7A8DDABEE3">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:49:00 UTC</createdTime>
-<comment>FECHA EN QUE INICIA EL EVENTO</comment>
+<comment>LA FECHA EN QUE INICIA EL EVENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +47,7 @@
 <Column name="FECHA_FIN" id="9BC2A14C-EB92-4474-C4B7-6AB1C8DF326E">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:49:00 UTC</createdTime>
-<comment>FECHA EN QUE FINALIZA  EL EVENTO</comment>
+<comment>LA FECHA EN QUE FINALIZA  EL EVENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -86,7 +86,7 @@
 <Column name="CIUDAD_ID" id="20A71FCB-5745-0FA0-4233-4F2A2E341BF1">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:55:40 UTC</createdTime>
-<comment>CIUDAD DONDE SE REALIZARA EL EVENTO</comment>
+<comment>LA CIUDAD DONDE SE REALIZARA EL EVENTO</comment>
 <commentInRDBMS>LA CIUDAD EN LA QUE SE REALIZA EL EVENTO</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -98,6 +98,19 @@
 <associations>
 <colAssociation fkAssociation="CB191FFB-C862-C13B-BB11-E5B79E6DC890" referredColumn="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45"/>
 </associations>
+</Column>
+<Column name="LUGAR" id="7A6EDC68-0CC7-1A81-1C10-3795300DD2EC">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 04:16:16 UTC</createdTime>
+<comment>EL LUGAR DONDE SE VA A REALIZAR EL EVENTO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="INVESTIGADOR_PERSONAS_CEDULA" id="985D949A-B86B-8EE9-0A30-C0B9B822B7A4">
 <createdBy>LJRG</createdBy>

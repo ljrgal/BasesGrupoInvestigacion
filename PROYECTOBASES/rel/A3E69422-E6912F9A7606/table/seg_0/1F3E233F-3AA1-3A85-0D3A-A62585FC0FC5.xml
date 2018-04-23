@@ -1,48 +1,47 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FDCB6B4-E96E-238D-7912-0717D2C7E50E" name="NIVEL_FORMACION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F3E233F-3AA1-3A85-0D3A-A62585FC0FC5" name="TIPO_IDIOMA">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:38:16 UTC</createdTime>
-<comment>SON LOS NIVELES DE FORMACIÓN ACADÉMICA</comment>
+<createdTime>2018-04-23 03:35:46 UTC</createdTime>
+<comment>EL TIPO DEL IDIOMA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<ordsAlias>table_32</ordsAlias>
+<ordsAlias>table_49</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="F756D753-074A-33DA-D2DE-95B132C8F90A">
+<Column name="ID" id="281CDE44-4594-E069-F51E-AE23BF310B9B">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:38:50 UTC</createdTime>
-<comment>ES LA LLAVE PRIMARIA DE LA TABLA, QUE IDENTIFICA EL NIVEL DE FORMACION DE LA PERSONA</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="NOMBRE" id="8C6A2447-8E89-07AB-512E-E02B4D844D19">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 05:13:23 UTC</createdTime>
-<comment>ES EL NOMBRE QUE RECIBE EL NIVEL DE FORMACIÓN, YA SEA FORMACION COMPLEMENTARIA O ACADEMICA</comment>
+<createdTime>2018-04-23 03:36:26 UTC</createdTime>
+<comment>LA LLAVE PRIMARIA DE LA TABLA, QUE IDENTIFICA EL TIPO DE IDIOMA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>256</dataTypeSize>
-<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="20EA5BE2-2985-52EE-63F2-82C2CB0E89DC">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:37:26 UTC</createdTime>
+<comment>EL NOMBRE DEL TIPO DEL IDIOMA, ES: ESCRIBE; HABLA; LEE; INTERPRETA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F1FAA7EA-BB54-542F-1279-696A68C9D981" name="NIVEL_FORMACION_PK">
+<ind_PK_UK id="7E6CF9A2-D2D8-8F00-CB76-A49A4C334F69" name="TIPO_IDIOMA_PK">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:38:50 UTC</createdTime>
+<createdTime>2018-04-23 03:36:26 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F756D753-074A-33DA-D2DE-95B132C8F90A"/>
+<colUsage columnID="281CDE44-4594-E069-F51E-AE23BF310B9B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

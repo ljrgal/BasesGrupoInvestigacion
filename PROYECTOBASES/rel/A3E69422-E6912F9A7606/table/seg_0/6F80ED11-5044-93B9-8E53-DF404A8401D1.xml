@@ -12,7 +12,7 @@
 <Column name="ID" id="7D9E8D25-1D06-E1DA-104F-C16242EE9627">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-04-22 19:13:44 UTC</createdTime>
-<comment>ES EL IDENTIFICADOR DEL OBJETIVO</comment>
+<comment>LA LLAVE PRIMARIA DE LA TABLA QUE ES EL IDENTIFICADOR DEL OBJETIVO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

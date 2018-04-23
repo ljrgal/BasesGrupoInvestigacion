@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F741B22-4435-D8C9-EDE0-AA921EEDA4C2" name="IDIOMA">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:13:39 UTC</createdTime>
+<comment>EL NIVEL DEL IDIOMA DE LA PERSONA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="C78A9764-72EA-4DB1-2067-BFD0EACB0BA9">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:15:44 UTC</createdTime>
+<comment>EL CODIGO DEL IDIOMA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="D5D8816C-B010-25B4-4C80-B1288992F904">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:19:24 UTC</createdTime>
+<comment>EL NOMBRE DEL IDIOMA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIVEL_IDIOMA_ID" id="D92FB2B0-2E50-1AAB-6E88-D637879055B5">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:33:00 UTC</createdTime>
+<comment>EL NIVEL DEL IDIOMA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C498BEFF-F726-519C-01C1-F39B95E027E2" referredColumn="1DF0A8C0-AC72-93CD-AC5F-84942B92018B"/>
+</associations>
+</Column>
+<Column name="TIPO_IDIOMA_ID" id="17C9D560-8C43-8560-5551-7B01494A677F">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:37:30 UTC</createdTime>
+<comment>EL TIPO DEL IDIOMA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65502A3F-DFAF-E977-50D2-451F87844CD7" referredColumn="281CDE44-4594-E069-F51E-AE23BF310B9B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39922346-E180-ABE6-5260-2483DC699D41" name="IDIOMA_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:15:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C78A9764-72EA-4DB1-2067-BFD0EACB0BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="124C22A4-6C40-4160-F567-7F21A2005644" name="IDIOMA_NIVEL_IDIOMA_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:33:00 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D92FB2B0-2E50-1AAB-6E88-D637879055B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD29CA03-3695-7341-71B6-0B343F832A2B" name="IDIOMA_TIPO_IDIOMA_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:37:30 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17C9D560-8C43-8560-5551-7B01494A677F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

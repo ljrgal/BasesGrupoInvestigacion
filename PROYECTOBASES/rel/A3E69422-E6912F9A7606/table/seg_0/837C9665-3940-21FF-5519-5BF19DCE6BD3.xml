@@ -1,18 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FDCB6B4-E96E-238D-7912-0717D2C7E50E" name="NIVEL_FORMACION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="837C9665-3940-21FF-5519-5BF19DCE6BD3" name="TIPO_PROYECTO">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:38:16 UTC</createdTime>
-<comment>SON LOS NIVELES DE FORMACIÓN ACADÉMICA</comment>
+<createdTime>2018-04-23 03:28:33 UTC</createdTime>
+<comment>EL TIPO DE PROYECTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<ordsAlias>table_32</ordsAlias>
+<ordsAlias>table_43</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="F756D753-074A-33DA-D2DE-95B132C8F90A">
+<Column name="ID" id="AB3718C5-1D3E-B956-DF4B-A31FEA9A7014">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:38:50 UTC</createdTime>
-<comment>ES LA LLAVE PRIMARIA DE LA TABLA, QUE IDENTIFICA EL NIVEL DE FORMACION DE LA PERSONA</comment>
+<createdTime>2018-04-23 03:29:05 UTC</createdTime>
+<comment>LA LLAVE PRIMARIA DE LA TABLA, QUE IDENTIFICA EL TIPO DE PROYECTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,10 +20,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOMBRE" id="8C6A2447-8E89-07AB-512E-E02B4D844D19">
+<Column name="NOMBRE" id="738153DC-554E-75ED-5B7B-169FA900916D">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 05:13:23 UTC</createdTime>
-<comment>ES EL NOMBRE QUE RECIBE EL NIVEL DE FORMACIÓN, YA SEA FORMACION COMPLEMENTARIA O ACADEMICA</comment>
+<createdTime>2018-04-23 03:30:38 UTC</createdTime>
+<comment>EL TIPO DE PROYECTO, PUEDE SER: INVESTIGACION Y DESARROLLO; EXTENSION Y RESPONSABILIDAD SOCIAL; INVESTIGACION, DESARROLLO E INNOVACION; INVESTIGACION-CREACION</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,15 +34,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F1FAA7EA-BB54-542F-1279-696A68C9D981" name="NIVEL_FORMACION_PK">
+<ind_PK_UK id="095928C3-D94E-4525-3F6A-8D4FCA5EBB4D" name="TIPO_PROYECTO_PK">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:38:50 UTC</createdTime>
+<createdTime>2018-04-23 03:29:05 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F756D753-074A-33DA-D2DE-95B132C8F90A"/>
+<colUsage columnID="AB3718C5-1D3E-B956-DF4B-A31FEA9A7014"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

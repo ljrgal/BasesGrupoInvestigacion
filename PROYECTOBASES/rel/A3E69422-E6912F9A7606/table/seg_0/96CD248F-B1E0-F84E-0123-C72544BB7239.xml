@@ -1,18 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1903C355-851A-F1B6-A5EB-9D44407BACCE" name="CURSO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96CD248F-B1E0-F84E-0123-C72544BB7239" name="RECONOCIMIENTO">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:42:10 UTC</createdTime>
-<comment>SON LOS CURSOS DE CORTA DURACIÓN TOMADOS POR LAS PERSONAS</comment>
+<createdTime>2018-04-23 02:53:39 UTC</createdTime>
+<comment>SON LOS RECONOCIMIENTOS QUE EL INVESTIGADOR HA REGISTRADO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<ordsAlias>table_33</ordsAlias>
+<ordsAlias>table_36</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO" id="403F8977-0091-22B1-5BDF-E9E5E838A558">
+<Column name="CODIGO" id="665551A2-0559-5B43-249B-ED5A52647267">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:43:12 UTC</createdTime>
-<comment>ES EL CODIGO QUE PERMITE IDENTIFICAR EL CURSO</comment>
+<createdTime>2018-04-23 02:54:41 UTC</createdTime>
+<comment>EL CODIGO DEL RECONOCIMIENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -21,10 +21,10 @@
 <ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOMBRE" id="A3DF2254-D4C0-B215-21AF-1D7A8CAD98AA">
+<Column name="NOMBRE" id="4C951627-4636-DAE7-FD70-CE854997A106">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:43:12 UTC</createdTime>
-<comment>ES EL NOMBRE DEL CURSO</comment>
+<createdTime>2018-04-23 02:55:06 UTC</createdTime>
+<comment>EL NOMBRE DEL RECONOCIMIENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,10 +33,49 @@
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PERSONA_CEDULA" id="FE91D90D-2098-EFA1-244D-13F39B63591D">
+<Column name="FECHA_OBTENCION" id="B4434F81-E4A7-DFCD-1745-159BD633E4B8">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 03:24:52 UTC</createdTime>
-<comment>ES LA CÉDULA DE LA PERSONA QUE PRESENTO EL CURSO</comment>
+<createdTime>2018-04-23 02:55:43 UTC</createdTime>
+<comment>LA FECHA DE OBTENCION DEL RECONOCIMIENTO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMBITO" id="F49ABB19-C713-6BE4-9776-89DFC2A6A722">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:00:22 UTC</createdTime>
+<comment>EL AMBITO DEL RECONOCIMIENTO: I CUANDO ES INTERNACION Y N CUANDO ES NACIONAL</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTITUCION_NIT" id="E9C5DF30-4108-1290-1C8D-29943378F158">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:02:09 UTC</createdTime>
+<comment>LA INSTITUCIÓN EN LA QUE SE DIO EL RECONOCIMIENTO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9B6AD0C-73C4-E30E-A6D9-074107CE48DA" referredColumn="ACDBAB87-B61A-1633-C156-660CC5B5C703"/>
+</associations>
+</Column>
+<Column name="INVESTIGADOR_PERSONAS_CEDULA" id="028D1FF8-5B75-23E5-F38A-98E3B610E079">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 03:10:21 UTC</createdTime>
+<comment>EL INVESTIGADOR AL QUE PERTENECE EL RECONOCIMIENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,78 +85,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7AAACB92-74D8-F0C8-F0CA-F5759FE437CF" referredColumn="B74AE64E-4F05-B550-7FFA-DA3AABC9A8E9"/>
-</associations>
-</Column>
-<Column name="FECHA" id="930AA4BF-2C4C-F8C2-8EC0-B1C9DA230487">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 04:48:10 UTC</createdTime>
-<comment>ES LA FECHA DE CERTIFICACIÓN DEL CURSO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DURACION" id="962B7374-0330-8918-40F1-1DA183E3FED5">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 04:48:49 UTC</createdTime>
-<comment>DURACION EN SEMANAS DEL CURSO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="PAIS_ID" id="D418C8B7-1EF4-AA15-B92C-17F2B2682A5F">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 04:49:37 UTC</createdTime>
-<comment>EL PAIS EN DONDE SE HIZO EL CURSO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D7D81A46-99C9-D731-0DA4-26D1FE5638E6" referredColumn="43416498-F4EC-E2C3-647F-FAC73E909346"/>
+<colAssociation fkAssociation="CFC59C03-C7CA-686D-5619-3B5D46A4589C" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="43CE0B97-B795-2B3D-90F5-4C59AE710AF2" name="CURSO_PK">
+<ind_PK_UK id="87C17646-8F94-80D9-30AF-73CED87CC629" name="RECONOCIMIENTO_PK">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-19 00:43:12 UTC</createdTime>
+<createdTime>2018-04-23 02:55:06 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="403F8977-0091-22B1-5BDF-E9E5E838A558"/>
+<colUsage columnID="665551A2-0559-5B43-249B-ED5A52647267"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EC5178B6-A4FD-3118-38AE-A1165DF06D78" name="CURSO_PERSONA_FK">
+<ind_PK_UK id="FDF97BFF-9ECD-ED2B-2A49-790A04CF177A" name="RECONOCIMIENTO_INSTITUCION_FK">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 03:24:52 UTC</createdTime>
+<createdTime>2018-04-23 03:02:09 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FE91D90D-2098-EFA1-244D-13F39B63591D"/>
+<colUsage columnID="E9C5DF30-4108-1290-1C8D-29943378F158"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E8DEF821-BD76-D24B-5338-399211C43FB2" name="CURSO_CORTA_DURACION_PAIS_FK">
+<ind_PK_UK id="A755BF27-DD53-361A-57FA-C0845920E7EB" name="RECONOCIMIENTO_INVESTIGADOR_FK">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 04:49:37 UTC</createdTime>
+<createdTime>2018-04-23 03:10:21 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D418C8B7-1EF4-AA15-B92C-17F2B2682A5F"/>
+<colUsage columnID="028D1FF8-5B75-23E5-F38A-98E3B610E079"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

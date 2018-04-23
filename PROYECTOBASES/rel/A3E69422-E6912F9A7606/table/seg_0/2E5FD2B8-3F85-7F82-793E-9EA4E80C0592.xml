@@ -12,7 +12,7 @@
 <Column name="ID" id="4A909014-CB1B-5DB4-BE71-0DBFB1DD4850">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:29:33 UTC</createdTime>
-<comment>ES LA LLAVE PRIMARIA DE LA TABLA</comment>
+<comment>ES LA LLAVE PRIMARIA DE LA TABLA, QUE IDENTIFICA </comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -23,7 +23,7 @@
 <Column name="NOMBRE" id="20392894-6315-61B0-3FB7-1E58E74152B4">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 15:55:47 UTC</createdTime>
-<comment>ES EL NOMBRE DEL TIPO DE ORIENTACIÓN</comment>
+<comment>ES EL NOMBRE DEL TIPO DE ORIENTACIÓN, YA SEA PRINCIPAL O DE AYUDANTE</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
