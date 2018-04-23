@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCDE4221-CBD9-F9B0-948E-B27CCF8DA4A9" name="CAPITULO">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 02:06:07 UTC</createdTime>
+<comment>SON LOS CAPÍTULOS QUE ESCRIBEN LOS INVESTIGADORES</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_19</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
@@ -29,7 +30,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -91,7 +92,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

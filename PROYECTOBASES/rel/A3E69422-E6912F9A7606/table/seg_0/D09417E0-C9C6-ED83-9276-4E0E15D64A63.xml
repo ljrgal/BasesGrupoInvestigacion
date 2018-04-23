@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D09417E0-C9C6-ED83-9276-4E0E15D64A63" name="TIPO_FORMACION">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-26 01:11:29 UTC</createdTime>
+<comment>SON LOS TIPOS EN QUE SE DIVIDEN LOS  ESTUDIO QUE SON FORMALES</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_7</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>

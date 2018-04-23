@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93B2DF11-6B46-2399-F35B-70FFC5BA59D0" name="EVENTOS">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-11 16:40:54 UTC</createdTime>
+<comment>SON LOS EVENTOS CIENTÍFICOS  A LOS QUE ASISTEN  LOS INVESTIGADORES</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_26</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>

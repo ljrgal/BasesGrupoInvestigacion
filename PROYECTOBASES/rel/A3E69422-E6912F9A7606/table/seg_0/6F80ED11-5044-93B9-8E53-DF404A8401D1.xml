@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F80ED11-5044-93B9-8E53-DF404A8401D1" name="OBJETIVOS">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-04-22 19:13:22 UTC</createdTime>
+<comment>SON LOS OBJETIVOS DEL GRUPO DE INVESTIGACIÓN</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_34</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>

@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F786193A-0B12-C91C-EB16-E1FBCF80B080" name="SOFTWARE">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 18:37:09 UTC</createdTime>
+<comment>SON LOS PRODUCTOS SOFTWARE QUE CREAN LOS INVESTIGADORES</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_18</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>

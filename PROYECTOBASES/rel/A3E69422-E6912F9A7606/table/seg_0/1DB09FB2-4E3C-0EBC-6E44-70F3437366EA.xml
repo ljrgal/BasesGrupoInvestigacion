@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DB09FB2-4E3C-0EBC-6E44-70F3437366EA" name="SOLICITUD">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:59:18 UTC</createdTime>
+<comment>SON LAS SOLICITUDES DE LOS INVESTIGADORES PARA UNIRSE A UN GRUPO DE INVESTIGACIÓN</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_28</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>

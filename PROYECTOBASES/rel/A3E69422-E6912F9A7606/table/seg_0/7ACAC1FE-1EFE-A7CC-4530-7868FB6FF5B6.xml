@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7ACAC1FE-1EFE-A7CC-4530-7868FB6FF5B6" name="INFORME">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 18:37:21 UTC</createdTime>
+<comment>SON LOS INFORMES  QUE ESCRIBEN LOS INVESTIGADORES</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_19</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>

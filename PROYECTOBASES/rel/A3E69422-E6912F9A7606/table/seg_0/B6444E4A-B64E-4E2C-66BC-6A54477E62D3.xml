@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6444E4A-B64E-4E2C-66BC-6A54477E62D3" name="FORMACION">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-26 01:11:33 UTC</createdTime>
+<comment>SON LAS FORMACIONES FORMALES QUE REGISTRAN LAS  PERSONAS</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_8</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>

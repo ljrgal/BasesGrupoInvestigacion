@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6CC2484-4CF8-BF39-BA03-D1C4DBEFB918" name="TIPO_DOCUMENTO">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 02:05:42 UTC</createdTime>
+<comment>SON LOS TIPOS EN QUE SE SE DIVIDEN LOS DOCUMENTOS QUE ESCRIBEN LOS INVESTIGADORES</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_18</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>

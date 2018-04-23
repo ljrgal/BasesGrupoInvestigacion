@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="076B278E-0BF5-54E6-5AB2-ED6C4E0B8148" name="TRABAJO_INVESTIGADOR">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:28:53 UTC</createdTime>
+<comment>SON LOS REGISTROS DE CADA TRABAJO CON CADA UNO DE LOS INVESTIGADORES QUE LO DIRIGEN Y QUE TIPO DE ORIENTACIÓN BRINDAN</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_24</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>

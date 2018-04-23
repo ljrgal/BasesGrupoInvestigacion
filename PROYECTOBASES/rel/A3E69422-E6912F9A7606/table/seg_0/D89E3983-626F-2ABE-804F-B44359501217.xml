@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D89E3983-626F-2ABE-804F-B44359501217" name="SECTOR_PROYECTO">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:50:46 UTC</createdTime>
+<comment>SON LOS SECTORES A LOS CUALES APLICA LOS PROYECTOS DIRIGIDOS</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_28</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>

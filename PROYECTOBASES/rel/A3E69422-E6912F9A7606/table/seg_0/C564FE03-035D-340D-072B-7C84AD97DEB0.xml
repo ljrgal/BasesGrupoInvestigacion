@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C564FE03-035D-340D-072B-7C84AD97DEB0" name="TIPO_EVENTO">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:49:48 UTC</createdTime>
+<comment>SON LOS TIPOS EN QUE SE DIVIDEN LOS EVENTOS CIENTÍFICOS</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_26</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
