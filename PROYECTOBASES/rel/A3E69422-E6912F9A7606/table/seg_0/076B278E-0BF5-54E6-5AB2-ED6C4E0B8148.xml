@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="TRABAJOS DE GRADO_CODIGO" id="6206492B-258C-7F1D-D393-2A509570FE45">
+<Column name="TRABAJO_DIRIGIDO_CODIGO" id="6206492B-258C-7F1D-D393-2A509570FE45">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:29:53 UTC</createdTime>
 <comment>ES EL CÓDIGO QUE PERMITE IDENTIFICAR EL TRABAJO</comment>

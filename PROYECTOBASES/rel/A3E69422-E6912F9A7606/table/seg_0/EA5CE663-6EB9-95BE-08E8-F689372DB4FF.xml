@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA5CE663-6EB9-95BE-08E8-F689372DB4FF" name="TRABAJOS_DIRIGIDOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA5CE663-6EB9-95BE-08E8-F689372DB4FF" name="TRABAJO_DIRIGIDO">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-11 16:45:54 UTC</createdTime>
 <comment>SON LOS TRABAJOS DIRIGIDOS POR LOS INVESTIGADORES</comment>
@@ -33,9 +33,23 @@
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ESTADO" id="00F5DEC1-25C2-ED7D-0315-114AAB054A3E">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-23 00:33:19 UTC</createdTime>
+<comment>ES EL ESTADO EN QUE SE ENCUENTRA EL TRABAJO DIRIGIDO (A: ACTIVO EN LA PLATAFORMA, O: ACEPTADO EN EL GRUPO,  P: PENDIENTE PARA AGREGAR AL GRUPO, R: RECHAZADO DE AGREGAR EN EL GRUPO, I: INACTIVO EN LA PLATAFORMA)</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="EE26B918-F47E-57D3-934A-65E812FE7B1E" name="TRABAJOS DE GRADO_PK">
+<ind_PK_UK id="EE26B918-F47E-57D3-934A-65E812FE7B1E" name="TRABAJO_DIRIGIDO_PK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-17 20:07:34 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

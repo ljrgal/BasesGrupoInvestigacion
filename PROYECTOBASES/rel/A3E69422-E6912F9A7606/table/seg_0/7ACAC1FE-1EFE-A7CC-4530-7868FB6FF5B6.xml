@@ -48,6 +48,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ESTADO" id="0AA22DDF-4E8A-8CA7-11BD-7F1C2EB47965">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-23 00:28:00 UTC</createdTime>
+<comment>ES EL ESTADO EN QUE SE ENCUENTRA EL INFORME (A: ACTIVO EN LA PLATAFORMA, O: ACEPTADO EN EL GRUPO,  P: PENDIENTE PARA AGREGAR AL GRUPO, R: RECHAZADO DE AGREGAR EN EL GRUPO, I: INACTIVO EN LA PLATAFORMA)</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7FFF6EEB-E4B5-E402-A61C-C0572007AADF" name="INFORME_PK">

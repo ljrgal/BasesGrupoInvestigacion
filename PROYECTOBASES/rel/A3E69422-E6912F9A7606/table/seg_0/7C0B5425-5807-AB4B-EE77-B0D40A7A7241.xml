@@ -33,6 +33,20 @@
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ESTADO" id="4F0515CD-EECC-E0E1-ABAC-61FE97C10D17">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-23 00:30:12 UTC</createdTime>
+<comment>ES EL ESTADO EN QUE SE ENCUENTRA EL LINEA DE INVESTIGACIÓN (A: ACTIVO EN LA PLATAFORMA, O: ACEPTADO EN EL GRUPO,  P: PENDIENTE PARA AGREGAR AL GRUPO, R: RECHAZADO DE AGREGAR EN EL GRUPO, I: INACTIVO EN LA PLATAFORMA)</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="07F05E46-3F14-1EE6-8EC9-95AA61E92A84" name="LINEA_INVESTIGACION_PK">

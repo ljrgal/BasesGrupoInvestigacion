@@ -116,6 +116,20 @@
 <colAssociation fkAssociation="8B133D4B-1817-ED94-D90C-3A4C51528512" referredColumn="43416498-F4EC-E2C3-647F-FAC73E909346"/>
 </associations>
 </Column>
+<Column name="ESTADO" id="4EE601F5-E9C5-5DD1-AA77-4EAC7376CF50">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-23 00:29:22 UTC</createdTime>
+<comment>ES EL ESTADO EN QUE SE ENCUENTRA EL LIBRO (A: ACTIVO EN LA PLATAFORMA, O: ACEPTADO EN EL GRUPO,  P: PENDIENTE PARA AGREGAR AL GRUPO, R: RECHAZADO DE AGREGAR EN EL GRUPO, I: INACTIVO EN LA PLATAFORMA)</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="70A16DE2-7B2A-20A8-2669-9F7486765EE4" name="LIBROS_PK">

@@ -113,6 +113,20 @@
 <colAssociation fkAssociation="525BEFA0-4FA2-3AC2-F941-8687354F0195" referredColumn="8E33893C-8BA7-DEDA-7D90-46FCA2E81F99"/>
 </associations>
 </Column>
+<Column name="ESTADO" id="6B8D0A21-172E-AB9C-02B7-BF52B6CC97B3">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-23 00:16:26 UTC</createdTime>
+<comment>ES EL ESTADO EN QUE SE ENCUENTRA EL ARTÍCULO (A: ACTIVO EN LA PLATAFORMA, O: ACEPTADO EN EL GRUPO,  P: PENDIENTE PARA AGREGAR AL GRUPO, R: RECHAZADO DE AGREGAR EN EL GRUPO, I: INACTIVO EN LA PLATAFORMA)</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="29D2A4F8-92CA-B5E2-6339-B5DDCF5023B9" name="ARTICULO_PK">

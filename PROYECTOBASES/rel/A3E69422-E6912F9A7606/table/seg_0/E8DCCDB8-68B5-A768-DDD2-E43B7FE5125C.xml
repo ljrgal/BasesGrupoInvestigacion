@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8DCCDB8-68B5-A768-DDD2-E43B7FE5125C" name="PROYECTO">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 01:46:18 UTC</createdTime>
-<comment>SON LOS PROYECTOS QUE DIRIGEN LOS INVESTIGADORES</comment>
+<comment>SON LOS PROYECTOS EN QUE TRABAJAN  LOS INVESTIGADORES</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_14</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
@@ -96,6 +96,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>4000</dataTypeSize>
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="8F46E508-EA7C-9BA1-BFFF-A53AF5A4689E">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-23 00:31:04 UTC</createdTime>
+<comment>ES EL ESTADO EN QUE SE ENCUENTRA EL PROYECTO (A: ACTIVO EN LA PLATAFORMA, O: ACEPTADO EN EL GRUPO,  P: PENDIENTE PARA AGREGAR AL GRUPO, R: RECHAZADO DE AGREGAR EN EL GRUPO, I: INACTIVO EN LA PLATAFORMA)</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

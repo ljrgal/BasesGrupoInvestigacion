@@ -79,12 +79,14 @@
 <Column name="ESTADO" id="66CF39A9-B904-1280-2A0F-066FDE87034B">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 04:26:29 UTC</createdTime>
-<comment>ES EL ESTADO EN QUE SE ENCUENTRA LA SOLICITUD(A: ACTIVO, P: PENDIENTE, R: RECHAZADO, I: INACTIVO)</comment>
+<comment>ES EL ESTADO EN QUE SE ENCUENTRA LA SOLICITUD(A: ACEPTADA, P: PENDIENTE, R: RECHAZADA)</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>P</defaultValue>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

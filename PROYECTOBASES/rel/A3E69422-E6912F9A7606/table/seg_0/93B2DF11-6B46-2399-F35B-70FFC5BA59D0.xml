@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93B2DF11-6B46-2399-F35B-70FFC5BA59D0" name="EVENTOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93B2DF11-6B46-2399-F35B-70FFC5BA59D0" name="EVENTO">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-11 16:40:54 UTC</createdTime>
 <comment>SON LOS EVENTOS CIENTÍFICOS  A LOS QUE ASISTEN  LOS INVESTIGADORES</comment>
@@ -115,9 +115,23 @@
 <colAssociation fkAssociation="150D8B29-4D01-786C-0123-A3FC08E22363" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
 </associations>
 </Column>
+<Column name="ESTADO" id="C616ACC9-C1F6-41AA-B5C3-DEF546BF1C19">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-23 00:27:16 UTC</createdTime>
+<comment>ES EL ESTADO EN QUE SE ENCUENTRA EL EVENTO (A: ACTIVO EN LA PLATAFORMA, O: ACEPTADO EN EL GRUPO,  P: PENDIENTE PARA AGREGAR AL GRUPO, R: RECHAZADO DE AGREGAR EN EL GRUPO, I: INACTIVO EN LA PLATAFORMA)</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A33B823A-1451-6987-B9DC-1F3A709383EE" name="EVENTOS_PK">
+<ind_PK_UK id="A33B823A-1451-6987-B9DC-1F3A709383EE" name="EVENTO_PK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:49:00 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
