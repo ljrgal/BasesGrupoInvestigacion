@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="225A4E47-BE6A-FBD9-D114-67A4EA555DD5" name="TIPO_DOCUMENTO_IDENTIDAD">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="225A4E47-BE6A-FBD9-D114-67A4EA555DD5" name="DOCUMENTO_IDENTIDAD">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:21:54 UTC</createdTime>
 <comment>SON LOS TIPOS DE DOCUMENTOS DE IDENTIDAD QUE IDENTIFICAN A LA PERSONA</comment>
@@ -34,7 +34,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B812D031-36A7-684F-D2A7-E34BFF69E422" name="TIPO_DOCUMENTO_IDENTIDAD_PK">
+<ind_PK_UK id="B812D031-36A7-684F-D2A7-E34BFF69E422" name="DOCUMENTO_IDENTIDAD_PK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:22:49 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
