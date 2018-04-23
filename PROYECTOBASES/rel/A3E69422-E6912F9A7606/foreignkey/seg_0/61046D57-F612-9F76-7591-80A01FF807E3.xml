@@ -8,7 +8,7 @@
 <referredTableID>C130F49F-5C96-E2AB-67E5-543481A987AD</referredTableID>
 <keyObject>694BF376-6DE6-4DBC-7358-61F926F5A468</keyObject>
 <referredKeyID>694BF376-6DE6-4DBC-7358-61F926F5A468</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>CODIGO</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

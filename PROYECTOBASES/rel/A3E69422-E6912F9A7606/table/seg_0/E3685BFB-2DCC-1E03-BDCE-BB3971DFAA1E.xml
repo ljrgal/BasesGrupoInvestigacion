@@ -30,6 +30,7 @@
 <createdTime>2018-03-29 01:43:43 UTC</createdTime>
 <comment>CÓDIGO DEL GRUPO AL CUAL PERTENECE EL INVESTIGADOR</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
