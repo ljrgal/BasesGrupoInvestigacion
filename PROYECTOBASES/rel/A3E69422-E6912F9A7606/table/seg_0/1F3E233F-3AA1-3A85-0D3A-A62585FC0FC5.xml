@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F3E233F-3AA1-3A85-0D3A-A62585FC0FC5" name="TIPO_IDIOMA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F3E233F-3AA1-3A85-0D3A-A62585FC0FC5" name="TIPO_DOMINIO_IDIOMA">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 03:35:46 UTC</createdTime>
-<comment>EL TIPO DEL IDIOMA</comment>
+<comment>SON LOS DISTINTOS MANEJOS DEL IDIOMA, COMO HABLARLO, LEERLO, ESCRIBIRLO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <ordsAlias>table_49</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
@@ -16,7 +16,7 @@
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -28,7 +28,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

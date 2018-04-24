@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TIPO_DOMINIO_IDIOMA" directorySegmentName="seg_0" id="1F3E233F-3AA1-3A85-0D3A-A62585FC0FC5">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE" id="20EA5BE2-2985-52EE-63F2-82C2CB0E89DC">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="281CDE44-4594-E069-F51E-AE23BF310B9B">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TIPO_IDIOMA_PK" id="7E6CF9A2-D2D8-8F00-CB76-A49A4C334F69">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

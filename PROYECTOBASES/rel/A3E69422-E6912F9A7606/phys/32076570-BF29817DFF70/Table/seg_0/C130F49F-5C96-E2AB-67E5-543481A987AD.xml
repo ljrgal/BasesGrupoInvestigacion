@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="GRUPO" directorySegmentName="seg_0" id="C130F49F-5C96-E2AB-67E5-543481A987AD">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MISION" id="05AE50CB-2FFB-61E8-EF66-C378014F354A">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAGINA_WEB" id="53770A49-AEA0-1B27-7C78-520374DE61F4">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="80C584BA-3EFE-B7FC-CDFC-CA16D1CA7C41">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VISION" id="83C2204E-5B2D-1EFF-9398-BCF783C0820C">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO" id="B7408399-33AB-9EB4-8376-6A0D29E08798">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO" id="C5571160-E1B1-1B86-BFF2-3F95D266CBDD">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECTOR" id="DB48BEDA-9D2B-6C73-0C23-9A53F34846DB">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="GRUPO_INVESTIGADOR_FK" id="012AD798-9355-DFB0-953A-229749BD8936">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GRUPOS_PK" id="694BF376-6DE6-4DBC-7358-61F926F5A468">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EXPERIENCIA_PROFESIONAL" directorySegmentName="seg_0" id="8B41E93D-BF3C-C8C5-038A-E2F4FD209D11">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="INFORMACION_ADICIONAL" id="1982FD70-F3E4-2A55-5C13-A61B5916D609">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO" id="2037E810-ABA1-B9C5-03F5-24D05DB05841">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_FINAL" id="23BB9500-C873-B487-A112-C7991BE36B43">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_INICIO" id="733106DC-83AB-476D-7672-27C47E8D7CF4">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INVESTIGADORES_PERSONAS_CEDULA" id="AA1D9749-44BA-4B26-05FB-30CF1F651BBB">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EXPE_PROF_INVESTIGADOR_FK" id="3CF0036E-E30E-4D5F-96F6-7E94DCEC5179">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EXPERIENCIA_PROFESIONAL_PK" id="2076F35D-BC58-4370-E37E-BA67A3AC5318">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

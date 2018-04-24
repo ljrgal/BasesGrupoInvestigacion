@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TRABAJO_DIRIGIDO" directorySegmentName="seg_0" id="EA5CE663-6EB9-95BE-08E8-F689372DB4FF">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ESTADO" id="00F5DEC1-25C2-ED7D-0315-114AAB054A3E">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<defaultValue>A</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="NUMERO_PAGINAS" id="2E392438-AF22-413E-4CF3-C12FD9BB50E5">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO" id="66900E4C-475E-7AD3-72F1-F3F711F4077B">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="98353BC1-68EA-1663-13C0-086EBDF9667C">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_INICIO" id="C4B8644E-D3F3-C94F-B223-38BE321866D8">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_FIN" id="CF854EB0-672C-352A-4242-67A964C64F41">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRABAJO_DIRIGIDO_PK" id="EE26B918-F47E-57D3-934A-65E812FE7B1E">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

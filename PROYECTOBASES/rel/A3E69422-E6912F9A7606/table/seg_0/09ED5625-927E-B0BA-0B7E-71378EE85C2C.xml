@@ -25,11 +25,11 @@
 <createdTime>2018-04-23 03:26:42 UTC</createdTime>
 <comment>EL NIVEL DEL IDIOMA, PUEDE SER: BUENO, ACEPTABLE, MALO, DEFICIENTE</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TRABAJO_INVESTIGADOR" directorySegmentName="seg_0" id="076B278E-0BF5-54E6-5AB2-ED6C4E0B8148">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TIPO_ORIENTACION_ID" id="58FB7A23-DECE-DEA7-AF98-99F47B953D88">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INVESTIGADOR_PERSONAS_CEDULA" id="5A506BA2-BAED-DB21-1786-DBEA4969123F">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRABAJO_DIRIGIDO_CODIGO" id="6206492B-258C-7F1D-D393-2A509570FE45">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TRAB_INVES_INVESTIGADOR_FK" id="0C15E507-1ACA-72B0-7C9A-2B7B60E7F0CD">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TRAB_INVES_ORIENTACION_FK" id="1297BDCB-6645-5B59-1FA3-14CD340A94BF">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TRAB_INVES_TRABAJO_FK" id="E911B684-7D48-FBC7-4246-8ADBD12DD369">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRABAJO_INVESTIGADOR_PK" id="1B24C1EB-8D96-0F3F-3DE7-F5FC4F9A21E2">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

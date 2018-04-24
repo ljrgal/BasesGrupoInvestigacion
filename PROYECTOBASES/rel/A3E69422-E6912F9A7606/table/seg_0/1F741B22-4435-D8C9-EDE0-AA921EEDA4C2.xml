@@ -48,14 +48,14 @@
 <colAssociation fkAssociation="C498BEFF-F726-519C-01C1-F39B95E027E2" referredColumn="1DF0A8C0-AC72-93CD-AC5F-84942B92018B"/>
 </associations>
 </Column>
-<Column name="TIPO_IDIOMA_ID" id="17C9D560-8C43-8560-5551-7B01494A677F">
+<Column name="TIPO_DOMINIO_IDIOMA_ID" id="17C9D560-8C43-8560-5551-7B01494A677F">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 03:37:30 UTC</createdTime>
 <comment>EL TIPO DEL IDIOMA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -86,7 +86,7 @@
 <colUsage columnID="D92FB2B0-2E50-1AAB-6E88-D637879055B5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DD29CA03-3695-7341-71B6-0B343F832A2B" name="IDIOMA_TIPO_IDIOMA_FK">
+<ind_PK_UK id="DD29CA03-3695-7341-71B6-0B343F832A2B" name="IDIOMA_DOMINIO_IDIOMA_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 03:37:30 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
