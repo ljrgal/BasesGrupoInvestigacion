@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12E32933-2573-F087-BC7A-218B7C8BE5CE" name="RESULTADOS">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:03:14 UTC</createdTime>
+<comment>SON LOS RESULTADOS DE LAS CONVOCATORIAS DE CADA GRUPO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_44</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GRUPO_CODIGO" id="4DE6A29C-76DD-F31C-3062-E482F8679C4B">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:13:20 UTC</createdTime>
+<comment>CÓDIGO DEL GRUPO AL CUAL PERTENECE EL RESULTADO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C71BD965-9366-4F10-5477-21E3D5997A69" referredColumn="C5571160-E1B1-1B86-BFF2-3F95D266CBDD"/>
+</associations>
+</Column>
+<Column name="CONVOCATORIA_ID" id="038F4807-BBF5-C510-6633-A0445F1CF3D1">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:13:25 UTC</createdTime>
+<comment>ES EL ID DE LA CONVOCATORIA QUE APLICO EL GRUPO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAC1A466-BC63-A3DC-6722-017A8961ECA3" referredColumn="F907B143-04F6-1E22-D02F-CC55ECCF277E"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="291D3741-2CF3-78AF-0C75-FC787B28E135">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:04:57 UTC</createdTime>
+<comment>ES EL ESTADO DE LA CONVOCATORIA PARA EL GRUPO EN PARTICULAR(A: APROBADO, R: REACHAZADO)</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_INSCRIPCION" id="EBEBE97A-9736-52A5-925B-C3642D495D41">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:12:34 UTC</createdTime>
+<comment>ES EL NÚMERO DE INSCRIPCIÓN ASIGANADA AL GRUPO PARA LA CONVOCATORIA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CA23174-D931-9B48-7AB7-EF314A20D8F8" name="RESULTADOS_PK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:14:39 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="038F4807-BBF5-C510-6633-A0445F1CF3D1"/>
+<colUsage columnID="4DE6A29C-76DD-F31C-3062-E482F8679C4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA16C19F-6342-CF01-2178-DD936B1ACCE8" name="RESULTADOS_GRUPO_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:13:20 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DE6A29C-76DD-F31C-3062-E482F8679C4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="225A7695-89D4-AAB8-8952-66B710FE6FE7" name="RESULTADOS_CONVOCATORIA_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:13:25 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="038F4807-BBF5-C510-6633-A0445F1CF3D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

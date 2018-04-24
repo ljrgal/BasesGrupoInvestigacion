@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88B13DC5-EB83-18FF-7CB6-6686A60E4D26" containerWithKeyObject="20F3BC68-940F-9AEB-D2D9-6ABCD9ADDF17" localFKIndex="55B7EA3A-6921-CE9F-BFDF-68D794EA2BC9" name="REQUISITOS_CONVOCATORIA_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:15:11 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<referredTableLongName>CONVOCATORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>93A5332B-7629-82C0-A074-E9F66D822FBF</referredTableID>
+<keyObject>5D174212-60A6-DE1A-3CE9-812C86C1B681</keyObject>
+<referredKeyID>5D174212-60A6-DE1A-3CE9-812C86C1B681</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

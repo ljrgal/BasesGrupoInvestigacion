@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93A5332B-7629-82C0-A074-E9F66D822FBF" name="CONVOCATORIA">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 04:58:18 UTC</createdTime>
+<comment>SON LAS CONVOCATORIAS QUE APLICAN LOS GRUPOS</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_42</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F907B143-04F6-1E22-D02F-CC55ECCF277E">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 04:59:15 UTC</createdTime>
+<comment>ES LA LLAVE PRIMARIA DE LA TABLA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO" id="0F74929D-FD15-AEA6-26B8-441D1BF35C91">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:01:19 UTC</createdTime>
+<comment>ES EL TÍTULO DE LA CONVOCATORIA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="7C9D643E-7C8B-F789-296C-41640D7785AD">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:01:19 UTC</createdTime>
+<comment>ES LA DESCRIPCIÓN DE LA CONVOCATORIA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D174212-60A6-DE1A-3CE9-812C86C1B681" name="CONVOCATORIA_PK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 04:59:15 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F907B143-04F6-1E22-D02F-CC55ECCF277E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

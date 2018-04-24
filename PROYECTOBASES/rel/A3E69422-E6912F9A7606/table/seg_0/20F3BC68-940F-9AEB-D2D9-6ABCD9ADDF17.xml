@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20F3BC68-940F-9AEB-D2D9-6ABCD9ADDF17" name="REQUISITOS">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:01:22 UTC</createdTime>
+<comment>SON LOS REQUISITOS QUE TIENE LA CONVOCATORIA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_43</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="953A79B1-735F-1789-4938-B0C55B48E5EA">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:03:08 UTC</createdTime>
+<comment>ES EL CÓDIGO QUE PERMITE IDENTIFICAR EL REQUISITO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="01976D77-FC01-20D8-3621-1F3FC91BFDE0">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:03:08 UTC</createdTime>
+<comment>ES LA DESCRIPCIÓN DEL REQUISITO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONVOCATORIA_ID" id="FE3FFE59-EE80-FB55-A77E-7FF46803D7DB">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:15:11 UTC</createdTime>
+<comment>ES LA CONVOCATORIA ASOCIADA AL REQUISITO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88B13DC5-EB83-18FF-7CB6-6686A60E4D26" referredColumn="F907B143-04F6-1E22-D02F-CC55ECCF277E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7425A73-50A6-B836-7523-B71F887A85B0" name="REQUISITOS_PK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:03:08 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="953A79B1-735F-1789-4938-B0C55B48E5EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55B7EA3A-6921-CE9F-BFDF-68D794EA2BC9" name="REQUISITOS_CONVOCATORIA_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:15:11 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE3FFE59-EE80-FB55-A77E-7FF46803D7DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
