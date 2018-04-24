@@ -44,6 +44,32 @@
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="FECHA" id="4ACE4A78-BCE9-6D47-2F32-A5E79798C0D8">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:20:43 UTC</createdTime>
+<comment>ES LA FECHA DE LA CONVOCATORIA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTITUCION_NIT" id="85816B26-4581-60BB-7079-4F6B70B266FF">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:22:00 UTC</createdTime>
+<comment>ES LA INSTITUCIÓN QUE INICIA LA CONVOCATORIA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A785057-9449-3F8E-0B37-005355F8941D" referredColumn="ACDBAB87-B61A-1633-C156-660CC5B5C703"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5D174212-60A6-DE1A-3CE9-812C86C1B681" name="CONVOCATORIA_PK">
@@ -55,6 +81,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F907B143-04F6-1E22-D02F-CC55ECCF277E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA869ABC-5B0F-D841-F4AF-60942CB22A90" name="CONVOCATORIA_INSTITUCION_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:22:00 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85816B26-4581-60BB-7079-4F6B70B266FF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

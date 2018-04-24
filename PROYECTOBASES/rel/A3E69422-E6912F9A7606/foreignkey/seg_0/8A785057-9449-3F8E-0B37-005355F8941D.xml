@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8A785057-9449-3F8E-0B37-005355F8941D" containerWithKeyObject="93A5332B-7629-82C0-A074-E9F66D822FBF" localFKIndex="DA869ABC-5B0F-D841-F4AF-60942CB22A90" name="CONVOCATORIA_INSTITUCION_FK">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:22:00 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<referredTableLongName>INSTITUCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>98C74031-BDD1-2FD8-FF4E-0341BDD5A9A8</referredTableID>
+<keyObject>E38F7908-7EDF-C38A-DA16-EB7E0E248E0C</keyObject>
+<referredKeyID>E38F7908-7EDF-C38A-DA16-EB7E0E248E0C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
