@@ -42,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -95,6 +95,18 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASIFICACION" id="AFF1C5DD-EDE9-6AA6-D3CC-41396B3DCAF7">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:30:38 UTC</createdTime>
+<comment>ES LA CLASIFICACIÓN QUE TIENE EL GRUPO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
