@@ -21,6 +21,18 @@
 <ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TITULO" id="F0EA8B09-8943-D201-62FB-9088F059010C">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-25 03:01:29 UTC</createdTime>
+<comment>EL TITULO DEL CAPÍTULO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="INVESTIGADORES_PERSONAS_CEDULA" id="C75483DE-B34C-3959-EBCB-58DAF526F080">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:32:33 UTC</createdTime>
