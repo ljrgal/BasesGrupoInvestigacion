@@ -1,10 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
    <object objectType="main_view" objectID="EDE84AD0-F496-9B68-4BB8-931C7E397A24" name="PROYECTO_FINAL" visible="true"/>
-   <object objectType="sub_view" objectID="476045FC-F449-70D1-90E9-97F4A808F8A9" name="DATOS_PERSONALES" visible="false"/>
-   <object objectType="sub_view" objectID="F947DB08-D694-83FA-0B9A-AB4FC20C8E92" name="PRINCIPAL" visible="false"/>
-   <object objectType="sub_view" objectID="D6F69D8B-1033-7DD6-539D-4C3361FFC7C8" name="PRODUCCION_BIBLIOGRAFICA" visible="false"/>
-   <object objectType="sub_view" objectID="3610FDE2-8D34-5B6E-25CD-CD39F5D4302B" name="PRODUCCION_TECNICA" visible="false"/>
-   <object objectType="sub_view" objectID="CC8613B3-C729-4BE6-8169-4AE9B6B5713E" name="PROYECTO" visible="false"/>
-   <object objectType="sub_view" objectID="5E618F18-CDEA-1B42-F784-B0CA170D72BB" name="TRABAJOS_DE_GRADO" visible="false"/>
+   <object objectType="sub_view" objectID="476045FC-F449-70D1-90E9-97F4A808F8A9" name="DATOS_PERSONALES" visible="true"/>
+   <object objectType="sub_view" objectID="CC8613B3-C729-4BE6-8169-4AE9B6B5713E" name="GRUPO" visible="true"/>
+   <object objectType="sub_view" objectID="F947DB08-D694-83FA-0B9A-AB4FC20C8E92" name="INVESTIGADOR" visible="true"/>
+   <object objectType="sub_view" objectID="D6F69D8B-1033-7DD6-539D-4C3361FFC7C8" name="PRODUCCION_BIBLIOGRAFICA" visible="true"/>
+   <object objectType="sub_view" objectID="3610FDE2-8D34-5B6E-25CD-CD39F5D4302B" name="PRODUCCION_TECNICA" visible="true"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

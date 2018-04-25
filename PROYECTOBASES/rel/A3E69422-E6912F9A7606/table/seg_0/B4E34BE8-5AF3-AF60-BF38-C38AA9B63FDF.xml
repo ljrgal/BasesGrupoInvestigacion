@@ -17,7 +17,7 @@
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -34,9 +34,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="822A3AB9-4BE7-9D76-04B6-6B574ABBD364" referredColumn="64FA9383-CEDE-292D-2F2F-DA763F95A70F"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -60,16 +57,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="533E3D38-0CA4-88D2-997D-D6C7FF956EB6"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="2D6DFF4B-1A0B-0C92-129F-12DF506F4ADC" name="INVE_LINEA_INVESTIGACION_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-04-22 20:01:12 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="22F3BEAC-1334-E012-9654-15E6D811D3D1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
