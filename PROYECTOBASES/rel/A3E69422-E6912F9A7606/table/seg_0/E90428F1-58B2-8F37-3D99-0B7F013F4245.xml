@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E90428F1-58B2-8F37-3D99-0B7F013F4245" name="INVESTIGADOR_CAPITULO">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:53:42 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_44</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVESTIGADOR_PERSONAS_CEDULA" id="EEF84E6A-F28B-4BDF-2F26-B3E9239AFF37">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:54:14 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B32CDA1-BAF1-43B4-172C-7797E2D8F8BA" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
+</associations>
+</Column>
+<Column name="CAPITULO_CODIGO" id="0177AFAB-A8D5-A63D-BB13-6417B99AEC80">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:53:56 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F13FED3-6B4C-F431-0A46-5CF1DC618B6E" referredColumn="14A11BF7-9C39-842B-39B6-68875BEF2C77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A803852-8D17-B9EF-5422-13FC1A9AC0F9" name="INVESTIGADOR_CAPITULO_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:54:52 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEF84E6A-F28B-4BDF-2F26-B3E9239AFF37"/>
+<colUsage columnID="0177AFAB-A8D5-A63D-BB13-6417B99AEC80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65426181-D908-646C-5CA2-A2ACF0B118CE" name="INVESTIGADOR_CAPITULO_CAPITULO_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:53:56 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0177AFAB-A8D5-A63D-BB13-6417B99AEC80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37A46589-89CC-0584-59C0-2D4661AC523E" name="INVESTIGADOR_CAPITULO_INVESTIGADOR_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:54:14 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEF84E6A-F28B-4BDF-2F26-B3E9239AFF37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -30,11 +30,6 @@
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <defaultValue>A</defaultValue>
 </ColumnProxy>
-<ColumnProxy name="INVESTIGADORES_PERSONAS_CEDULA" id="781B88B4-ACE0-5BDE-9443-33848BED8431">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 23:51:44 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="PAGINA_FINAL" id="79125F87-107B-6611-C060-3DF34BF184C3">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
@@ -68,11 +63,6 @@
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ARTICULO_MEDIO_DIVULGACION_FK" id="8E1AEAC1-007A-BD44-9A0A-7389578B4F28">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 23:51:44 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-</ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ARTICULO_INVESTIGADORES_FK" id="A7B63E4E-665F-D1F6-EC9D-8C54B6FF77F0">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

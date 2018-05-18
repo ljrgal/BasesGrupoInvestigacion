@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="32273E96-397F-7EDD-62BF-33C8EA6A8230" containerWithKeyObject="E8DCCDB8-68B5-A768-DDD2-E43B7FE5125C" localFKIndex="430FC841-C25D-EEAB-9070-DC0FD198E03B" name="PROYECTOS_INVESTIGADORES_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 02:20:16 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F112458-C364-87A5-A620-4E29F7B2E8A5" containerWithKeyObject="66F23E8C-A3DA-48F5-15D2-4672CFE991C0" localFKIndex="5C966FB9-7C92-7140-122B-04494ED38D8E" name="INVESTIGADOR_SOFTWARE_INVESTIGADOR_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 05:00:36 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <referredTableLongName>INVESTIGADOR</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

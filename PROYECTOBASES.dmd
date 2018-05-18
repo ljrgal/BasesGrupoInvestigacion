@@ -5,4 +5,9 @@
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>0FA0EDA3-6D53-B099-2914-4459EA75F081</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="67ABEF43-0E9B-3FC2-C371-AE1692C64759">
+<designStoragePath>D:\UNIVERSIDAD\VII SEMESTRE\Fundamentos de Base de Datos\Proyecto\Diagrama</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

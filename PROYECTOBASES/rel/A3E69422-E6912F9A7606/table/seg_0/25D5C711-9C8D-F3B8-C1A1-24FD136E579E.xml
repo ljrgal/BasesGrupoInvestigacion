@@ -18,9 +18,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TIPO" id="345A835C-8B40-1633-9C1C-4D7C76F41840">
+<Column name="NOMBRE" id="345A835C-8B40-1633-9C1C-4D7C76F41840">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 05:26:30 UTC</createdTime>
 <comment>EL TIPO DE ESTADO CIVIL QUE TIENE LA PERSONA: SOLTERO, CASADO, UNION LIBRE, DIVORCIADO, VIUDO</comment>
@@ -28,8 +30,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>16</dataTypeSize>
-<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

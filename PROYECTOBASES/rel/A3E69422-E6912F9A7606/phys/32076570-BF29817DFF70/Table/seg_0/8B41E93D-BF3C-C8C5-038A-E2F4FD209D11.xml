@@ -9,6 +9,11 @@
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEDICACION" id="08C3B1EC-F34F-DFB5-286A-DBDD8D5667E8">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 07:06:49 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="INFORMACION_ADICIONAL" id="1982FD70-F3E4-2A55-5C13-A61B5916D609">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
@@ -29,6 +34,11 @@
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="INSTITUCION_NIT" id="89679BCB-7924-0C8B-8094-1D6151A33E80">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 07:00:26 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="INVESTIGADORES_PERSONAS_CEDULA" id="AA1D9749-44BA-4B26-05FB-30CF1F651BBB">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
@@ -39,6 +49,11 @@
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EXPE_PROF_INVESTIGADOR_FK" id="3CF0036E-E30E-4D5F-96F6-7E94DCEC5179">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EXPERIENCIA_PROFESIONAL_INSTITUCION_FK" id="D183E3D2-7D61-84A4-A51F-968B769EB9FA">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 07:00:26 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 </ForeignKey>
 </foreignKeys>

@@ -24,11 +24,6 @@
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="PROGRAMA_ACADEMICO" id="43DAB5BD-5C87-380F-17B0-5CD463A37213">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 23:51:44 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="INSTITUCION_NIT" id="4E11AD90-F222-24EF-6B06-B1DA12E5CD59">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
@@ -72,11 +67,6 @@
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FORMACION_NIVEL_FORMACION_FK" id="48D82D81-D0B8-0D8D-B562-06BEB9FF6DCB">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 23:51:44 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-</ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FORMACION_TIPO_FORMACION_FK" id="913787C6-1E45-E42B-61C1-6E10C7C61C7A">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

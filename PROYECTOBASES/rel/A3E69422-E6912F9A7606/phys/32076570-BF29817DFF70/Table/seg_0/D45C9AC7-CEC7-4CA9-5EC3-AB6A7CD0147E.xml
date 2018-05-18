@@ -40,18 +40,8 @@
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <defaultValue>A</defaultValue>
 </ColumnProxy>
-<ColumnProxy name="INVESTIGADORES_PERSONAS_CEDULA" id="FD402B20-53B0-C54F-5365-56C794F51624">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 23:51:44 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-</ColumnProxy>
 </columnProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DOCUMENTO_INVESTIGADORES_FK" id="99333EF7-B9D5-77E0-BA3F-BD1D6C7A3058">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 23:51:44 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-</ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DOCUMENTO_TIPO_DOCUMENTO_FK" id="F5AE7A2F-1B33-FA76-19ED-FB79DDC9012C">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>

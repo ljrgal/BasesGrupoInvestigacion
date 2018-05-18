@@ -68,6 +68,19 @@
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="LUGAR" id="7A6EDC68-0CC7-1A81-1C10-3795300DD2EC">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-23 04:16:16 UTC</createdTime>
+<comment>EL LUGAR DONDE SE VA A REALIZAR EL EVENTO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="TIPO_EVENTO_ID" id="530A1D13-BDD7-B1C4-E4AF-8D7205571C2A">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:55:34 UTC</createdTime>
@@ -87,7 +100,6 @@
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-18 23:55:40 UTC</createdTime>
 <comment>LA CIUDAD DONDE SE REALIZARA EL EVENTO</comment>
-<commentInRDBMS>LA CIUDAD EN LA QUE SE REALIZA EL EVENTO</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -98,19 +110,6 @@
 <associations>
 <colAssociation fkAssociation="CB191FFB-C862-C13B-BB11-E5B79E6DC890" referredColumn="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45"/>
 </associations>
-</Column>
-<Column name="LUGAR" id="7A6EDC68-0CC7-1A81-1C10-3795300DD2EC">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 04:16:16 UTC</createdTime>
-<comment>EL LUGAR DONDE SE VA A REALIZAR EL EVENTO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>256</dataTypeSize>
-<ownDataTypeParameters>256,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="INVESTIGADOR_PERSONAS_CEDULA" id="985D949A-B86B-8EE9-0A30-C0B9B822B7A4">
 <createdBy>LJRG</createdBy>

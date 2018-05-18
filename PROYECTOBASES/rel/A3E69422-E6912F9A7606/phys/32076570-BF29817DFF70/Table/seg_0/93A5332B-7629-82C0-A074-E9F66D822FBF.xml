@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CONVOCATORIA" directorySegmentName="seg_0" id="93A5332B-7629-82C0-A074-E9F66D822FBF">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:53:35 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TITULO" id="0F74929D-FD15-AEA6-26B8-441D1BF35C91">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:53:35 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA" id="4ACE4A78-BCE9-6D47-2F32-A5E79798C0D8">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:53:35 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="7C9D643E-7C8B-F789-296C-41640D7785AD">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:53:35 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INSTITUCION_NIT" id="85816B26-4581-60BB-7079-4F6B70B266FF">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:53:35 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO" id="F907B143-04F6-1E22-D02F-CC55ECCF277E">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:53:35 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONVOCATORIA_INSTITUCION_FK" id="DA869ABC-5B0F-D841-F4AF-60942CB22A90">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:53:35 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONVOCATORIA_PK" id="5D174212-60A6-DE1A-3CE9-812C86C1B681">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:53:35 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

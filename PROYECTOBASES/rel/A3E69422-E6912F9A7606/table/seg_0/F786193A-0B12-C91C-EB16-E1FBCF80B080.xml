@@ -33,22 +33,6 @@
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="E03FC32B-6464-55A1-01FB-B8F9691C885D">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:32:27 UTC</createdTime>
-<comment>ES LA CÉDULA DEL INVESTIGADOR CREADOR DEL SOFTWARE</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4476C113-2908-2EB1-AB95-642BE3AC1CB3" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
-</associations>
-</Column>
 <Column name="NOMBRE_COMERCIAL" id="F41BAA4C-9B6A-F784-962A-98B5BCB277C3">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 22:39:09 UTC</createdTime>
@@ -99,16 +83,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C51370DB-E901-CA36-D24E-7282A4D3309F"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4BED5032-E5E9-0E76-EBE3-75CB378DFBA2" name="SOFTWARE_INVESTIGADORES_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:32:27 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="E03FC32B-6464-55A1-01FB-B8F9691C885D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

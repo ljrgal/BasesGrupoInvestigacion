@@ -9,15 +9,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="F907B143-04F6-1E22-D02F-CC55ECCF277E">
+<Column name="CODIGO" id="F907B143-04F6-1E22-D02F-CC55ECCF277E">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-04-24 04:59:15 UTC</createdTime>
 <comment>ES LA LLAVE PRIMARIA DE LA TABLA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="TITULO" id="0F74929D-FD15-AEA6-26B8-441D1BF35C91">

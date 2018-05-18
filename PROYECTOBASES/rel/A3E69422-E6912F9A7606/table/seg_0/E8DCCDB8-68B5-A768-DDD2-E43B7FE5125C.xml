@@ -67,22 +67,6 @@
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="24970159-93FE-AC12-CC86-BA4AA0F1D3F5">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 02:20:16 UTC</createdTime>
-<comment>ES LA CEDULA DEL INVESTIGADOR QUE DIRIGE EL PROYECTO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="32273E96-397F-7EDD-62BF-33C8EA6A8230" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
-</associations>
-</Column>
 <Column name="SECTOR_PROYECTO_ID" id="F14C71CA-0D52-4D71-F4A1-D9A2093AE31B">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:54:23 UTC</createdTime>
@@ -94,9 +78,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="32D1D0EB-7A07-557F-4019-EE53DC36DF6F" referredColumn="7A191D17-3A57-8AC8-AB33-A94E788DE6AE"/>
-</associations>
 </Column>
 <Column name="TIPO_PROYECTO_ID" id="B9EF1A57-E75D-6B8D-B8A2-035602E8493C">
 <createdBy>LJRG</createdBy>
@@ -140,26 +121,6 @@
 <colUsage columnID="152E5B75-8FCE-7122-B244-2E583B58EE85"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="430FC841-C25D-EEAB-9070-DC0FD198E03B" name="PROYECTOS_INVESTIGADORES_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 02:20:16 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="24970159-93FE-AC12-CC86-BA4AA0F1D3F5"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="ECDAA32E-5CDC-3F30-1898-09639E1F8349" name="PROYECTO_SECTOR_PROYECTO_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:54:23 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F14C71CA-0D52-4D71-F4A1-D9A2093AE31B"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="9E20C0F2-9A9D-5ED9-D2D3-6B0B9BB55F87" name="PROYECTO_TIPO_PROYECTO_FK">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 03:30:50 UTC</createdTime>
@@ -169,6 +130,13 @@
 <indexColumnUsage>
 <colUsage columnID="B9EF1A57-E75D-6B8D-B8A2-035602E8493C"/>
 </indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B20DD92B-5EB4-DAD4-DE3A-D57A31947E4B" name="PROYECTO_SECTOR_PROYECTO_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-18 03:13:53 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
 </indexes>
 </Table>

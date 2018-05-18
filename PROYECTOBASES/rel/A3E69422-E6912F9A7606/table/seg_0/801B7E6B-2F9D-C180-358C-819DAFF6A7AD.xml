@@ -70,7 +70,6 @@
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:36:34 UTC</createdTime>
 <comment>LA CIUDAD DONDE SE PUBLICO EL ARTÍCULO</comment>
-<commentInRDBMS>LA CIUDAD DE PUBLICACIÓN DEL ARTÍCULO</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -80,22 +79,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="D2D57E3A-D50E-C612-08E9-7D6DCAA0870F" referredColumn="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45"/>
-</associations>
-</Column>
-<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="781B88B4-ACE0-5BDE-9443-33848BED8431">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:29:59 UTC</createdTime>
-<comment>ES EL CREADOR DEL ARTÍCULO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A950BD16-70EC-72DD-FB30-ED9644EC55E3" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
 </associations>
 </Column>
 <Column name="MEDIO_DIVULGACION_ID" id="228D7ECE-D9B6-B6CA-38B7-0ABDA848E69D">
@@ -153,16 +136,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9490448E-E743-CAD3-6465-F9DEE64D928E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="A7B63E4E-665F-D1F6-EC9D-8C54B6FF77F0" name="ARTICULO_INVESTIGADORES_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:29:59 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="781B88B4-ACE0-5BDE-9443-33848BED8431"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="50DEE79A-0986-B567-6624-B1ACD3E4A1FA" name="ARTICULO_CIUDAD_FK">

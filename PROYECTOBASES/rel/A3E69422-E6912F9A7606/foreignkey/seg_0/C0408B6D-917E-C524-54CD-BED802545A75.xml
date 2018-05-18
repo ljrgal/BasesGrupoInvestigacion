@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F98825B3-7155-7D82-B541-618AA1E48898" containerWithKeyObject="7EFCD89E-E2A1-FD4F-AE8E-D49424CD0F33" localFKIndex="6E41670C-1030-617F-1341-84E9115EA997" name="LIBROS_INVESTIGADORES_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:30:09 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0408B6D-917E-C524-54CD-BED802545A75" containerWithKeyObject="6D0254B2-303C-5156-70F9-466E4C33A29C" localFKIndex="14AB4519-A664-3815-80D2-2DA2E017D3CC" name="INVESTIGADOR_ARTICULO_INVESTIGADOR_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:57:05 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <referredTableLongName>INVESTIGADOR</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

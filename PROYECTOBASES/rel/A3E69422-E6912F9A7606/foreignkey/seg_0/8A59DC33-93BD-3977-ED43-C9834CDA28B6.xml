@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8A59DC33-93BD-3977-ED43-C9834CDA28B6" containerWithKeyObject="66F23E8C-A3DA-48F5-15D2-4672CFE991C0" localFKIndex="C4F1AD4F-6619-4E89-E3E8-6A2295D6312B" name="INVESTIGADOR_SOFTWARE_SOFTWARE_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 05:00:39 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<referredTableLongName>SOFTWARE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F786193A-0B12-C91C-EB16-E1FBCF80B080</referredTableID>
+<keyObject>5F0B06AB-4FE9-FE60-36E1-56BEBF4CB184</keyObject>
+<referredKeyID>5F0B06AB-4FE9-FE60-36E1-56BEBF4CB184</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

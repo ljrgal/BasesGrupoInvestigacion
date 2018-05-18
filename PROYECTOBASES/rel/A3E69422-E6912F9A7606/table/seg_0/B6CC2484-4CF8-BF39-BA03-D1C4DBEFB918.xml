@@ -18,12 +18,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NOMBRE" id="F2283467-918F-00FE-F7F9-23237344BA5C">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-03-29 23:40:11 UTC</createdTime>
-<comment>ES EL NOMBRE DEL TIPO DE DOCUMENTO</comment>
+<comment>ES EL NOMBRE DEL TIPO DE DOCUMENTO: DE TRABAJO U OTROS</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

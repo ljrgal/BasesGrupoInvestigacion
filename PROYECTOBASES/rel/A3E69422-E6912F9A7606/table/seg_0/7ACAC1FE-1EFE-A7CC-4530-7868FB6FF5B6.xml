@@ -21,21 +21,17 @@
 <ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="749D4E43-198E-CD3B-2F82-DD74EED013D0">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:32:22 UTC</createdTime>
-<comment>ES LA CÉDULA DEL INVESTIGADOR</comment>
+<Column name="NOMBRE" id="F23CC018-6293-21A8-2B2A-5CB4CFBC8064">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 05:56:59 UTC</createdTime>
+<comment>NOMBRE DEL INFORME</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="995D4736-1EAC-77B0-7E32-53DD17085C45" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
-</associations>
 </Column>
 <Column name="FECHA" id="A4863A03-2BD4-EEE9-9D47-CADA07416BAB">
 <createdBy>LJRG</createdBy>
@@ -73,16 +69,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="64D2DB42-3D59-41CE-03BA-84224FCA36E4"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D615CE58-7F4F-0F8D-1A3D-D3F3C917DA61" name="INFORMES_INVESTIGADORES_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:32:22 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="749D4E43-198E-CD3B-2F82-DD74EED013D0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

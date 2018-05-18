@@ -18,9 +18,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NIVEL" id="44C1DD41-4EE6-C646-6B05-6E9663AAD798">
+<Column name="NOMBRE" id="44C1DD41-4EE6-C646-6B05-6E9663AAD798">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 03:26:42 UTC</createdTime>
 <comment>EL NIVEL DEL IDIOMA, PUEDE SER: BUENO, ACEPTABLE, MALO, DEFICIENTE</comment>

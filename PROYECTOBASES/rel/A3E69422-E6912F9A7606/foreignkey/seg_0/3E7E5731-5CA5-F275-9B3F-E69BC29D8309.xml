@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3E7E5731-5CA5-F275-9B3F-E69BC29D8309" containerWithKeyObject="4B667903-7AB4-C629-1454-BB9AA845F0A1" localFKIndex="B6CCB20E-966D-5D7D-BCBE-DC61A3F2F851" name="INVESTIGADOR_PROYECTO_PROYECTO_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 04:59:35 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<referredTableLongName>PROYECTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8DCCDB8-68B5-A768-DDD2-E43B7FE5125C</referredTableID>
+<keyObject>75B1F993-B222-0967-242E-4745347C018C</keyObject>
+<referredKeyID>75B1F993-B222-0967-242E-4745347C018C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

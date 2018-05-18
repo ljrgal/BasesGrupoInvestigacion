@@ -32,25 +32,14 @@
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="FAC1A466-BC63-A3DC-6722-017A8961ECA3" referredColumn="F907B143-04F6-1E22-D02F-CC55ECCF277E"/>
 </associations>
-</Column>
-<Column name="ESTADO" id="291D3741-2CF3-78AF-0C75-FC787B28E135">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-04-24 05:04:57 UTC</createdTime>
-<comment>ES EL ESTADO DE LA CONVOCATORIA PARA EL GRUPO EN PARTICULAR(A: APROBADO, R: REACHAZADO)</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NUMERO_INSCRIPCION" id="EBEBE97A-9736-52A5-925B-C3642D495D41">
 <createdBy>xJoni</createdBy>
@@ -62,6 +51,18 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="291D3741-2CF3-78AF-0C75-FC787B28E135">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-24 05:04:57 UTC</createdTime>
+<comment>ES EL ESTADO DE LA CONVOCATORIA PARA EL GRUPO EN PARTICULAR(A: APROBADO, R: RECHAZADO)</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

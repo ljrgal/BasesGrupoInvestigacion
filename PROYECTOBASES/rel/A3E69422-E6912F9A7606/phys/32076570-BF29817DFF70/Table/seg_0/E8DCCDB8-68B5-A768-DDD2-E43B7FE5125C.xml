@@ -14,11 +14,6 @@
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="INVESTIGADORES_PERSONAS_CEDULA" id="24970159-93FE-AC12-CC86-BA4AA0F1D3F5">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 23:51:44 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="FECHA_FIN" id="64605D76-5CB9-A65A-58D8-D26974E64D8F">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
@@ -57,17 +52,7 @@
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PROYECTOS_INVESTIGADORES_FK" id="430FC841-C25D-EEAB-9070-DC0FD198E03B">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 23:51:44 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-</ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PROYECTO_TIPO_PROYECTO_FK" id="9E20C0F2-9A9D-5ED9-D2D3-6B0B9BB55F87">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 23:51:44 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-</ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PROYECTO_SECTOR_PROYECTO_FK" id="ECDAA32E-5CDC-3F30-1898-09639E1F8349">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

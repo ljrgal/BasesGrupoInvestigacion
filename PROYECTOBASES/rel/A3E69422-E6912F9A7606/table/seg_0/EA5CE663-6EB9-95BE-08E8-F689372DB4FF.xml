@@ -33,20 +33,6 @@
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ESTADO" id="00F5DEC1-25C2-ED7D-0315-114AAB054A3E">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-04-23 00:33:19 UTC</createdTime>
-<comment>ES EL ESTADO EN QUE SE ENCUENTRA EL TRABAJO DIRIGIDO (A: ACTIVO EN LA PLATAFORMA, O: ACEPTADO EN EL GRUPO,  P: PENDIENTE PARA AGREGAR AL GRUPO, R: RECHAZADO DE AGREGAR EN EL GRUPO, I: INACTIVO EN LA PLATAFORMA)</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<usesDefaultValue>true</usesDefaultValue>
-<defaultValue>A</defaultValue>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="FECHA_INICIO" id="C4B8644E-D3F3-C94F-B223-38BE321866D8">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 02:50:16 UTC</createdTime>
@@ -79,6 +65,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="00F5DEC1-25C2-ED7D-0315-114AAB054A3E">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-23 00:33:19 UTC</createdTime>
+<comment>ES EL ESTADO EN QUE SE ENCUENTRA EL TRABAJO DIRIGIDO (A: ACTIVO EN LA PLATAFORMA, O: ACEPTADO EN EL GRUPO,  P: PENDIENTE PARA AGREGAR AL GRUPO, R: RECHAZADO DE AGREGAR EN EL GRUPO, I: INACTIVO EN LA PLATAFORMA)</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

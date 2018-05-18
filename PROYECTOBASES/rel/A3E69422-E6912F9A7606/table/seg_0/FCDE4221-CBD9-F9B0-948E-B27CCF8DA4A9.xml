@@ -33,22 +33,6 @@
 <ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="C75483DE-B34C-3959-EBCB-58DAF526F080">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:32:33 UTC</createdTime>
-<comment>ES EL CREADOR DEL CAPÍTULO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="CC8CD577-417C-4AF6-8E5D-0BE073488608" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
-</associations>
-</Column>
 <Column name="PAGINA_INICIAL" id="CB6CB9EC-8B87-D4D4-382B-8E66EEEFB7C9">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:51:55 UTC</createdTime>
@@ -98,13 +82,12 @@
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:57:11 UTC</createdTime>
 <comment>CÓDIGO DEL LIBRO EN EL QUE SE ESCRIBIO  EL CAPÍTULO</comment>
-<commentInRDBMS>EL LIBRO AL QUE PERTENECE EL CAPITULO</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -166,16 +149,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="14A11BF7-9C39-842B-39B6-68875BEF2C77"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="7308D2B6-9FE7-F19F-A2BF-C362EA22858A" name="CAPITULO_INVESTIGADORES_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:32:33 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C75483DE-B34C-3959-EBCB-58DAF526F080"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F643DB13-E46D-C193-1B47-97D24223093B" name="CAPITULO_LIBRO_FK">

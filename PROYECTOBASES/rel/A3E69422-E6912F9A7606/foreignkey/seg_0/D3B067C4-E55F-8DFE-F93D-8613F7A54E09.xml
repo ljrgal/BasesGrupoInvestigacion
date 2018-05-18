@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3B067C4-E55F-8DFE-F93D-8613F7A54E09" containerWithKeyObject="C0A075E7-FE5D-07BE-8CCA-78E9833E2C05" localFKIndex="C2F00834-EDE1-2919-03D4-CE4E232B9B0B" name="INVESTIGADOR_INFORME_INFORME_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-17 05:01:25 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<referredTableLongName>INFORME</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7ACAC1FE-1EFE-A7CC-4530-7868FB6FF5B6</referredTableID>
+<keyObject>7FFF6EEB-E4B5-E402-A61C-C0572007AADF</keyObject>
+<referredKeyID>7FFF6EEB-E4B5-E402-A61C-C0572007AADF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

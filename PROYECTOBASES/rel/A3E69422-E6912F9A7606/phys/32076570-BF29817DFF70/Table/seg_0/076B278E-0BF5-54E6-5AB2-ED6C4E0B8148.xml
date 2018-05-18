@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TRABAJO_INVESTIGADOR" directorySegmentName="seg_0" id="076B278E-0BF5-54E6-5AB2-ED6C4E0B8148">
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="INVESTIGADOR_TRABAJO" directorySegmentName="seg_0" id="076B278E-0BF5-54E6-5AB2-ED6C4E0B8148">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
@@ -43,7 +43,7 @@
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRABAJO_INVESTIGADOR_PK" id="1B24C1EB-8D96-0F3F-3DE7-F5FC4F9A21E2">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="INVESTIGADOR_TRABAJO_PK" id="1B24C1EB-8D96-0F3F-3DE7-F5FC4F9A21E2">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>

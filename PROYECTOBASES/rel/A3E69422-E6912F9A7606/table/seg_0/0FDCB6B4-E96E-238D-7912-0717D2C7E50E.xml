@@ -18,12 +18,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NOMBRE" id="8C6A2447-8E89-07AB-512E-E02B4D844D19">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 05:13:23 UTC</createdTime>
-<comment>ES EL NOMBRE QUE RECIBE EL NIVEL DE FORMACIÓN, YA SEA FORMACION COMPLEMENTARIA O ACADEMICA</comment>
+<comment>ES EL NOMBRE QUE RECIBE EL NIVEL DE FORMACIÓN: PREESCOLAR, EDUCACIÓN BÁSICA, EDUCACIÓN MEDIA, TÉCNICO PROFESIONAL, TECNOLÓGICO, PROFESIONAL, ESPECIALIZACIÓN, MAESTRÍA, DOCTORADO.</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

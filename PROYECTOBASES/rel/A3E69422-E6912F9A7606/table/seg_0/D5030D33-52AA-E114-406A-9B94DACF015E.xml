@@ -21,6 +21,21 @@
 <ownDataTypeParameters>12,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TIPO_DOCUMENTO_IDENTIDAD_ID" id="3EB93D18-C601-1648-14D0-87353B8960EE">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 03:23:05 UTC</createdTime>
+<comment>ES EL TIPO DE DOCUMENTO QUE USA PARA IDENTIFICARSE LA PERSONA</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7B3FFBF-421F-84BC-4794-82615CA191B9" referredColumn="B4526ED6-A58A-BFB8-A69A-73863D5D202E"/>
+</associations>
+</Column>
 <Column name="NOMBRES" id="4C29C94E-C575-78F5-3ACD-1978131A2731">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-04 20:29:51 UTC</createdTime>
@@ -50,6 +65,7 @@
 <createdTime>2018-04-04 20:30:23 UTC</createdTime>
 <comment>EL SEGUNDO APELLIDO DE LA PERSONA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -84,7 +100,6 @@
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-19 00:55:59 UTC</createdTime>
 <comment>ES EL ESTADO CIVIL DE LA PERSONA</comment>
-<commentInRDBMS>EL ESTADO CIVIL DE LA PERSONA</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -100,7 +115,6 @@
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:21:24 UTC</createdTime>
 <comment>ES LA CIUDAD DE NACIMIENTO DE LA PERSONA</comment>
-<commentInRDBMS>LUGAR DE EXPEDICIÓN DEL DOCUMENTO DE IDENTIDAD</commentInRDBMS>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -110,21 +124,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="0821FBE2-0315-C480-4779-2A213276D78C" referredColumn="CB2B5AE9-8CE5-7B73-FA27-0E25D0BA2B45"/>
-</associations>
-</Column>
-<Column name="TIPO_DOCUMENTO_IDENTIDAD_ID" id="3EB93D18-C601-1648-14D0-87353B8960EE">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 03:23:05 UTC</createdTime>
-<comment>ES EL TIPO DE DOCUMENTO QUE USA PARA IDENTIFICARSE LA PERSONA</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E7B3FFBF-421F-84BC-4794-82615CA191B9" referredColumn="B4526ED6-A58A-BFB8-A69A-73863D5D202E"/>
 </associations>
 </Column>
 <Column name="CLAVE" id="AD8AA5DA-E039-06C1-0B7A-5244948CA001">

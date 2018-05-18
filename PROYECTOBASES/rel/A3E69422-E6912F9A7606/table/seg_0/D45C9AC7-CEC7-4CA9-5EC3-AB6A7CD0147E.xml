@@ -44,21 +44,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INVESTIGADORES_PERSONAS_CEDULA" id="FD402B20-53B0-C54F-5365-56C794F51624">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:30:16 UTC</createdTime>
-<comment>ES EL INVESTIGADOR QUE ESCRIBIO EL DOCUMENTO</comment>
+<Column name="NUMERO_PAGINAS" id="7F089AD5-87CD-7411-6FCE-8ECAA8A062FE">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-04 22:42:15 UTC</createdTime>
+<comment>NÚMERO DE PÁGINAS QUE CONTIENE EL DOCUMENTO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="DA394EF4-9839-C1B8-E0B1-2149B80F9C04" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
-</associations>
 </Column>
 <Column name="TIPO_DOCUMENTO_ID" id="B5DF2F84-A823-4AC5-9832-6F02A3427200">
 <createdBy>xJoni</createdBy>
@@ -74,18 +70,6 @@
 <associations>
 <colAssociation fkAssociation="466D0B92-A05F-28E3-65FF-7D20E86CA306" referredColumn="640DE3FA-CB3C-54A7-4744-BE682E9E1BB1"/>
 </associations>
-</Column>
-<Column name="NUMERO_PAGINAS" id="7F089AD5-87CD-7411-6FCE-8ECAA8A062FE">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-04 22:42:15 UTC</createdTime>
-<comment>NÚMERO DE PÁGINAS QUE CONTIENE EL DOCUMENTO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ESTADO" id="FD048E4F-51BC-77BC-C0ED-7FEDAE4E64CB">
 <createdBy>xJoni</createdBy>
@@ -112,16 +96,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A0D33166-59B5-DEB6-D388-479260549F6E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="99333EF7-B9D5-77E0-BA3F-BD1D6C7A3058" name="DOCUMENTO_INVESTIGADORES_FK">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:30:16 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="FD402B20-53B0-C54F-5365-56C794F51624"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F5AE7A2F-1B33-FA76-19ED-FB79DDC9012C" name="DOCUMENTO_TIPO_DOCUMENTO_FK">

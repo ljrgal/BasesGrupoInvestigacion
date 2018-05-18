@@ -20,24 +20,17 @@
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="INVESTIGADORES_PERSONAS_CEDULA" id="749D4E43-198E-CD3B-2F82-DD74EED013D0">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 23:51:44 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="FECHA" id="A4863A03-2BD4-EEE9-9D47-CADA07416BAB">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 </ColumnProxy>
-</columnProxies>
-<foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="INFORMES_INVESTIGADORES_FK" id="D615CE58-7F4F-0F8D-1A3D-D3F3C917DA61">
+<ColumnProxy name="NOMBRE" id="F23CC018-6293-21A8-2B2A-5CB4CFBC8064">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 23:51:44 UTC</createdTime>
+<createdTime>2018-05-17 05:56:59 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
-</ForeignKey>
-</foreignKeys>
+</ColumnProxy>
+</columnProxies>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="INFORME_PK" id="7FFF6EEB-E4B5-E402-A61C-C0572007AADF">
 <createdBy>LJRG</createdBy>
