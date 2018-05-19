@@ -11,6 +11,7 @@
 <Column name="INVESTIGADOR_PERSONAS_CEDULA" id="EEF84E6A-F28B-4BDF-2F26-B3E9239AFF37">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-05-17 04:54:14 UTC</createdTime>
+<comment>EL INVESTIGADOR QUE REALIZO EL CAPITULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -26,6 +27,7 @@
 <Column name="CAPITULO_CODIGO" id="0177AFAB-A8D5-A63D-BB13-6417B99AEC80">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-05-17 04:53:56 UTC</createdTime>
+<comment>EL CODIGO DEL CAPITULO QUE FUE HECHO POR EL INVESTIGADOR</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

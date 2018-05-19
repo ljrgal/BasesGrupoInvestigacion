@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="260BCEAC-A8CF-76DA-1821-7AA2138F0820" name="TIPO_CURSO">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-19 22:28:49 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<ordsAlias>table_52</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BF8C4899-187D-749A-9577-0439BDBA3ED6">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-19 22:29:28 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="A9F92BEC-51BE-CDC1-8614-F535B968E3B6">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-19 22:30:05 UTC</createdTime>
+<comment>T: CURSO TOMADO, D: CURSO DICTADO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6161550F-274A-2F02-8B8B-3F260417EA10" name="TIPO_CURSO_PK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-19 22:29:28 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF8C4899-187D-749A-9577-0439BDBA3ED6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -9,21 +9,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="INVESTIGADOR_PERSONAS_CEDULA" id="533E3D38-0CA4-88D2-997D-D6C7FF956EB6">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-04-22 20:01:06 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A9F0E893-2E33-74DC-F825-20324182F334" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
-</associations>
-</Column>
 <Column name="LINEA_INVESTIGACION_ID" id="22F3BEAC-1334-E012-9654-15E6D811D3D1">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-04-22 20:01:12 UTC</createdTime>
@@ -33,6 +18,46 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="09D3166A-C9C5-ACDE-87EE-09874410CC66">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-19 01:07:54 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVESTIGADOR_PERSONAS_CEDULA" id="533E3D38-0CA4-88D2-997D-D6C7FF956EB6">
+<createdBy>xJoni</createdBy>
+<createdTime>2018-04-22 20:01:06 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9F0E893-2E33-74DC-F825-20324182F334" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
+</associations>
+</Column>
+<Column name="DESCRIPCION" id="40F084A2-502E-A2B8-3A08-7D768EAD2A4F">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-19 22:01:33 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -45,7 +70,6 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="533E3D38-0CA4-88D2-997D-D6C7FF956EB6"/>
 <colUsage columnID="22F3BEAC-1334-E012-9654-15E6D811D3D1"/>
 </indexColumnUsage>
 </ind_PK_UK>

@@ -56,6 +56,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="PAIS_ID" id="D418C8B7-1EF4-AA15-B92C-17F2B2682A5F">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-04-20 04:49:37 UTC</createdTime>
+<comment>EL PAIS EN DONDE SE HIZO EL CURSO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7D81A46-99C9-D731-0DA4-26D1FE5638E6" referredColumn="43416498-F4EC-E2C3-647F-FAC73E909346"/>
+</associations>
+</Column>
 <Column name="PERSONA_CEDULA" id="FE91D90D-2098-EFA1-244D-13F39B63591D">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-20 03:24:52 UTC</createdTime>
@@ -72,10 +87,25 @@
 <colAssociation fkAssociation="7AAACB92-74D8-F0C8-F0CA-F5759FE437CF" referredColumn="B74AE64E-4F05-B550-7FFA-DA3AABC9A8E9"/>
 </associations>
 </Column>
-<Column name="PAIS_ID" id="D418C8B7-1EF4-AA15-B92C-17F2B2682A5F">
+<Column name="INVESTIGADOR_PERSONAS_CEDULA" id="0765DEFD-1E40-2296-0B13-954FD0263676">
 <createdBy>LJRG</createdBy>
-<createdTime>2018-04-20 04:49:37 UTC</createdTime>
-<comment>EL PAIS EN DONDE SE HIZO EL CURSO</comment>
+<createdTime>2018-05-19 22:11:27 UTC</createdTime>
+<comment>EL INVESTIGADOR QUE DICTO EL CURSO</comment>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC21171D-AC95-04CC-00AD-849A426467E0" referredColumn="461F1940-F982-6ECD-ACDF-C0D5BA7E303E"/>
+</associations>
+</Column>
+<Column name="TIPO_CURSO_ID" id="068CA402-F650-3FD2-9450-197D495283E4">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-19 22:30:19 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -84,7 +114,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D7D81A46-99C9-D731-0DA4-26D1FE5638E6" referredColumn="43416498-F4EC-E2C3-647F-FAC73E909346"/>
+<colAssociation fkAssociation="E4A6BA22-E75C-D82D-FBD5-3E72AF60B9BC" referredColumn="BF8C4899-187D-749A-9577-0439BDBA3ED6"/>
 </associations>
 </Column>
 </columns>
@@ -118,6 +148,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D418C8B7-1EF4-AA15-B92C-17F2B2682A5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="744C1DD4-7084-922A-4A96-8BD288F42913" name="CURSO_INVESTIGADOR_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-19 22:11:27 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0765DEFD-1E40-2296-0B13-954FD0263676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7F2781F-9A4E-9AEE-1E7C-55B572088A76" name="CURSO_TIPO_CURSO_FK">
+<createdBy>LJRG</createdBy>
+<createdTime>2018-05-19 22:30:19 UTC</createdTime>
+<ownerDesignName>PROYECTOBASES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="068CA402-F650-3FD2-9450-197D495283E4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

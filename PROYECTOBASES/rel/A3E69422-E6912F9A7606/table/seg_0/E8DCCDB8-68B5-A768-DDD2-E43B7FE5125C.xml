@@ -67,18 +67,6 @@
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SECTOR_PROYECTO_ID" id="F14C71CA-0D52-4D71-F4A1-D9A2093AE31B">
-<createdBy>xJoni</createdBy>
-<createdTime>2018-03-29 23:54:23 UTC</createdTime>
-<comment>ES EL SECTOR AL CUAL SE ORIENTA EL PROYECTO</comment>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="TIPO_PROYECTO_ID" id="B9EF1A57-E75D-6B8D-B8A2-035602E8493C">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-04-23 03:30:50 UTC</createdTime>
@@ -130,13 +118,6 @@
 <indexColumnUsage>
 <colUsage columnID="B9EF1A57-E75D-6B8D-B8A2-035602E8493C"/>
 </indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="B20DD92B-5EB4-DAD4-DE3A-D57A31947E4B" name="PROYECTO_SECTOR_PROYECTO_FK">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-05-18 03:13:53 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
 </indexes>
 </Table>

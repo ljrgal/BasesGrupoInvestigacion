@@ -11,6 +11,7 @@
 <Column name="INVESTIGADOR_PERSONAS_CEDULA" id="9EA80FC5-0E5F-35FA-312E-5262850198FD">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-05-17 04:57:05 UTC</createdTime>
+<comment>EL INVESTIGADOR QUE REALIZO EL ARTICULO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -26,6 +27,7 @@
 <Column name="ARTICULO_CODIGO" id="36F92E2B-B6EC-EEA0-169D-BB9C2C90E672">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-05-17 04:57:09 UTC</createdTime>
+<comment>EL CODIGO DEL ARTICULO QUE FUE HECHO POR EL INVESTIGADOR</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

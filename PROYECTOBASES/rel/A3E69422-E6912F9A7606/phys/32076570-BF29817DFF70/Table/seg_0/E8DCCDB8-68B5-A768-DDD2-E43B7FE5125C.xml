@@ -45,11 +45,6 @@
 <createdTime>2018-04-23 23:51:44 UTC</createdTime>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="SECTOR_PROYECTO_ID" id="F14C71CA-0D52-4D71-F4A1-D9A2093AE31B">
-<createdBy>LJRG</createdBy>
-<createdTime>2018-04-23 23:51:44 UTC</createdTime>
-<ownerDesignName>PROYECTOBASES</ownerDesignName>
-</ColumnProxy>
 </columnProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PROYECTO_TIPO_PROYECTO_FK" id="9E20C0F2-9A9D-5ED9-D2D3-6B0B9BB55F87">

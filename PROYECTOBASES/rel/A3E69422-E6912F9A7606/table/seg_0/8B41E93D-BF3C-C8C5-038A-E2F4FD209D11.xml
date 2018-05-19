@@ -24,10 +24,12 @@
 <Column name="INSTITUCION_NIT" id="89679BCB-7924-0C8B-8094-1D6151A33E80">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-05-17 07:00:26 UTC</createdTime>
+<comment>LA INSTITUCIÓN O NEGOCIO  DONDE SE REALIZÓ LA EXPERIENCIA PROFESIONAL</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
