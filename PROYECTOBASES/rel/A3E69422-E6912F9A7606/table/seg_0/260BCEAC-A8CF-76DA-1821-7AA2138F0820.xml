@@ -24,7 +24,7 @@
 <Column name="NOMBRE" id="A9F92BEC-51BE-CDC1-8614-F535B968E3B6">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-05-19 22:30:05 UTC</createdTime>
-<comment>T: CURSO TOMADO, D: CURSO DICTADO</comment>
+<comment>ES EL NOMBRE QUE RECIBE EL TIPO DE CURSO</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
