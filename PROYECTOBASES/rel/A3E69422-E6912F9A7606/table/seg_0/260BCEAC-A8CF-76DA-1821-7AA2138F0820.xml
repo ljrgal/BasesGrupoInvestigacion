@@ -11,6 +11,7 @@
 <Column name="ID" id="BF8C4899-187D-749A-9577-0439BDBA3ED6">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-05-19 22:29:28 UTC</createdTime>
+<comment>ES EL IDENTIFICADOR UNICO DE LA TABLA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

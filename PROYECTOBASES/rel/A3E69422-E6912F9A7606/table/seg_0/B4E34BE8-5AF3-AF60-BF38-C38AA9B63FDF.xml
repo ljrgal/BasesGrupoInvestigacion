@@ -12,6 +12,7 @@
 <Column name="LINEA_INVESTIGACION_ID" id="22F3BEAC-1334-E012-9654-15E6D811D3D1">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-04-22 20:01:12 UTC</createdTime>
+<comment>ES EL IDENTIFICADOR UNICO DE LA TABLA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -25,6 +26,7 @@
 <Column name="NOMBRE" id="09D3166A-C9C5-ACDE-87EE-09874410CC66">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-05-19 01:07:54 UTC</createdTime>
+<comment>ES EL NOMBRE QUE RECIBE LA LINEA DE INVESTIGACIÓN</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,6 +38,7 @@
 <Column name="INVESTIGADOR_PERSONAS_CEDULA" id="533E3D38-0CA4-88D2-997D-D6C7FF956EB6">
 <createdBy>xJoni</createdBy>
 <createdTime>2018-04-22 20:01:06 UTC</createdTime>
+<comment>ES LA IDENTIFICACIÓN DEL INVESTIGADOR</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -51,6 +54,7 @@
 <Column name="DESCRIPCION" id="40F084A2-502E-A2B8-3A08-7D768EAD2A4F">
 <createdBy>LJRG</createdBy>
 <createdTime>2018-05-19 22:01:33 UTC</createdTime>
+<comment>ES LA DESCRIPCIÓN DE EN QUE CONSISTE LA LINEA</comment>
 <ownerDesignName>PROYECTOBASES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
